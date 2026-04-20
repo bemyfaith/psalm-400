@@ -76,6 +76,7 @@
 - **前端**: HTML5 + CSS3 + JavaScript (原生)
 - **部署**: Vercel / Netlify 静态发布
 - **发布方式**: 先执行 `bash scripts/build-psalm-assets.sh`，把 `index.html`、`psalm-data.js` 以及 `material/基督教资源/` 下的 mp3 / 歌谱图片一起打包到 `dist/`
+- **命名原则**: 标题、mp3 文件名、歌谱文件名尽量统一；例如第一首统一写作“圣哉三一歌”
 - **域名**: psalm.redclaw.top
 
 ## 更新日志

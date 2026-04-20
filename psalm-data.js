@@ -1,7 +1,7 @@
 window.PSALM_DATA = [
   {
     "number": 1,
-    "title": "圣哉三一",
+    "title": "圣哉三一歌",
     "mp3": "assets/mp3/1 圣哉三一.mp3",
     "score": "assets/scores/1 圣哉三一歌.jpg"
   },
