@@ -74,7 +74,8 @@
 ## 技术栈
 
 - **前端**: HTML5 + CSS3 + JavaScript (原生)
-- **部署**: Vercel
+- **部署**: Vercel / Netlify 静态发布
+- **发布方式**: 先执行 `bash scripts/build-psalm-assets.sh`，把 `index.html`、`psalm-data.js` 以及 `material/基督教资源/` 下的 mp3 / 歌谱图片一起打包到 `dist/`
 - **域名**: psalm.redclaw.top
 
 ## 更新日志

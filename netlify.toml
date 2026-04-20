@@ -1,0 +1,22 @@
+[build]
+command = "bash scripts/build-psalm-assets.sh"
+publish = "dist"
+publishOrigin = "default"
+
+[functions]
+
+[functions."*"]
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
