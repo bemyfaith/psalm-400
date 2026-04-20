@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>赞美诗 400 首 - RedClaw</title>
+  <title>赞美诗 新编400 首 - RedClaw</title>
   <style>
     * { box-sizing: border-box; }
     html, body { margin: 0; min-height: 100%; }
@@ -123,12 +123,10 @@
       padding: 0.42rem 0.75rem; background: #f8f9fa; color: #667eea;
       border: 1px solid #e2e6ff; font-size: 0.9rem;
     }
-    .content-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
-      gap: 1rem;
+    .score-panel {
       margin-top: 1rem;
-      align-items: start;
+      padding: 1rem;
+      min-width: 0;
     }
     .panel {
       border: 1px solid #ececec;
@@ -171,7 +169,6 @@
     }
     .detail-title { margin: 0.2rem 0 0.35rem; text-align: center; color: #667eea; font-size: 1.5rem; }
     .detail-number { text-align: center; color: #888; margin: 0 0 0.5rem; }
-    .detail-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 0.8fr); gap: 1rem; }
     .detail-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
     .small-btn { padding: 0.5rem 0.85rem; border-radius: 999px; border: 1px solid #d7defa; background: #fff; color: #667eea; cursor: pointer; }
     .small-btn:hover { background: #f6f8ff; }
@@ -189,12 +186,11 @@
 </head>
 <body>
   <div class="header">
-    <h1>🎵 赞美诗 400 首</h1>
-    <p>✝️ RedClaw 圣诗阅读器</p>
+    <h1>🎵 赞美诗 新编400 首</h1>
+    <p>✝️ 大辛庄⛪️教会祝您幸福安康</p>
     <div class="stats-bar">
       <span>共 <strong id="totalCount">0</strong> 首</span>
       <span>当前第 <strong id="currentIndexText">1</strong> 首</span>
-      <span>资源来自本地文件</span>
     </div>
   </div>
 
@@ -220,25 +216,13 @@
         <span class="meta-chip" id="audioChip">音频</span>
       </div>
 
-      <div class="content-grid">
-        <section class="panel">
-          <h3>歌词</h3>
-          <div class="lyrics" id="lyricsText">
-            <div class="loading"><div class="spinner"></div><div>正在加载赞美诗资源...</div></div>
-          </div>
-        </section>
-        <section class="panel">
-          <h3>歌谱 / 播放</h3>
-          <div class="score-wrap" id="scoreWrap"></div>
-          <div class="audio-box">
-            <audio id="audioPlayer" controls preload="none"></audio>
-            <div class="detail-actions">
-              <button class="small-btn" onclick="openDetail()">打开详情</button>
-              <button class="small-btn" onclick="togglePlay()">播放 / 暂停</button>
-            </div>
-          </div>
-        </section>
-      </div>
+      <section class="panel score-panel">
+        <h3>歌谱</h3>
+        <div class="audio-box">
+          <audio id="audioPlayer" controls preload="none"></audio>
+        </div>
+        <div class="score-wrap" id="scoreWrap"></div>
+      </section>
     </main>
   </div>
 
@@ -247,15 +231,9 @@
       <button class="close-btn" onclick="closeDetailBtn()">×</button>
       <h2 class="detail-title" id="detailTitle"></h2>
       <p class="detail-number" id="detailNumber"></p>
-      <div class="detail-grid">
-        <section class="panel">
-          <h3>歌词</h3>
-          <div class="lyrics" id="detailLyrics"></div>
-        </section>
-        <section class="panel">
-          <h3>歌谱</h3>
-          <div id="detailScore"></div>
-        </section>
+      <div class="panel">
+        <h3>歌谱</h3>
+        <div id="detailScore"></div>
       </div>
     </div>
   </div>
@@ -269,6 +247,10 @@
       return name.replace(/\s+/g, ' ').trim();
     }
 
+    function formatNumber(n) {
+      return String(n).startsWith('f') ? String(n) : `第 ${n} 首`;
+    }
+
     function buildLyrics(item) {
       return item.lyrics || '暂无歌词文本，先展示歌名与歌谱资源。';
     }
@@ -277,7 +259,7 @@
       const el = document.getElementById('sidebarList');
       el.innerHTML = list.map((h, idx) => `
         <button class="book-btn ${idx === currentIndex ? 'active' : ''}" onclick="selectHymn(${idx})">
-          <span class="num">第 ${h.number} 首</span>
+          <span class="num">${formatNumber(h.number)}</span>
           <span>${h.title}</span>
         </button>
       `).join('');
@@ -286,16 +268,14 @@
     function renderCurrent() {
       const h = hymns[currentIndex];
       if (!h) return;
-      document.title = `${h.number} ${h.title} - 赞美诗 400 首`;
+      document.title = `${h.number} ${h.title} - 赞美诗 新编400 首`;
       document.getElementById('titleText').textContent = h.title;
-      document.getElementById('numberChip').textContent = `第 ${h.number} 首`;
+      document.getElementById('numberChip').textContent = formatNumber(h.number);
       document.getElementById('currentIndexText').textContent = currentIndex + 1;
       document.getElementById('prevBtn').disabled = currentIndex === 0;
       document.getElementById('nextBtn').disabled = currentIndex === hymns.length - 1;
-      document.getElementById('lyricsText').textContent = buildLyrics(h);
       document.getElementById('detailTitle').textContent = h.title;
-      document.getElementById('detailNumber').textContent = `第 ${h.number} 首`;
-      document.getElementById('detailLyrics').textContent = buildLyrics(h);
+      document.getElementById('detailNumber').textContent = formatNumber(h.number);
       const scoreWrap = document.getElementById('scoreWrap');
       const detailScore = document.getElementById('detailScore');
       const scoreHtml = h.score ? `<img src="${h.score}" alt="${h.title} 歌谱">` : '<div class="placeholder">暂无对应歌谱图片</div>';
