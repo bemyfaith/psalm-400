@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>赞美诗 新编400 首 - RedClaw</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: Georgia, 'Times New Roman', 'STSong', 'SimSun', serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      color: #2c3e50;
+      overflow-x: hidden;
+    }
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      padding: 1rem 1rem 0.85rem;
+      text-align: center;
+      box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+    }
+    .header h1 { margin: 0 0 0.3rem; font-size: 2rem; font-weight: normal; letter-spacing: 2px; }
+    .header p { margin: 0; opacity: 0.95; font-size: 1.05rem; }
+    .stats-bar {
+      margin: 0.85rem auto 0;
+      display: inline-flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 0.55rem 0.9rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.15);
+      font-size: 0.95rem;
+    }
+    .main-container {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 1rem;
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    .sidebar, .reading-area {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      min-width: 0;
+    }
+    .sidebar {
+      padding: 1rem;
+      height: calc(100vh - 120px);
+      overflow: auto;
+      position: sticky;
+      top: 10px;
+    }
+    .sidebar h3 {
+      margin: 0 0 0.8rem;
+      color: #667eea;
+      font-size: 1.08rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #667eea;
+    }
+    .search-box { margin-bottom: 1rem; }
+    .search-input {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 12px;
+      font-size: 1rem;
+      outline: none;
+      transition: 0.3s;
+      font-family: inherit;
+    }
+    .search-input:focus { border-color: #667eea; box-shadow: 0 0 15px rgba(102,126,234,0.2); }
+    .sidebar-list { display: grid; gap: 0.45rem; }
+    .book-btn {
+      width: 100%;
+      padding: 0.65rem 0.8rem;
+      border: none;
+      border-radius: 10px;
+      background: #f8f9fa;
+      color: #2c3e50;
+      text-align: left;
+      cursor: pointer;
+      transition: 0.25s;
+      font-size: 0.98rem;
+      line-height: 1.3;
+    }
+    .book-btn:hover, .book-btn.active {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      transform: translateX(4px);
+    }
+    .book-btn .num { color: inherit; opacity: 0.85; font-size: 0.86rem; display: block; margin-bottom: 0.1rem; }
+    .reading-area { padding: 1rem; min-height: calc(100vh - 120px); }
+    .reading-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 1px solid #e6e6e6;
+      flex-wrap: wrap;
+    }
+    .chapter-title { flex: 1; min-width: 220px; text-align: center; font-size: 1.45rem; color: #2c3e50; margin: 0; }
+    .nav-btn, .play-btn, .chip-btn {
+      border: none; border-radius: 999px; cursor: pointer; transition: 0.25s; font-family: inherit;
+    }
+    .nav-btn, .play-btn {
+      padding: 0.65rem 1.05rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      font-size: 0.95rem;
+    }
+    .nav-btn:hover, .play-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 20px rgba(102,126,234,0.35); }
+    .nav-btn:disabled, .play-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; box-shadow: none; }
+    .hymn-meta {
+      display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center;
+      margin: 1rem 0 0.85rem;
+    }
+    .chip-btn, .meta-chip {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      padding: 0.42rem 0.75rem; background: #f8f9fa; color: #667eea;
+      border: 1px solid #e2e6ff; font-size: 0.9rem;
+    }
+    .score-panel {
+      margin-top: 1rem;
+      padding: 1rem;
+      min-width: 0;
+    }
+    .panel {
+      border: 1px solid #ececec;
+      border-radius: 14px;
+      background: #fff;
+      padding: 1rem;
+      min-width: 0;
+    }
+    .panel h3 {
+      margin: 0 0 0.8rem; color: #667eea; font-size: 1.05rem;
+      padding-bottom: 0.4rem; border-bottom: 1px solid #ececec;
+    }
+    .lyrics { line-height: 2; font-size: 1.05rem; color: #34495e; white-space: pre-wrap; }
+    .lyrics p { margin: 0 0 0.7rem; }
+    .score-wrap img { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.15); display: block; }
+    .placeholder {
+      padding: 2rem 1rem; text-align: center; color: #888; background: #fafafa; border-radius: 10px; border: 1px dashed #ddd;
+    }
+    .audio-box { display: grid; gap: 0.75rem; margin-top: 1rem; }
+    audio { width: 100%; }
+    .loading { padding: 3rem; text-align: center; color: #666; }
+    .spinner {
+      width: 48px; height: 48px; border-radius: 50%;
+      border: 4px solid rgba(102,126,234,0.2); border-top-color: #667eea; animation: spin 1s linear infinite; margin: 0 auto 1rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .detail-overlay {
+      display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1000;
+      padding: 1rem; align-items: center; justify-content: center;
+    }
+    .detail-overlay.show { display: flex; }
+    .detail-card {
+      width: min(980px, 96vw); max-height: 92vh; overflow: auto; background: #fff; border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.28); padding: 1rem;
+      position: relative;
+    }
+    .close-btn {
+      position: sticky; top: 0; float: right; margin: -0.2rem -0.2rem 0 0;
+      border: none; background: #f2f2f2; color: #666; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.2rem;
+    }
+    .detail-title { margin: 0.2rem 0 0.35rem; text-align: center; color: #667eea; font-size: 1.5rem; }
+    .detail-number { text-align: center; color: #888; margin: 0 0 0.5rem; }
+    .detail-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .small-btn { padding: 0.5rem 0.85rem; border-radius: 999px; border: 1px solid #d7defa; background: #fff; color: #667eea; cursor: pointer; }
+    .small-btn:hover { background: #f6f8ff; }
+    @media (max-width: 1100px) {
+      .main-container { grid-template-columns: 1fr; }
+      .sidebar { height: auto; position: static; }
+      .content-grid, .detail-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .header h1 { font-size: 1.55rem; }
+      .reading-area, .sidebar { padding: 0.85rem; }
+      .chapter-title { font-size: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🎵 赞美诗 新编400 首</h1>
+    <p>✝️ 大辛庄⛪️教会祝您幸福安康</p>
+    <div class="stats-bar">
+      <span>共 <strong id="totalCount">0</strong> 首</span>
+      <span>当前第 <strong id="currentIndexText">1</strong> 首</span>
+    </div>
+  </div>
+
+  <div class="main-container">
+    <aside class="sidebar">
+      <h3>诗歌目录</h3>
+      <div class="search-box">
+        <input id="searchInput" class="search-input" type="text" placeholder="🔍 搜索编号或标题..." oninput="filterHymns()" />
+      </div>
+      <div id="sidebarList" class="sidebar-list"></div>
+    </aside>
+
+    <main class="reading-area">
+      <div class="reading-top">
+        <button class="nav-btn" id="prevBtn" onclick="prevHymn()">上一首</button>
+        <h2 class="chapter-title" id="titleText">正在加载...</h2>
+        <button class="nav-btn" id="nextBtn" onclick="nextHymn()">下一首</button>
+      </div>
+
+      <div class="hymn-meta">
+        <span class="meta-chip" id="numberChip">第 1 首</span>
+        <span class="meta-chip" id="scoreChip">歌谱</span>
+        <span class="meta-chip" id="audioChip">音频</span>
+      </div>
+
+      <section class="panel score-panel">
+        <h3>歌谱</h3>
+        <div class="audio-box">
+          <audio id="audioPlayer" controls preload="none"></audio>
+        </div>
+        <div class="score-wrap" id="scoreWrap"></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="detail-overlay" id="detailOverlay" onclick="closeDetail(event)">
+    <div class="detail-card">
+      <button class="close-btn" onclick="closeDetailBtn()">×</button>
+      <h2 class="detail-title" id="detailTitle"></h2>
+      <p class="detail-number" id="detailNumber"></p>
+      <div class="panel">
+        <h3>歌谱</h3>
+        <div id="detailScore"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./psalm-data.js?v=20260421_0317"></script>
+  <script>
+    let hymns = [];
+    let currentIndex = 0;
+
+    function normalizeTitle(name) {
+      return name.replace(/\s+/g, ' ').trim();
+    }
+
+    function formatNumber(n) {
+      return String(n).startsWith('f') ? String(n) : `第 ${n} 首`;
+    }
+
+    function buildLyrics(item) {
+      return item.lyrics || '暂无歌词文本，先展示歌名与歌谱资源。';
+    }
+
+    function renderSidebar(list) {
+      const el = document.getElementById('sidebarList');
+      el.innerHTML = list.map((h, idx) => `
+        <button class="book-btn ${idx === currentIndex ? 'active' : ''}" onclick="selectHymn(${idx})">
+          <span class="num">${formatNumber(h.number)}</span>
+          <span>${h.title}</span>
+        </button>
+      `).join('');
+    }
+
+    function renderCurrent() {
+      const h = hymns[currentIndex];
+      if (!h) return;
+      document.title = `${h.number} ${h.title} - 赞美诗 新编400 首`;
+      document.getElementById('titleText').textContent = h.title;
+      document.getElementById('numberChip').textContent = formatNumber(h.number);
+      document.getElementById('currentIndexText').textContent = currentIndex + 1;
+      document.getElementById('prevBtn').disabled = currentIndex === 0;
+      document.getElementById('nextBtn').disabled = currentIndex === hymns.length - 1;
+      document.getElementById('detailTitle').textContent = h.title;
+      document.getElementById('detailNumber').textContent = formatNumber(h.number);
+      const scoreWrap = document.getElementById('scoreWrap');
+      const detailScore = document.getElementById('detailScore');
+      const scoreHtml = h.score ? `<img src="${h.score}" alt="${h.title} 歌谱">` : '<div class="placeholder">暂无对应歌谱图片</div>';
+      scoreWrap.innerHTML = scoreHtml;
+      detailScore.innerHTML = scoreHtml;
+      const audio = document.getElementById('audioPlayer');
+      audio.src = h.mp3 || '';
+      audio.load();
+      document.getElementById('scoreChip').textContent = h.score ? '有歌谱' : '无歌谱';
+      document.getElementById('audioChip').textContent = h.mp3 ? '有音频' : '无音频';
+      renderSidebar(hymns);
+    }
+
+    function selectHymn(idx) {
+      currentIndex = idx;
+      renderCurrent();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function prevHymn() { if (currentIndex > 0) selectHymn(currentIndex - 1); }
+    function nextHymn() { if (currentIndex < hymns.length - 1) selectHymn(currentIndex + 1); }
+
+    function filterHymns() {
+      const q = document.getElementById('searchInput').value.trim().toLowerCase();
+      const list = !q ? hymns : hymns.filter(h => String(h.number).includes(q) || h.title.toLowerCase().includes(q));
+      renderSidebar(list.map(h => hymns.findIndex(x => x.number === h.number && x.title === h.title)).map(i => hymns[i]).filter(Boolean));
+    }
+
+    function openDetail() { document.getElementById('detailOverlay').classList.add('show'); }
+    function closeDetail(e) { if (e.target.id === 'detailOverlay') closeDetailBtn(); }
+    function closeDetailBtn() { document.getElementById('detailOverlay').classList.remove('show'); }
+    function togglePlay() {
+      const a = document.getElementById('audioPlayer');
+      if (a.paused) a.play(); else a.pause();
+    }
+
+    function init() {
+      hymns = (window.PSALM_DATA || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
+      document.getElementById('totalCount').textContent = hymns.length;
+      renderCurrent();
+    }
+
+    if (window.PSALM_DATA) init(); else setTimeout(init, 100);
+  </script>
+</body>
+</html>

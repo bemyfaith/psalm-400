@@ -1,0 +1,3 @@
+psalm-400 static bundle
+source: /Users/xulanjing/.openclaw/workspace/psalm-400
+assets: mp3 + scores copied from checked-in assets/
