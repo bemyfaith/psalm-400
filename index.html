@@ -1,640 +1,344 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>赞美诗 400 首 - 大辛庄教会</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Georgia', 'Times New Roman', 'STSong', 'SimSun', serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            color: #2c3e50;
-        }
-        .header {
-            background: rgba(255,255,255,0.95);
-            padding: 1.5rem 1rem;
-            text-align: center;
-            box-shadow: 0 5px 30px rgba(0,0,0,0.2);
-        }
-        .header h1 { 
-            font-size: 2rem; 
-            color: #667eea;
-            margin-bottom: 0.5rem;
-            letter-spacing: 2px;
-        }
-        .header p { 
-            color: #888;
-            font-size: 1rem;
-        }
-        .main-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1.5rem;
-        }
-        .search-box {
-            max-width: 600px;
-            margin: 0 auto 2rem;
-        }
-        .search-input {
-            width: 100%;
-            padding: 1rem 1.5rem;
-            border: none;
-            border-radius: 50px;
-            font-size: 1.1rem;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-            outline: none;
-        }
-        .search-input:focus {
-            box-shadow: 0 8px 30px rgba(102,126,234,0.4);
-        }
-        .hymn-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 1rem;
-        }
-        .hymn-card {
-            background: #fff;
-            border-radius: 12px;
-            padding: 1.5rem;
-            cursor: pointer;
-            transition: all 0.3s;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        .hymn-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(102,126,234,0.3);
-        }
-        .hymn-number {
-            font-size: 0.9rem;
-            color: #667eea;
-            font-weight: bold;
-            margin-bottom: 0.5rem;
-        }
-        .hymn-title {
-            font-size: 1.2rem;
-            color: #2c3e50;
-            line-height: 1.4;
-        }
-        .hymn-detail {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.5);
-            z-index: 1000;
-        }
-        .hymn-detail.show {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .hymn-detail-content {
-            background: #fff;
-            border-radius: 16px;
-            padding: 2rem;
-            max-width: 600px;
-            width: 90%;
-            max-height: 80vh;
-            overflow-y: auto;
-            position: relative;
-        }
-        .close-btn {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            background: none;
-            border: none;
-            font-size: 1.5rem;
-            cursor: pointer;
-            color: #888;
-        }
-        .hymn-detail-title {
-            font-size: 1.5rem;
-            color: #667eea;
-            margin-bottom: 1rem;
-            text-align: center;
-        }
-        .hymn-detail-number {
-            text-align: center;
-            color: #888;
-            margin-bottom: 1.5rem;
-        }
-        .hymn-lyrics {
-            line-height: 2;
-            white-space: pre-line;
-            color: #34495e;
-        }
-        .verse-line {
-            margin-bottom: 1rem;
-            padding: 0.5rem;
-            border-left: 3px solid #667eea;
-            padding-left: 1rem;
-        }
-        .chorus-line {
-            margin-top: 1.5rem;
-            margin-bottom: 1rem;
-            padding: 0.8rem;
-            background: linear-gradient(135deg, rgba(102,126,234,0.1), rgba(118,75,162,0.1));
-            border-radius: 8px;
-            border-left: 4px solid #764ba2;
-        }
-        .jianpu-line {
-            margin-bottom: 1.2rem;
-            padding: 0.8rem;
-            background: #f8f9fa;
-            border-radius: 8px;
-            font-family: 'Arial', sans-serif;
-            line-height: 2.5;
-        }
-        .jianpu-line.chorus {
-            background: linear-gradient(135deg, rgba(102,126,234,0.05), rgba(118,75,162,0.05));
-            border: 1px solid #e0e0e0;
-        }
-        .hymn-music {
-            margin-top: 1.5rem;
-            padding: 1.5rem;
-            background: #f8f9fa;
-            border-radius: 12px;
-            border-left: 4px solid #667eea;
-        }
-        .hymn-music h3 {
-            color: #667eea;
-            margin-bottom: 1rem;
-            font-size: 1.1rem;
-        }
-        .jianpu {
-            font-family: 'Arial', sans-serif;
-            line-height: 2.5;
-            font-size: 1.1rem;
-            color: #2c3e50;
-        }
-        .jianpu-line {
-            margin-bottom: 0.8rem;
-            padding: 0.5rem;
-            background: #fff;
-            border-radius: 6px;
-        }
-        .jianpu-note {
-            display: inline-block;
-            text-align: center;
-            min-width: 30px;
-            padding: 0.3rem 0.5rem;
-            margin: 0.2rem;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: #fff;
-            border-radius: 6px;
-            font-weight: bold;
-            position: relative;
-        }
-        .jianpu-note.sharp {
-            background: linear-gradient(135deg, #f093fb, #f5576c);
-        }
-        .jianpu-note.flat {
-            background: linear-gradient(135deg, #4facfe, #00f2fe);
-        }
-        .jianpu-note.low {
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
-        .jianpu-note.high {
-            font-size: 1.2rem;
-        }
-        .jianpu-rest {
-            display: inline-block;
-            width: 30px;
-            text-align: center;
-            color: #888;
-        }
-        .jianpu-bar {
-            display: inline-block;
-            width: 2px;
-            height: 20px;
-            background: #667eea;
-            margin: 0 8px;
-            vertical-align: middle;
-        }
-        .jianpu-extension {
-            font-size: 0.7rem;
-            vertical-align: super;
-            margin-left: 2px;
-        }
-        .jianpu-dot {
-            font-size: 1.2rem;
-            vertical-align: middle;
-            margin-left: 2px;
-        }
-        .play-btn {
-            margin-top: 1rem;
-            padding: 0.8rem 2rem;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: #fff;
-            border: none;
-            border-radius: 25px;
-            cursor: pointer;
-            font-size: 1rem;
-            transition: all 0.3s;
-        }
-        .play-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(102,126,234,0.4);
-        }
-        .play-btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-            transform: none;
-        }
-        .loading {
-            text-align: center;
-            padding: 3rem;
-            color: #fff;
-        }
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 4px solid rgba(255,255,255,0.3);
-            border-top-color: #fff;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 1rem;
-        }
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-        .stats {
-            text-align: center;
-            color: #fff;
-            margin-bottom: 1.5rem;
-            opacity: 0.9;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>赞美诗 400 首 - RedClaw</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      font-family: Georgia, 'Times New Roman', 'STSong', 'SimSun', serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      color: #2c3e50;
+      overflow-x: hidden;
+    }
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      padding: 1rem 1rem 0.85rem;
+      text-align: center;
+      box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+    }
+    .header h1 { margin: 0 0 0.3rem; font-size: 2rem; font-weight: normal; letter-spacing: 2px; }
+    .header p { margin: 0; opacity: 0.95; font-size: 1.05rem; }
+    .stats-bar {
+      margin: 0.85rem auto 0;
+      display: inline-flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 0.55rem 0.9rem;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.15);
+      font-size: 0.95rem;
+    }
+    .main-container {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 1rem;
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+    .sidebar, .reading-area {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      min-width: 0;
+    }
+    .sidebar {
+      padding: 1rem;
+      height: calc(100vh - 120px);
+      overflow: auto;
+      position: sticky;
+      top: 10px;
+    }
+    .sidebar h3 {
+      margin: 0 0 0.8rem;
+      color: #667eea;
+      font-size: 1.08rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #667eea;
+    }
+    .search-box { margin-bottom: 1rem; }
+    .search-input {
+      width: 100%;
+      padding: 0.8rem 1rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 12px;
+      font-size: 1rem;
+      outline: none;
+      transition: 0.3s;
+      font-family: inherit;
+    }
+    .search-input:focus { border-color: #667eea; box-shadow: 0 0 15px rgba(102,126,234,0.2); }
+    .sidebar-list { display: grid; gap: 0.45rem; }
+    .book-btn {
+      width: 100%;
+      padding: 0.65rem 0.8rem;
+      border: none;
+      border-radius: 10px;
+      background: #f8f9fa;
+      color: #2c3e50;
+      text-align: left;
+      cursor: pointer;
+      transition: 0.25s;
+      font-size: 0.98rem;
+      line-height: 1.3;
+    }
+    .book-btn:hover, .book-btn.active {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      transform: translateX(4px);
+    }
+    .book-btn .num { color: inherit; opacity: 0.85; font-size: 0.86rem; display: block; margin-bottom: 0.1rem; }
+    .reading-area { padding: 1rem; min-height: calc(100vh - 120px); }
+    .reading-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 1px solid #e6e6e6;
+      flex-wrap: wrap;
+    }
+    .chapter-title { flex: 1; min-width: 220px; text-align: center; font-size: 1.45rem; color: #2c3e50; margin: 0; }
+    .nav-btn, .play-btn, .chip-btn {
+      border: none; border-radius: 999px; cursor: pointer; transition: 0.25s; font-family: inherit;
+    }
+    .nav-btn, .play-btn {
+      padding: 0.65rem 1.05rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      font-size: 0.95rem;
+    }
+    .nav-btn:hover, .play-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 20px rgba(102,126,234,0.35); }
+    .nav-btn:disabled, .play-btn:disabled { opacity: 0.4; cursor: not-allowed; transform: none; box-shadow: none; }
+    .hymn-meta {
+      display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center;
+      margin: 1rem 0 0.85rem;
+    }
+    .chip-btn, .meta-chip {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      padding: 0.42rem 0.75rem; background: #f8f9fa; color: #667eea;
+      border: 1px solid #e2e6ff; font-size: 0.9rem;
+    }
+    .content-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+      gap: 1rem;
+      margin-top: 1rem;
+      align-items: start;
+    }
+    .panel {
+      border: 1px solid #ececec;
+      border-radius: 14px;
+      background: #fff;
+      padding: 1rem;
+      min-width: 0;
+    }
+    .panel h3 {
+      margin: 0 0 0.8rem; color: #667eea; font-size: 1.05rem;
+      padding-bottom: 0.4rem; border-bottom: 1px solid #ececec;
+    }
+    .lyrics { line-height: 2; font-size: 1.05rem; color: #34495e; white-space: pre-wrap; }
+    .lyrics p { margin: 0 0 0.7rem; }
+    .score-wrap img { width: 100%; height: auto; border-radius: 10px; box-shadow: 0 5px 20px rgba(0,0,0,0.15); display: block; }
+    .placeholder {
+      padding: 2rem 1rem; text-align: center; color: #888; background: #fafafa; border-radius: 10px; border: 1px dashed #ddd;
+    }
+    .audio-box { display: grid; gap: 0.75rem; margin-top: 1rem; }
+    audio { width: 100%; }
+    .loading { padding: 3rem; text-align: center; color: #666; }
+    .spinner {
+      width: 48px; height: 48px; border-radius: 50%;
+      border: 4px solid rgba(102,126,234,0.2); border-top-color: #667eea; animation: spin 1s linear infinite; margin: 0 auto 1rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .detail-overlay {
+      display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1000;
+      padding: 1rem; align-items: center; justify-content: center;
+    }
+    .detail-overlay.show { display: flex; }
+    .detail-card {
+      width: min(980px, 96vw); max-height: 92vh; overflow: auto; background: #fff; border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.28); padding: 1rem;
+      position: relative;
+    }
+    .close-btn {
+      position: sticky; top: 0; float: right; margin: -0.2rem -0.2rem 0 0;
+      border: none; background: #f2f2f2; color: #666; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.2rem;
+    }
+    .detail-title { margin: 0.2rem 0 0.35rem; text-align: center; color: #667eea; font-size: 1.5rem; }
+    .detail-number { text-align: center; color: #888; margin: 0 0 0.5rem; }
+    .detail-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 0.8fr); gap: 1rem; }
+    .detail-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .small-btn { padding: 0.5rem 0.85rem; border-radius: 999px; border: 1px solid #d7defa; background: #fff; color: #667eea; cursor: pointer; }
+    .small-btn:hover { background: #f6f8ff; }
+    @media (max-width: 1100px) {
+      .main-container { grid-template-columns: 1fr; }
+      .sidebar { height: auto; position: static; }
+      .content-grid, .detail-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .header h1 { font-size: 1.55rem; }
+      .reading-area, .sidebar { padding: 0.85rem; }
+      .chapter-title { font-size: 1.2rem; }
+    }
+  </style>
 </head>
 <body>
-    <div class="header">
-        <h1>🎵 赞美诗 400 首</h1>
-        <p>✝️ 大辛庄教会</p>
+  <div class="header">
+    <h1>🎵 赞美诗 400 首</h1>
+    <p>✝️ RedClaw 圣诗阅读器</p>
+    <div class="stats-bar">
+      <span>共 <strong id="totalCount">0</strong> 首</span>
+      <span>当前第 <strong id="currentIndexText">1</strong> 首</span>
+      <span>资源来自本地文件</span>
     </div>
-    
-    <div class="main-container">
-        <div class="stats">
-            <span>共 <strong id="totalCount">0</strong> 首赞美诗</span>
-        </div>
-        
-        <div class="search-box">
-            <input type="text" class="search-input" placeholder="🔍 搜索诗歌编号或标题..." id="searchInput" oninput="filterHymns()">
-        </div>
-        
-        <div id="hymnGrid" class="hymn-grid">
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>正在加载赞美诗...</p>
+  </div>
+
+  <div class="main-container">
+    <aside class="sidebar">
+      <h3>诗歌目录</h3>
+      <div class="search-box">
+        <input id="searchInput" class="search-input" type="text" placeholder="🔍 搜索编号或标题..." oninput="filterHymns()" />
+      </div>
+      <div id="sidebarList" class="sidebar-list"></div>
+    </aside>
+
+    <main class="reading-area">
+      <div class="reading-top">
+        <button class="nav-btn" id="prevBtn" onclick="prevHymn()">上一首</button>
+        <h2 class="chapter-title" id="titleText">正在加载...</h2>
+        <button class="nav-btn" id="nextBtn" onclick="nextHymn()">下一首</button>
+      </div>
+
+      <div class="hymn-meta">
+        <span class="meta-chip" id="numberChip">第 1 首</span>
+        <span class="meta-chip" id="scoreChip">歌谱</span>
+        <span class="meta-chip" id="audioChip">音频</span>
+      </div>
+
+      <div class="content-grid">
+        <section class="panel">
+          <h3>歌词</h3>
+          <div class="lyrics" id="lyricsText">
+            <div class="loading"><div class="spinner"></div><div>正在加载赞美诗资源...</div></div>
+          </div>
+        </section>
+        <section class="panel">
+          <h3>歌谱 / 播放</h3>
+          <div class="score-wrap" id="scoreWrap"></div>
+          <div class="audio-box">
+            <audio id="audioPlayer" controls preload="none"></audio>
+            <div class="detail-actions">
+              <button class="small-btn" onclick="openDetail()">打开详情</button>
+              <button class="small-btn" onclick="togglePlay()">播放 / 暂停</button>
             </div>
-        </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div class="detail-overlay" id="detailOverlay" onclick="closeDetail(event)">
+    <div class="detail-card">
+      <button class="close-btn" onclick="closeDetailBtn()">×</button>
+      <h2 class="detail-title" id="detailTitle"></h2>
+      <p class="detail-number" id="detailNumber"></p>
+      <div class="detail-grid">
+        <section class="panel">
+          <h3>歌词</h3>
+          <div class="lyrics" id="detailLyrics"></div>
+        </section>
+        <section class="panel">
+          <h3>歌谱</h3>
+          <div id="detailScore"></div>
+        </section>
+      </div>
     </div>
-    
-    <div class="hymn-detail" id="hymnDetail" onclick="closeDetail(event)">
-        <div class="hymn-detail-content">
-            <button class="close-btn" onclick="closeDetailBtn()">×</button>
-            <h2 class="hymn-detail-title" id="detailTitle"></h2>
-            <p class="hymn-detail-number" id="detailNumber"></p>
-            <div class="hymn-meta" id="detailMeta" style="text-align:center;margin-bottom:1rem;color:#888;font-size:0.9rem;"></div>
-            <div class="hymn-lyrics" id="detailLyrics"></div>
-            <div class="hymn-music" id="detailMusic" style="display:none;">
-                <h3>🎵 简谱</h3>
-                <div class="jianpu" id="detailJianpu"></div>
-                <div class="music-image" id="detailMusicImage" style="display:none;text-align:center;margin-top:1rem;">
-                    <img src="" alt="简谱" style="max-width:100%;border-radius:8px;box-shadow:0 5px 20px rgba(0,0,0,0.2);">
-                </div>
-                <button class="play-btn" id="playMusicBtn" onclick="playMusic()">▶️ 播放曲调</button>
-            </div>
-        </div>
-    </div>
-    
-    <script>
-        var hymnData = [];
-        var currentHymn = null;
-        var isPlaying = false;
-        var audioContext = null;
-        
-        // 加载数据
-        function loadHymnData() {
-            if (typeof window.PSALM_DATA !== 'undefined') {
-                hymnData = window.PSALM_DATA;
-                renderHymnList();
-                updateTotalCount();
-            } else {
-                setTimeout(loadHymnData, 100);
-            }
-        }
-        
-        // 简谱音符转频率
-        function noteToFrequency(note, octave) {
-            var notes = ['1', '2', '3', '4', '5', '6', '7'];
-            var frequencies = [261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88]; // C4 大调
-            
-            var noteIndex = notes.indexOf(note);
-            if (noteIndex === -1) return 0;
-            
-            var baseFreq = frequencies[noteIndex];
-            // 八度调整
-            if (octave === 'low') return baseFreq / 2;
-            if (octave === 'high') return baseFreq * 2;
-            return baseFreq;
-        }
-        
-        // 解析简谱字符串
-        function parseJianpu(jianpuStr) {
-            var notes = [];
-            var lines = jianpuStr.split('\n');
-            
-            lines.forEach(function(line) {
-                var chars = line.trim().split('');
-                var currentOctave = 'normal';
-                
-                for (var i = 0; i < chars.length; i++) {
-                    var c = chars[i];
-                    
-                    if (c >= '1' && c <= '7') {
-                        notes.push({
-                            note: c,
-                            octave: currentOctave,
-                            duration: 0.5
-                        });
-                    } else if (c === '.') {
-                        // 低音点（前面的音符）
-                        if (notes.length > 0) {
-                            notes[notes.length - 1].octave = 'low';
-                        }
-                    } else if (c === "'") {
-                        // 高音点（前面的音符）
-                        if (notes.length > 0) {
-                            notes[notes.length - 1].octave = 'high';
-                        }
-                    } else if (c === '-') {
-                        // 延音
-                        if (notes.length > 0) {
-                            notes[notes.length - 1].duration += 0.5;
-                        }
-                    } else if (c === '|' || c === '‖') {
-                        // 小节线
-                        notes.push({ type: 'bar' });
-                    } else if (c === '0') {
-                        // 休止符
-                        notes.push({ type: 'rest', duration: 0.5 });
-                    }
-                }
-            });
-            
-            return notes;
-        }
-        
-        // 播放简谱
-        function playMusic() {
-            if (!currentHymn || !currentHymn.music) return;
-            
-            var btn = document.getElementById('playMusicBtn');
-            
-            if (isPlaying) {
-                // 停止播放
-                if (audioContext) {
-                    audioContext.close();
-                    audioContext = null;
-                }
-                isPlaying = false;
-                btn.textContent = '▶️ 播放曲调';
-                return;
-            }
-            
-            // 创建音频上下文
-            audioContext = new (window.AudioContext || window.webkitAudioContext)();
-            var notes = parseJianpu(currentHymn.music);
-            var currentTime = audioContext.currentTime;
-            var tempo = 0.5; // 每个音符的时长（秒）
-            
-            isPlaying = true;
-            btn.textContent = '⏹ 停止播放';
-            
-            notes.forEach(function(note, index) {
-                if (note.type === 'bar' || note.type === 'rest') {
-                    currentTime += (note.duration || 0.5) * tempo;
-                    return;
-                }
-                
-                var frequency = noteToFrequency(note.note, note.octave);
-                if (frequency === 0) return;
-                
-                var oscillator = audioContext.createOscillator();
-                var gainNode = audioContext.createGain();
-                
-                oscillator.connect(gainNode);
-                gainNode.connect(audioContext.destination);
-                
-                oscillator.frequency.value = frequency;
-                oscillator.type = 'sine';
-                
-                // 音量包络
-                gainNode.gain.setValueAtTime(0.3, currentTime);
-                gainNode.gain.exponentialRampToValueAtTime(0.01, currentTime + note.duration * tempo);
-                
-                oscillator.start(currentTime);
-                oscillator.stop(currentTime + note.duration * tempo);
-                
-                currentTime += note.duration * tempo;
-            });
-            
-            // 播放结束
-            setTimeout(function() {
-                isPlaying = false;
-                btn.textContent = '▶️ 播放曲调';
-                audioContext = null;
-            }, (currentTime - audioContext.currentTime) * 1000);
-        }
-        
-        function updateTotalCount() {
-            document.getElementById('totalCount').textContent = hymnData.length;
-        }
-        
-        function renderHymnList() {
-            var grid = document.getElementById('hymnGrid');
-            var html = '';
-            
-            hymnData.forEach(function(hymn, index) {
-                html += '<div class="hymn-card" onclick="showHymn(' + index + ')">' +
-                    '<div class="hymn-number">第' + hymn.number + '首</div>' +
-                    '<div class="hymn-title">' + hymn.title + '</div>' +
-                    '</div>';
-            });
-            
-            grid.innerHTML = html;
-        }
-        
-        function filterHymns() {
-            var query = document.getElementById('searchInput').value.toLowerCase();
-            var cards = document.querySelectorAll('.hymn-card');
-            
-            cards.forEach(function(card, index) {
-                var hymn = hymnData[index];
-                var match = hymn.title.toLowerCase().indexOf(query) >= 0 || 
-                           hymn.number.toString().indexOf(query) >= 0;
-                card.style.display = match ? 'block' : 'none';
-            });
-        }
-        
-        function showHymn(index) {
-            currentHymn = hymnData[index];
-            var hymn = currentHymn;
-            
-            document.getElementById('detailTitle').textContent = hymn.title;
-            document.getElementById('detailNumber').textContent = '第' + hymn.number + '首';
-            
-            // 显示调号、速度、拍号
-            var meta = '';
-            if (hymn.key) meta += hymn.key + '  ';
-            if (hymn.time) meta += hymn.time + '  ';
-            if (hymn.tempo) meta += hymn.tempo;
-            document.getElementById('detailMeta').textContent = meta;
-            
-            // 渲染歌词和简谱
-            var lyricsHtml = '';
-            var musicHtml = '';
-            
-            if (hymn.verses && hymn.verses.length > 0) {
-                // 新格式：歌词和简谱对应
-                hymn.verses.forEach(function(verse, i) {
-                    lyricsHtml += '<div class="verse-line">' + verse.lyrics + '</div>';
-                    musicHtml += '<div class="jianpu-line">' + renderJianpu(verse.music) + '</div>';
-                });
-                
-                if (hymn.chorus) {
-                    lyricsHtml += '<div class="chorus-line"><strong>（副歌）</strong> ' + hymn.chorus.lyrics + '</div>';
-                    musicHtml += '<div class="jianpu-line chorus">' + renderJianpu(hymn.chorus.music) + '</div>';
-                }
-                
-                document.getElementById('detailLyrics').innerHTML = lyricsHtml;
-                document.getElementById('detailJianpu').innerHTML = musicHtml;
-            } else {
-                // 旧格式：只有歌词
-                document.getElementById('detailLyrics').textContent = hymn.lyrics;
-                if (hymn.music) {
-                    musicHtml = renderJianpu(hymn.music);
-                    document.getElementById('detailJianpu').innerHTML = musicHtml;
-                }
-            }
-            
-            // 显示简谱区域
-            var musicDiv = document.getElementById('detailMusic');
-            var jianpuDiv = document.getElementById('detailJianpu');
-            var musicImageDiv = document.getElementById('detailMusicImage');
-            var playBtn = document.getElementById('playMusicBtn');
-            
-            if (hymn.musicImage) {
-                // 有简谱图片
-                musicDiv.style.display = 'block';
-                jianpuDiv.style.display = 'none';
-                musicImageDiv.style.display = 'block';
-                musicImageDiv.querySelector('img').src = hymn.musicImage;
-                playBtn.style.display = 'none';
-            } else if (hymn.music || (hymn.verses && hymn.verses.length > 0)) {
-                // 有文本简谱
-                musicDiv.style.display = 'block';
-                jianpuDiv.style.display = 'block';
-                musicImageDiv.style.display = 'none';
-                playBtn.style.display = 'inline-block';
-            } else {
-                musicDiv.style.display = 'none';
-            }
-            
-            document.getElementById('hymnDetail').classList.add('show');
-            document.body.style.overflow = 'hidden';
-        }
-        
-        // 渲染简谱 HTML（支持升降调、高低音）
-        function renderJianpu(musicStr) {
-            var html = '';
-            var chars = musicStr.trim().split('');
-            
-            for (var i = 0; i < chars.length; i++) {
-                var c = chars[i];
-                
-                // 音符（1-7）
-                if (c >= '1' && c <= '7') {
-                    var noteHtml = '<span class="jianpu-note">' + c;
-                    
-                    // 检查升降号（前面或后面）
-                    if (i > 0 && chars[i - 1] === '#') {
-                        noteHtml = '<span class="jianpu-note sharp">♯' + c;
-                    } else if (i > 0 && (chars[i - 1] === 'b' || chars[i - 1] === '♭')) {
-                        noteHtml = '<span class="jianpu-note flat">♭' + c;
-                    }
-                    
-                    // 检查高低音点（后面的字符）
-                    if (i + 1 < chars.length && chars[i + 1] === '.') {
-                        noteHtml += '<span class="jianpu-dot low">̣</span>';
-                        i++;
-                    } else if (i + 1 < chars.length && chars[i + 1] === "'") {
-                        noteHtml += '<span class="jianpu-dot high">̇</span>';
-                        i++;
-                    }
-                    
-                    noteHtml += '</span>';
-                    html += noteHtml;
-                    
-                // 升降号（单独出现时跳过，已和音符一起处理）
-                } else if (c === '#' || c === 'b' || c === '♭') {
-                    // 跳过，因为已经和音符一起处理了
-                    continue;
-                    
-                // 延音线
-                } else if (c === '-') {
-                    html += '<span class="jianpu-extension">−</span>';
-                    
-                // 小节线
-                } else if (c === '|') {
-                    html += '<span class="jianpu-bar"></span>';
-                    
-                // 双小节线/结束线
-                } else if (c === '‖') {
-                    html += '<span class="jianpu-bar" style="width:4px;"></span>';
-                    
-                // 休止符
-                } else if (c === '0') {
-                    html += '<span class="jianpu-rest">0</span>';
-                    
-                // 附点
-                } else if (c === '.') {
-                    // 如果前面不是音符，则是附点记号
-                    if (i > 0 && !(chars[i-1] >= '1' && chars[i-1] <= '7')) {
-                        html += '<span class="jianpu-dot">.</span>';
-                    }
-                    
-                // 空格和其他符号
-                } else if (c === ' ' || c === '\n' || c === '\t') {
-                    html += '<span class="jianpu-space"> </span>';
-                }
-            }
-            
-            return html;
-        }
-        
-        function closeDetail(event) {
-            if (event.target.id === 'hymnDetail') {
-                closeDetailBtn();
-            }
-        }
-        
-        function closeDetailBtn() {
-            document.getElementById('hymnDetail').classList.remove('show');
-            document.body.style.overflow = '';
-            currentHymn = null;
-        }
-        
-        // 页面加载
-        setTimeout(loadHymnData, 100);
-    </script>
-    
-    <script src="psalm-data.js"></script>
+  </div>
+
+  <script src="./psalm-data.js"></script>
+  <script>
+    let hymns = [];
+    let currentIndex = 0;
+
+    function normalizeTitle(name) {
+      return name.replace(/\s+/g, ' ').trim();
+    }
+
+    function buildLyrics(item) {
+      return item.lyrics || '暂无歌词文本，先展示歌名与歌谱资源。';
+    }
+
+    function renderSidebar(list) {
+      const el = document.getElementById('sidebarList');
+      el.innerHTML = list.map((h, idx) => `
+        <button class="book-btn ${idx === currentIndex ? 'active' : ''}" onclick="selectHymn(${idx})">
+          <span class="num">第 ${h.number} 首</span>
+          <span>${h.title}</span>
+        </button>
+      `).join('');
+    }
+
+    function renderCurrent() {
+      const h = hymns[currentIndex];
+      if (!h) return;
+      document.title = `${h.number} ${h.title} - 赞美诗 400 首`;
+      document.getElementById('titleText').textContent = h.title;
+      document.getElementById('numberChip').textContent = `第 ${h.number} 首`;
+      document.getElementById('currentIndexText').textContent = currentIndex + 1;
+      document.getElementById('prevBtn').disabled = currentIndex === 0;
+      document.getElementById('nextBtn').disabled = currentIndex === hymns.length - 1;
+      document.getElementById('lyricsText').textContent = buildLyrics(h);
+      document.getElementById('detailTitle').textContent = h.title;
+      document.getElementById('detailNumber').textContent = `第 ${h.number} 首`;
+      document.getElementById('detailLyrics').textContent = buildLyrics(h);
+      const scoreWrap = document.getElementById('scoreWrap');
+      const detailScore = document.getElementById('detailScore');
+      const scoreHtml = h.score ? `<img src="${h.score}" alt="${h.title} 歌谱">` : '<div class="placeholder">暂无对应歌谱图片</div>';
+      scoreWrap.innerHTML = scoreHtml;
+      detailScore.innerHTML = scoreHtml;
+      const audio = document.getElementById('audioPlayer');
+      audio.src = h.mp3 || '';
+      audio.load();
+      document.getElementById('scoreChip').textContent = h.score ? '有歌谱' : '无歌谱';
+      document.getElementById('audioChip').textContent = h.mp3 ? '有音频' : '无音频';
+      renderSidebar(hymns);
+    }
+
+    function selectHymn(idx) {
+      currentIndex = idx;
+      renderCurrent();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function prevHymn() { if (currentIndex > 0) selectHymn(currentIndex - 1); }
+    function nextHymn() { if (currentIndex < hymns.length - 1) selectHymn(currentIndex + 1); }
+
+    function filterHymns() {
+      const q = document.getElementById('searchInput').value.trim().toLowerCase();
+      const list = !q ? hymns : hymns.filter(h => String(h.number).includes(q) || h.title.toLowerCase().includes(q));
+      renderSidebar(list.map(h => hymns.findIndex(x => x.number === h.number && x.title === h.title)).map(i => hymns[i]).filter(Boolean));
+    }
+
+    function openDetail() { document.getElementById('detailOverlay').classList.add('show'); }
+    function closeDetail(e) { if (e.target.id === 'detailOverlay') closeDetailBtn(); }
+    function closeDetailBtn() { document.getElementById('detailOverlay').classList.remove('show'); }
+    function togglePlay() {
+      const a = document.getElementById('audioPlayer');
+      if (a.paused) a.play(); else a.pause();
+    }
+
+    function init() {
+      hymns = (window.PSALM_DATA || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
+      document.getElementById('totalCount').textContent = hymns.length;
+      renderCurrent();
+    }
+
+    if (window.PSALM_DATA) init(); else setTimeout(init, 100);
+  </script>
 </body>
 </html>
