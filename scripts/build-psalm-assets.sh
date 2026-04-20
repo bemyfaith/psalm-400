@@ -3,8 +3,8 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 DIST_DIR="$ROOT_DIR/dist"
-SRC_MP3="$ROOT_DIR/../material/基督教资源/新编赞美诗-mp3"
-SRC_SCORE="$ROOT_DIR/../material/基督教资源/歌谱"
+SRC_MP3="$ROOT_DIR/assets/mp3"
+SRC_SCORE="$ROOT_DIR/assets/scores"
 DST_MP3="$DIST_DIR/assets/mp3"
 DST_SCORE="$DIST_DIR/assets/scores"
 
@@ -20,7 +20,7 @@ for f in README.md; do
   cp "$ROOT_DIR/$f" "$DIST_DIR/" 2>/dev/null || true
 done
 
-# Copy assets when they exist. Use nullglob to avoid literal patterns on empty dirs.
+# Copy the checked-in assets into the publish directory.
 shopt -s nullglob
 if [ -d "$SRC_MP3" ]; then
   cp -f "$SRC_MP3"/*.mp3 "$DST_MP3/" 2>/dev/null || true
@@ -35,7 +35,7 @@ shopt -u nullglob
 cat > "$DIST_DIR/deploy-info.txt" <<EOF
 psalm-400 static bundle
 source: $ROOT_DIR
-assets: mp3 + scores copied from material/基督教资源
+assets: mp3 + scores copied from checked-in assets/
 EOF
 
 echo "Built site into $DIST_DIR"
