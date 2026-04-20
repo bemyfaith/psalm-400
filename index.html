@@ -41,6 +41,28 @@
       margin: 0 auto;
       padding: 1rem;
     }
+    .mobile-toolbar {
+      display: none;
+      max-width: 1500px;
+      margin: 0 auto;
+      padding: 0 1rem 0.5rem;
+    }
+    .mobile-menu-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      border: none;
+      border-radius: 999px;
+      padding: 0.55rem 0.95rem;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      font-size: 0.95rem;
+      box-shadow: 0 4px 14px rgba(102,126,234,0.25);
+      cursor: pointer;
+    }
+    .sidebar-overlay {
+      display: none;
+    }
     .sidebar, .reading-area {
       background: #fff;
       border-radius: 16px;
@@ -175,7 +197,11 @@
     .small-btn:hover { background: #f6f8ff; }
     @media (max-width: 1100px) {
       .main-container { grid-template-columns: 1fr; }
-      .sidebar { height: auto; position: static; }
+      .sidebar { height: auto; position: fixed; top: 0; left: -100%; width: 86vw; max-width: 340px; z-index: 1002; border-radius: 0 16px 16px 0; transition: left 0.25s ease; }
+      .sidebar.open { left: 0; }
+      .sidebar-overlay { display: block; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1001; opacity: 0; visibility: hidden; transition: opacity 0.25s ease, visibility 0.25s ease; }
+      .sidebar-overlay.open { opacity: 1; visibility: visible; }
+      .mobile-toolbar { display: block; }
       .content-grid, .detail-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 640px) {
@@ -195,8 +221,14 @@
     </div>
   </div>
 
+  <div class="mobile-toolbar">
+    <button class="mobile-menu-btn" onclick="toggleSidebar()">📚 目录</button>
+  </div>
+
+  <div class="sidebar-overlay" id="sidebarOverlay" onclick="closeSidebar()"></div>
+
   <div class="main-container">
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
       <h3>诗歌目录</h3>
       <div class="search-box">
         <input id="searchInput" class="search-input" type="text" placeholder="🔍 搜索编号或标题..." oninput="filterHymns()" />
@@ -290,10 +322,27 @@
       renderSidebar(hymns);
     }
 
+    function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      if (!sidebar || !overlay) return;
+      const open = !sidebar.classList.contains('open');
+      sidebar.classList.toggle('open', open);
+      overlay.classList.toggle('open', open);
+    }
+
+    function closeSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      if (sidebar) sidebar.classList.remove('open');
+      if (overlay) overlay.classList.remove('open');
+    }
+
     function selectHymn(idx) {
       currentIndex = idx;
       renderCurrent();
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (window.innerWidth <= 1100) closeSidebar();
     }
 
     function prevHymn() { if (currentIndex > 0) selectHymn(currentIndex - 1); }
