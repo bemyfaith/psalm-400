@@ -33,6 +33,26 @@
       background: rgba(255,255,255,0.15);
       font-size: 0.95rem;
     }
+    .catalog-switch {
+      margin-top: 0.8rem;
+      display: inline-flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .catalog-btn {
+      border: none;
+      border-radius: 999px;
+      padding: 0.5rem 0.9rem;
+      background: rgba(255,255,255,0.18);
+      color: #fff;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .catalog-btn.active {
+      background: #fff;
+      color: #6d56c7;
+    }
     .main-container {
       display: grid;
       grid-template-columns: 280px 1fr;
@@ -227,6 +247,10 @@
       <span>共 <strong id="totalCount">0</strong> 首</span>
       <span>当前第 <strong id="currentIndexText">1</strong> 首</span>
     </div>
+    <div class="catalog-switch">
+      <button class="catalog-btn active" id="hymnCatalogBtn" onclick="switchCatalog('hymn')">赞美诗</button>
+      <button class="catalog-btn" id="psalmCatalogBtn" onclick="switchCatalog('psalm')">诗篇</button>
+    </div>
   </div>
 
   <div class="mobile-toolbar">
@@ -283,26 +307,29 @@
   </div>
 
   <script src="./psalm-data.js?v=20260421_0317"></script>
+  <script src="./psalm-data-psalm.js"></script>
   <script>
-    let hymns = [];
+    let catalogs = {};
+    let activeCatalog = 'hymn';
     let currentIndex = 0;
 
-    function normalizeTitle(name) {
-      return name.replace(/\s+/g, ' ').trim();
-    }
+    function normalizeTitle(name) { return String(name || '').replace(/\s+/g, ' ').trim(); }
+    function formatNumber(n) { return String(n).startsWith('f') ? String(n) : `第 ${n} 首`; }
+    function getActiveList() { return catalogs[activeCatalog] || []; }
 
-    function formatNumber(n) {
-      return String(n).startsWith('f') ? String(n) : `第 ${n} 首`;
-    }
-
-    function buildLyrics(item) {
-      return item.lyrics || '暂无歌词文本，先展示歌名与歌谱资源。';
+    function switchCatalog(name) {
+      activeCatalog = name;
+      currentIndex = 0;
+      document.getElementById('hymnCatalogBtn').classList.toggle('active', name === 'hymn');
+      document.getElementById('psalmCatalogBtn').classList.toggle('active', name === 'psalm');
+      renderCurrent();
+      closeSidebar();
     }
 
     function renderSidebar(list) {
       const el = document.getElementById('sidebarList');
       el.innerHTML = list.map((h, idx) => `
-        <button class="book-btn ${idx === currentIndex ? 'active' : ''}" onclick="selectHymn(${idx})">
+        <button class="book-btn ${idx === currentIndex ? 'active' : ''}" onclick="selectItem(${idx})">
           <span class="num">${formatNumber(h.number)}</span>
           <span>${h.title}</span>
         </button>
@@ -310,24 +337,34 @@
     }
 
     function renderCurrent() {
-      const h = hymns[currentIndex];
+      const list = getActiveList();
+      const h = list[currentIndex];
       if (!h) return;
-      document.title = `${h.number} ${h.title} - 赞美诗 新编400 首`;
+      document.title = `${h.title} - RedClaw`;
       document.getElementById('titleText').textContent = h.title;
       document.getElementById('currentIndexText').textContent = currentIndex + 1;
       document.getElementById('prevBtn').disabled = currentIndex === 0;
-      document.getElementById('nextBtn').disabled = currentIndex === hymns.length - 1;
-      document.getElementById('detailTitle').textContent = h.title;
-      document.getElementById('detailNumber').textContent = formatNumber(h.number);
+      document.getElementById('nextBtn').disabled = currentIndex === list.length - 1;
       const scoreWrap = document.getElementById('scoreWrap');
       const detailScore = document.getElementById('detailScore');
-      const scoreHtml = h.score ? `<img src="${h.score}" alt="${h.title} 歌谱" onclick="zoomImage('${h.score}')" style="cursor:zoom-in">` : '<div class="placeholder">暂无对应歌谱图片</div>';
-      scoreWrap.innerHTML = scoreHtml;
-      detailScore.innerHTML = scoreHtml;
+      if (activeCatalog === 'hymn') {
+        const scoreHtml = h.score ? `<img src="${h.score}" alt="${h.title} 歌谱" onclick="zoomImage('${h.score}')" style="cursor:zoom-in">` : '<div class="placeholder">暂无对应歌谱图片</div>';
+        scoreWrap.innerHTML = scoreHtml;
+        detailScore.innerHTML = scoreHtml;
+        document.getElementById('detailTitle').textContent = h.title;
+        document.getElementById('detailNumber').textContent = formatNumber(h.number);
+      } else {
+        const psalmText = (h.verses || []).map(v => `<p><strong>${v.ref}</strong> ${v.text}</p>`).join('') || '<div class="placeholder">暂无正文</div>';
+        const audio = h.audio ? `<div class="audio-box"><audio id="audioPlayer" controls preload="none" src="${h.audio}"></audio></div>` : '';
+        scoreWrap.innerHTML = audio + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
+        detailScore.innerHTML = `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
+        document.getElementById('detailTitle').textContent = h.title;
+        document.getElementById('detailNumber').textContent = `诗篇 ${h.number}`;
+      }
       const audio = document.getElementById('audioPlayer');
-      audio.src = h.mp3 || '';
-      audio.load();
-      renderSidebar(hymns);
+      if (audio && activeCatalog === 'hymn') { audio.src = h.mp3 || ''; audio.load(); }
+      document.getElementById('totalCount').textContent = list.length;
+      renderSidebar(list);
     }
 
     function toggleSidebar() {
@@ -338,59 +375,22 @@
       sidebar.classList.toggle('open', open);
       overlay.classList.toggle('open', open);
     }
-
-    function closeSidebar() {
-      const sidebar = document.getElementById('sidebar');
-      const overlay = document.getElementById('sidebarOverlay');
-      if (sidebar) sidebar.classList.remove('open');
-      if (overlay) overlay.classList.remove('open');
-    }
-
-    function selectHymn(idx) {
-      currentIndex = idx;
-      renderCurrent();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      if (window.innerWidth <= 1100) closeSidebar();
-    }
-
-    function prevHymn() { if (currentIndex > 0) selectHymn(currentIndex - 1); }
-    function nextHymn() { if (currentIndex < hymns.length - 1) selectHymn(currentIndex + 1); }
-
-    function filterHymns() {
-      const q = document.getElementById('searchInput').value.trim().toLowerCase();
-      const list = !q ? hymns : hymns.filter(h => String(h.number).includes(q) || h.title.toLowerCase().includes(q));
-      renderSidebar(list.map(h => hymns.findIndex(x => x.number === h.number && x.title === h.title)).map(i => hymns[i]).filter(Boolean));
-    }
-
-    function openDetail() { document.getElementById('detailOverlay').classList.add('show'); }
+    function closeSidebar() { const sidebar = document.getElementById('sidebar'); const overlay = document.getElementById('sidebarOverlay'); if (sidebar) sidebar.classList.remove('open'); if (overlay) overlay.classList.remove('open'); }
+    function selectItem(idx) { currentIndex = idx; renderCurrent(); window.scrollTo({ top: 0, behavior: 'smooth' }); if (window.innerWidth <= 1100) closeSidebar(); }
+    function prevHymn() { if (currentIndex > 0) selectItem(currentIndex - 1); }
+    function nextHymn() { if (currentIndex < getActiveList().length - 1) selectItem(currentIndex + 1); }
+    function filterHymns() { const q = document.getElementById('searchInput').value.trim().toLowerCase(); const list = !q ? getActiveList() : getActiveList().filter(h => String(h.number).includes(q) || h.title.toLowerCase().includes(q)); renderSidebar(list); }
     function closeDetail(e) { if (e.target.id === 'detailOverlay') closeDetailBtn(); }
     function closeDetailBtn() { document.getElementById('detailOverlay').classList.remove('show'); }
-    function zoomImage(src) {
-      const overlay = document.getElementById('imageOverlay');
-      const img = document.getElementById('zoomedImage');
-      if (!overlay || !img) return;
-      img.src = src;
-      overlay.classList.add('show');
-    }
+    function zoomImage(src) { const overlay = document.getElementById('imageOverlay'); const img = document.getElementById('zoomedImage'); if (!overlay || !img) return; img.src = src; overlay.classList.add('show'); }
     function closeImage(e) { if (e.target.id === 'imageOverlay') closeImageBtn(); }
-    function closeImageBtn() {
-      const overlay = document.getElementById('imageOverlay');
-      const img = document.getElementById('zoomedImage');
-      if (overlay) overlay.classList.remove('show');
-      if (img) img.src = '';
-    }
-    function togglePlay() {
-      const a = document.getElementById('audioPlayer');
-      if (a.paused) a.play(); else a.pause();
-    }
-
+    function closeImageBtn() { const overlay = document.getElementById('imageOverlay'); const img = document.getElementById('zoomedImage'); if (overlay) overlay.classList.remove('show'); if (img) img.src = ''; }
     function init() {
-      hymns = (window.PSALM_DATA || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
-      document.getElementById('totalCount').textContent = hymns.length;
+      catalogs.hymn = (window.PSALM_DATA || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
+      catalogs.psalm = (window.PSALM_SONGS || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
       renderCurrent();
     }
-
-    if (window.PSALM_DATA) init(); else setTimeout(init, 100);
+    if (window.PSALM_DATA && window.PSALM_SONGS) init(); else setTimeout(init, 100);
   </script>
 </body>
 </html>
