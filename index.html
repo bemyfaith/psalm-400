@@ -180,16 +180,18 @@
       border: 4px solid rgba(102,126,234,0.2); border-top-color: #667eea; animation: spin 1s linear infinite; margin: 0 auto 1rem;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
-    .detail-overlay {
-      display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1000;
+    .detail-overlay, .image-overlay {
+      display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 1000;
       padding: 1rem; align-items: center; justify-content: center;
     }
-    .detail-overlay.show { display: flex; }
-    .detail-card {
+    .detail-overlay.show, .image-overlay.show { display: flex; }
+    .detail-card, .image-card {
       width: min(980px, 96vw); max-height: 92vh; overflow: auto; background: #fff; border-radius: 16px;
       box-shadow: 0 20px 60px rgba(0,0,0,0.28); padding: 1rem;
       position: relative;
     }
+    .image-card { background: transparent; box-shadow: none; display: flex; align-items: center; justify-content: center; }
+    .image-card img { max-width: 96vw; max-height: 92vh; width: auto; height: auto; border-radius: 10px; box-shadow: 0 20px 60px rgba(0,0,0,0.35); }
     .close-btn {
       position: sticky; top: 0; float: right; margin: -0.2rem -0.2rem 0 0;
       border: none; background: #f2f2f2; color: #666; width: 36px; height: 36px; border-radius: 50%; cursor: pointer; font-size: 1.2rem;
@@ -200,14 +202,14 @@
     .small-btn { padding: 0.5rem 0.85rem; border-radius: 999px; border: 1px solid #d7defa; background: #fff; color: #667eea; cursor: pointer; }
     .small-btn:hover { background: #f6f8ff; }
     @media (max-width: 1100px) {
-      body { overflow: hidden; }
-      .main-container { grid-template-columns: 1fr; height: calc(100vh - 150px); overflow: hidden; }
+      body { overflow-y: auto; }
+      .main-container { grid-template-columns: 1fr; }
       .sidebar { height: 100%; position: fixed; top: 0; left: -100%; width: 86vw; max-width: 340px; z-index: 1002; border-radius: 0 16px 16px 0; transition: left 0.25s ease; overflow-y: auto; -webkit-overflow-scrolling: touch; }
       .sidebar.open { left: 0; }
       .sidebar-overlay { display: block; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1001; opacity: 0; visibility: hidden; transition: opacity 0.25s ease, visibility 0.25s ease; }
       .sidebar-overlay.open { opacity: 1; visibility: visible; }
       .mobile-toolbar { display: block; }
-      .reading-area { height: 100%; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+      .reading-area { min-height: auto; }
       .content-grid, .detail-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 640px) {
@@ -273,6 +275,12 @@
       </div>
     </div>
   </div>
+  <div class="image-overlay" id="imageOverlay" onclick="closeImage(event)">
+    <div class="image-card">
+      <button class="close-btn" onclick="closeImageBtn()">×</button>
+      <img id="zoomedImage" alt="放大的歌谱">
+    </div>
+  </div>
 
   <script src="./psalm-data.js?v=20260421_0317"></script>
   <script>
@@ -313,7 +321,7 @@
       document.getElementById('detailNumber').textContent = formatNumber(h.number);
       const scoreWrap = document.getElementById('scoreWrap');
       const detailScore = document.getElementById('detailScore');
-      const scoreHtml = h.score ? `<img src="${h.score}" alt="${h.title} 歌谱">` : '<div class="placeholder">暂无对应歌谱图片</div>';
+      const scoreHtml = h.score ? `<img src="${h.score}" alt="${h.title} 歌谱" onclick="zoomImage('${h.score}')" style="cursor:zoom-in">` : '<div class="placeholder">暂无对应歌谱图片</div>';
       scoreWrap.innerHTML = scoreHtml;
       detailScore.innerHTML = scoreHtml;
       const audio = document.getElementById('audioPlayer');
@@ -357,6 +365,20 @@
     function openDetail() { document.getElementById('detailOverlay').classList.add('show'); }
     function closeDetail(e) { if (e.target.id === 'detailOverlay') closeDetailBtn(); }
     function closeDetailBtn() { document.getElementById('detailOverlay').classList.remove('show'); }
+    function zoomImage(src) {
+      const overlay = document.getElementById('imageOverlay');
+      const img = document.getElementById('zoomedImage');
+      if (!overlay || !img) return;
+      img.src = src;
+      overlay.classList.add('show');
+    }
+    function closeImage(e) { if (e.target.id === 'imageOverlay') closeImageBtn(); }
+    function closeImageBtn() {
+      const overlay = document.getElementById('imageOverlay');
+      const img = document.getElementById('zoomedImage');
+      if (overlay) overlay.classList.remove('show');
+      if (img) img.src = '';
+    }
     function togglePlay() {
       const a = document.getElementById('audioPlayer');
       if (a.paused) a.play(); else a.pause();
