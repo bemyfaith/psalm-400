@@ -118,14 +118,18 @@
     .reading-area { padding: 1rem; min-height: calc(100vh - 120px); }
     .reading-top {
       display: flex;
-      align-items: center;
-      justify-content: space-between;
+      flex-direction: column;
       gap: 0.75rem;
       padding-bottom: 0.8rem;
       border-bottom: 1px solid #e6e6e6;
-      flex-wrap: wrap;
     }
-    .chapter-title { flex: 1; min-width: 220px; text-align: center; font-size: 1.45rem; color: #2c3e50; margin: 0; }
+    .chapter-title { text-align: center; font-size: 1.45rem; color: #2c3e50; margin: 0; }
+    .chapter-nav-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.75rem;
+    }
     .nav-btn, .play-btn, .chip-btn {
       border: none; border-radius: 999px; cursor: pointer; transition: 0.25s; font-family: inherit;
     }
@@ -240,16 +244,13 @@
 
     <main class="reading-area">
       <div class="reading-top">
-        <button class="nav-btn" id="prevBtn" onclick="prevHymn()">上一首</button>
         <h2 class="chapter-title" id="titleText">正在加载...</h2>
-        <button class="nav-btn" id="nextBtn" onclick="nextHymn()">下一首</button>
+        <div class="chapter-nav-row">
+          <button class="nav-btn" id="prevBtn" onclick="prevHymn()">上一首</button>
+          <button class="nav-btn" id="nextBtn" onclick="nextHymn()">下一首</button>
+        </div>
       </div>
 
-      <div class="hymn-meta">
-        <span class="meta-chip" id="numberChip">第 1 首</span>
-        <span class="meta-chip" id="scoreChip">歌谱</span>
-        <span class="meta-chip" id="audioChip">音频</span>
-      </div>
 
       <section class="panel score-panel">
         <h3>歌谱</h3>
@@ -305,7 +306,6 @@
       if (!h) return;
       document.title = `${h.number} ${h.title} - 赞美诗 新编400 首`;
       document.getElementById('titleText').textContent = h.title;
-      document.getElementById('numberChip').textContent = formatNumber(h.number);
       document.getElementById('currentIndexText').textContent = currentIndex + 1;
       document.getElementById('prevBtn').disabled = currentIndex === 0;
       document.getElementById('nextBtn').disabled = currentIndex === hymns.length - 1;
@@ -319,8 +319,6 @@
       const audio = document.getElementById('audioPlayer');
       audio.src = h.mp3 || '';
       audio.load();
-      document.getElementById('scoreChip').textContent = h.score ? '有歌谱' : '无歌谱';
-      document.getElementById('audioChip').textContent = h.mp3 ? '有音频' : '无音频';
       renderSidebar(hymns);
     }
 
