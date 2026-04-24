@@ -28,7 +28,8 @@ window.PSALM_SONGS = [
         "ref": "1:6",
         "text": "因 为 耶 和 华 知 道 义 人 的 道 路 。 恶 人 的 道 路 ， 却 必 灭 亡 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-1.jpg"
   },
   {
     "number": 2,
@@ -83,7 +84,8 @@ window.PSALM_SONGS = [
         "ref": "2:12",
         "text": "当 以 嘴 亲 子 ， 恐 怕 他 发 怒 ， 你 们 便 在 道 中 灭 亡 ， 因 为 他 的 怒 气 快 要 发 作 。 凡 投 靠 他 的 ， 都 是 有 福 的 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-2.jpg"
   },
   {
     "number": 3,
@@ -122,7 +124,8 @@ window.PSALM_SONGS = [
         "ref": "3:8",
         "text": "救 恩 属 乎 耶 和 华 。 愿 你 赐 福 给 你 的 百 姓 。 （ 细 拉 ）"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-3.jpg"
   },
   {
     "number": 4,
@@ -161,7 +164,8 @@ window.PSALM_SONGS = [
         "ref": "4:8",
         "text": "我 必 安 然 躺 下 睡 觉 ， 因 为 独 有 你 耶 和 华 使 我 安 然 居 住 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-4.jpg"
   },
   {
     "number": 5,
@@ -216,7 +220,8 @@ window.PSALM_SONGS = [
         "ref": "5:12",
         "text": "因 为 你 必 赐 福 与 义 人 。 耶 和 华 阿 ， 你 必 用 恩 惠 如 同 盾 牌 四 面 护 卫 他 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-5.jpg"
   },
   {
     "number": 6,
@@ -263,7 +268,8 @@ window.PSALM_SONGS = [
         "ref": "6:10",
         "text": "我 的 一 切 仇 敌 都 必 羞 愧 ， 大 大 惊 惶 。 他 们 必 要 退 后 ， 忽 然 羞 愧 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-6.jpg"
   },
   {
     "number": 7,
@@ -338,7 +344,8 @@ window.PSALM_SONGS = [
         "ref": "7:17",
         "text": "我 要 照 着 耶 和 华 的 公 义 称 谢 他 ， 歌 颂 耶 和 华 至 高 者 的 名 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-7.jpg"
   },
   {
     "number": 8,
@@ -381,7 +388,8 @@ window.PSALM_SONGS = [
         "ref": "8:9",
         "text": "耶 和 华 我 们 的 主 阿 ， 你 的 名 在 全 地 何 其 美 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-8.jpg"
   },
   {
     "number": 9,
@@ -468,7 +476,8 @@ window.PSALM_SONGS = [
         "ref": "9:20",
         "text": "耶 和 华 阿 ， 求 你 使 外 邦 人 恐 惧 。 愿 他 们 知 道 自 己 不 过 是 人 。 （ 细 拉 ）"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-9.jpg"
   },
   {
     "number": 10,
@@ -547,7 +556,8 @@ window.PSALM_SONGS = [
         "ref": "10:18",
         "text": "为 要 给 孤 儿 和 受 欺 压 的 人 伸 冤 ， 使 强 横 的 人 不 再 威 吓 他 们 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-10.jpg"
   },
   {
     "number": 11,
@@ -582,7 +592,8 @@ window.PSALM_SONGS = [
         "ref": "11:7",
         "text": "因 为 耶 和 华 是 公 义 的 。 他 喜 爱 公 义 。 正 直 人 必 得 见 他 的 面 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-11.jpg"
   },
   {
     "number": 12,
@@ -621,7 +632,8 @@ window.PSALM_SONGS = [
         "ref": "12:8",
         "text": "下 流 人 在 世 人 中 升 高 ， 就 有 恶 人 到 处 游 行 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-12.jpg"
   },
   {
     "number": 13,
@@ -652,7 +664,8 @@ window.PSALM_SONGS = [
         "ref": "13:6",
         "text": "我 要 向 耶 和 华 歌 唱 ， 因 他 用 厚 恩 待 我 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-13.jpg"
   },
   {
     "number": 14,
@@ -687,7 +700,8 @@ window.PSALM_SONGS = [
         "ref": "14:7",
         "text": "但 愿 以 色 列 的 救 恩 从 锡 安 而 出 。 耶 和 华 救 回 他 被 掳 的 子 民 ， 那 时 雅 各 要 快 乐 ， 以 色 列 要 欢 喜 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-14.jpg"
   },
   {
     "number": 15,
@@ -714,7 +728,8 @@ window.PSALM_SONGS = [
         "ref": "15:5",
         "text": "他 不 放 债 取 利 ， 不 受 贿 赂 以 害 无 辜 。 行 这 些 事 的 人 ， 必 永 不 动 摇 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-15.jpg"
   },
   {
     "number": 16,
@@ -765,7 +780,8 @@ window.PSALM_SONGS = [
         "ref": "16:11",
         "text": "你 必 将 生 命 的 道 路 指 示 我 。 在 你 的 面 前 有 满 足 的 喜 乐 。 在 你 右 手 中 有 永 远 的 福 乐 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-16.jpg"
   },
   {
     "number": 17,
@@ -832,7 +848,8 @@ window.PSALM_SONGS = [
         "ref": "17:15",
         "text": "至 于 我 ， 我 必 在 义 中 见 你 的 面 。 我 醒 了 的 时 候 ， 得 见 你 的 形 像 ， 就 心 满 意 足 了 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-17.jpg"
   },
   {
     "number": 18,
@@ -1039,7 +1056,8 @@ window.PSALM_SONGS = [
         "ref": "18:50",
         "text": "耶 和 华 赐 极 大 的 救 恩 给 他 所 立 的 王 ， 施 慈 爱 给 他 的 受 膏 者 ， 就 是 给 大 卫 和 他 的 后 裔 ， 直 到 永 远 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-18.jpg"
   },
   {
     "number": 19,
@@ -1102,7 +1120,8 @@ window.PSALM_SONGS = [
         "ref": "19:14",
         "text": "耶 和 华 我 的 磐 石 ， 我 的 救 赎 主 阿 ， 愿 我 口 中 的 言 语 ， 心 中 的 意 念 ， 在 你 面 前 蒙 悦 纳 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-19.jpg"
   },
   {
     "number": 20,
@@ -1145,7 +1164,8 @@ window.PSALM_SONGS = [
         "ref": "20:9",
         "text": "求 耶 和 华 施 行 拯 救 。 我 们 呼 求 的 时 候 ， 愿 王 应 允 我 们 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-20.jpg"
   },
   {
     "number": 21,
@@ -1204,7 +1224,8 @@ window.PSALM_SONGS = [
         "ref": "21:13",
         "text": "耶 和 华 阿 ， 愿 你 因 自 己 的 能 力 显 为 至 高 。 这 样 ， 我 们 就 唱 诗 ， 歌 颂 你 的 大 能 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-21.jpg"
   },
   {
     "number": 22,
@@ -1335,7 +1356,8 @@ window.PSALM_SONGS = [
         "ref": "22:31",
         "text": "他 们 必 来 把 他 的 公 义 传 给 将 要 生 的 民 ， 言 明 这 事 是 他 所 行 的 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-22.jpg"
   },
   {
     "number": 23,
@@ -1366,7 +1388,8 @@ window.PSALM_SONGS = [
         "ref": "23:6",
         "text": "我 一 生 一 世 必 有 恩 惠 慈 爱 随 着 我 。 我 且 要 住 在 耶 和 华 的 殿 中 ， 直 到 永 远 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-23.jpg"
   },
   {
     "number": 24,
@@ -1413,7 +1436,8 @@ window.PSALM_SONGS = [
         "ref": "24:10",
         "text": "荣 耀 的 王 是 谁 呢 。 万 军 之 耶 和 华 ， 他 是 荣 耀 的 王 。 （ 细 拉 ）"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-24.jpg"
   },
   {
     "number": 25,
@@ -1508,7 +1532,8 @@ window.PSALM_SONGS = [
         "ref": "25:22",
         "text": "神 阿 ， 求 你 救 赎 以 色 列 脱 离 他 一 切 的 愁 苦 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-25.jpg"
   },
   {
     "number": 26,
@@ -1563,7 +1588,8 @@ window.PSALM_SONGS = [
         "ref": "26:12",
         "text": "我 的 脚 站 在 平 坦 地 方 。 在 众 会 中 我 要 称 颂 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-26.jpg"
   },
   {
     "number": 27,
@@ -1626,7 +1652,8 @@ window.PSALM_SONGS = [
         "ref": "27:14",
         "text": "要 等 候 耶 和 华 。 当 壮 胆 ， 坚 固 你 的 心 。 我 再 说 ， 要 等 候 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-27.jpg"
   },
   {
     "number": 28,
@@ -1669,7 +1696,8 @@ window.PSALM_SONGS = [
         "ref": "28:9",
         "text": "求 你 拯 救 你 的 百 姓 ， 赐 福 给 你 的 产 业 ， 牧 养 他 们 ， 扶 持 他 们 ， 直 到 永 远 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-28.jpg"
   },
   {
     "number": 29,
@@ -1720,7 +1748,8 @@ window.PSALM_SONGS = [
         "ref": "29:11",
         "text": "耶 和 华 必 赐 力 量 给 他 的 百 姓 。 耶 和 华 必 赐 平 安 的 福 给 他 的 百 姓 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-29.jpg"
   },
   {
     "number": 30,
@@ -1775,7 +1804,8 @@ window.PSALM_SONGS = [
         "ref": "30:12",
         "text": "好 叫 我 的 灵 （ 原 文 作 荣 耀 ） 歌 颂 你 ， 并 不 住 声 。 耶 和 华 我 的 神 阿 ， 我 要 称 谢 你 ， 直 到 永 远 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-30.jpg"
   },
   {
     "number": 31,
@@ -1878,7 +1908,8 @@ window.PSALM_SONGS = [
         "ref": "31:24",
         "text": "凡 仰 望 耶 和 华 的 人 ， 你 们 都 要 壮 胆 ， 坚 固 你 们 的 心 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-31.jpg"
   },
   {
     "number": 32,
@@ -1929,7 +1960,8 @@ window.PSALM_SONGS = [
         "ref": "32:11",
         "text": "你 们 义 人 应 当 靠 耶 和 华 欢 喜 快 乐 。 你 们 心 里 正 直 的 人 ， 都 当 欢 呼 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-32.jpg"
   },
   {
     "number": 33,
@@ -2024,7 +2056,8 @@ window.PSALM_SONGS = [
         "ref": "33:22",
         "text": "耶 和 华 阿 ， 求 你 照 着 我 们 所 仰 望 你 的 ， 向 我 们 施 行 慈 爱 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-33.png"
   },
   {
     "number": 34,
@@ -2119,7 +2152,8 @@ window.PSALM_SONGS = [
         "ref": "34:22",
         "text": "耶 和 华 救 赎 他 仆 人 的 灵 魂 。 凡 投 靠 他 的 ， 必 不 至 定 罪 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-34.jpg"
   },
   {
     "number": 35,
@@ -2238,7 +2272,8 @@ window.PSALM_SONGS = [
         "ref": "35:28",
         "text": "我 的 舌 头 ， 要 终 日 论 说 你 的 公 义 ， 时 常 赞 美 你 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-35.jpg"
   },
   {
     "number": 36,
@@ -2293,7 +2328,8 @@ window.PSALM_SONGS = [
         "ref": "36:12",
         "text": "在 那 里 作 孽 的 人 ， 已 经 仆 倒 。 他 们 被 推 倒 ， 不 能 再 起 来 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-36.jpg"
   },
   {
     "number": 37,
@@ -2460,7 +2496,8 @@ window.PSALM_SONGS = [
         "ref": "37:40",
         "text": "耶 和 华 帮 助 他 们 ， 解 救 他 们 。 他 解 救 他 们 脱 离 恶 人 ， 把 他 们 救 出 来 ， 因 为 他 们 投 靠 他 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-37.jpg"
   },
   {
     "number": 38,
@@ -2555,7 +2592,8 @@ window.PSALM_SONGS = [
         "ref": "38:22",
         "text": "拯 救 我 的 主 阿 ， 求 你 快 快 帮 助 我 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-38.jpg"
   },
   {
     "number": 39,
@@ -2614,7 +2652,8 @@ window.PSALM_SONGS = [
         "ref": "39:13",
         "text": "求 你 宽 容 我 ， 使 我 在 去 而 不 返 之 先 ， 可 以 力 量 复 原 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-39.png"
   },
   {
     "number": 40,
@@ -2689,7 +2728,8 @@ window.PSALM_SONGS = [
         "ref": "40:17",
         "text": "但 我 是 困 苦 穷 乏 的 ， 主 仍 顾 念 我 。 你 是 帮 助 我 的 ， 搭 救 我 的 。 神 阿 ， 求 你 不 要 耽 延 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-40.jpg"
   },
   {
     "number": 41,
@@ -2748,7 +2788,8 @@ window.PSALM_SONGS = [
         "ref": "41:13",
         "text": "耶 和 华 以 色 列 的 神 ， 是 应 当 称 颂 的 ， 从 亘 古 直 到 永 远 。 阿 们 ， 阿 们 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-41.jpg"
   },
   {
     "number": 42,
@@ -2799,7 +2840,8 @@ window.PSALM_SONGS = [
         "ref": "42:11",
         "text": "我 的 心 哪 ， 你 为 何 忧 闷 ， 为 何 在 我 里 面 烦 躁 。 应 当 仰 望 神 。 因 我 还 要 称 赞 他 。 他 是 我 脸 上 的 光 荣 ， （ 原 文 作 帮 助 ） ， 是 我 的 神 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-42.jpg"
   },
   {
     "number": 43,
@@ -2826,7 +2868,8 @@ window.PSALM_SONGS = [
         "ref": "43:5",
         "text": "我 的 心 哪 ， 你 为 何 忧 闷 ， 为 何 在 我 里 面 烦 躁 。 因 当 仰 望 神 。 因 我 还 要 称 赞 他 。 他 是 我 脸 上 的 光 荣 ， （ 原 文 作 帮 助 ） 是 我 的 神 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-43.jpg"
   },
   {
     "number": 44,
@@ -2937,7 +2980,8 @@ window.PSALM_SONGS = [
         "ref": "44:26",
         "text": "求 你 起 来 帮 助 我 们 ， 凭 你 的 慈 爱 救 赎 我 们 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-44.jpg"
   },
   {
     "number": 45,
@@ -3012,7 +3056,8 @@ window.PSALM_SONGS = [
         "ref": "45:17",
         "text": "我 必 叫 你 的 名 被 万 代 记 念 。 所 以 万 民 要 永 永 远 远 称 谢 你 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-45.jpg"
   },
   {
     "number": 46,
@@ -3063,7 +3108,8 @@ window.PSALM_SONGS = [
         "ref": "46:11",
         "text": "万 君 之 耶 和 华 与 我 们 同 在 。 雅 各 的 神 ， 是 我 们 的 避 难 所 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-46.jpg"
   },
   {
     "number": 47,
@@ -3106,7 +3152,8 @@ window.PSALM_SONGS = [
         "ref": "47:9",
         "text": "列 邦 的 君 王 聚 集 ， 要 作 亚 伯 拉 罕 之 神 的 民 。 因 为 世 界 的 盾 牌 ， 是 属 神 的 。 他 为 至 高 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-47.jpg"
   },
   {
     "number": 48,
@@ -3169,7 +3216,8 @@ window.PSALM_SONGS = [
         "ref": "48:14",
         "text": "因 为 这 神 永 永 远 远 为 我 们 的 神 。 他 必 作 我 们 引 路 的 ， 直 到 死 时 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-48.jpg"
   },
   {
     "number": 49,
@@ -3256,7 +3304,8 @@ window.PSALM_SONGS = [
         "ref": "49:20",
         "text": "人 在 尊 贵 中 ， 而 不 醒 悟 ， 就 如 死 亡 的 畜 类 一 样 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-49.jpg"
   },
   {
     "number": 50,
@@ -3355,7 +3404,8 @@ window.PSALM_SONGS = [
         "ref": "50:23",
         "text": "凡 以 剐 谢 献 上 为 祭 的 ， 便 是 荣 耀 我 。 那 按 正 路 而 行 的 ， 我 便 使 他 得 着 我 的 救 恩 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-50.jpg"
   },
   {
     "number": 51,
@@ -3438,7 +3488,8 @@ window.PSALM_SONGS = [
         "ref": "51:19",
         "text": "那 时 ， 你 必 喜 爱 公 义 的 祭 ， 和 燔 祭 并 全 牲 的 燔 祭 。 那 时 ， 人 必 将 公 牛 献 在 你 坛 上 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-51.jpg"
   },
   {
     "number": 52,
@@ -3481,7 +3532,8 @@ window.PSALM_SONGS = [
         "ref": "52:9",
         "text": "我 要 称 谢 你 ， 直 到 永 远 ， 因 为 你 行 了 这 事 。 我 也 要 在 你 圣 民 面 前 仰 望 你 的 名 。 这 名 本 为 美 好 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-52.jpg"
   },
   {
     "number": 53,
@@ -3512,7 +3564,8 @@ window.PSALM_SONGS = [
         "ref": "53:6",
         "text": "但 愿 以 色 列 的 救 恩 从 锡 安 而 出 。 神 救 回 他 被 掳 的 子 民 ， 那 时 ， 雅 各 要 快 乐 ， 以 色 列 要 欢 喜 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-53.jpg"
   },
   {
     "number": 54,
@@ -3547,7 +3600,8 @@ window.PSALM_SONGS = [
         "ref": "54:7",
         "text": "他 从 一 切 的 急 难 中 ， 把 我 救 出 来 。 我 的 眼 睛 也 看 见 了 我 仇 敌 遭 报 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-54.jpg"
   },
   {
     "number": 55,
@@ -3646,7 +3700,8 @@ window.PSALM_SONGS = [
         "ref": "55:23",
         "text": "神 阿 ， 你 必 使 恶 人 下 入 灭 亡 的 坑 。 流 人 血 行 诡 诈 的 人 ， 必 活 不 到 半 世 ， 但 我 要 倚 靠 你 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-55.jpg"
   },
   {
     "number": 56,
@@ -3705,7 +3760,8 @@ window.PSALM_SONGS = [
         "ref": "56:13",
         "text": "因 为 你 救 我 的 命 脱 离 死 亡 。 你 岂 不 是 救 护 我 的 脚 不 跌 倒 ， 使 我 在 生 命 光 中 行 在 神 面 前 麽 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-56.jpg"
   },
   {
     "number": 57,
@@ -3756,7 +3812,8 @@ window.PSALM_SONGS = [
         "ref": "57:11",
         "text": "神 阿 ， 愿 你 崇 高 ， 过 于 诸 天 。 愿 你 的 荣 耀 ， 高 过 全 地 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-57.jpg"
   },
   {
     "number": 58,
@@ -3807,7 +3864,8 @@ window.PSALM_SONGS = [
         "ref": "58:11",
         "text": "因 此 ， 人 必 说 ， 义 人 诚 然 有 善 报 。 在 地 上 果 有 施 行 判 断 的 神 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-58.jpg"
   },
   {
     "number": 59,
@@ -3882,7 +3940,8 @@ window.PSALM_SONGS = [
         "ref": "59:17",
         "text": "我 的 力 量 阿 ， 我 要 歌 颂 你 。 因 为 神 是 我 的 高 台 ， 是 赐 恩 与 我 的 神 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-59.jpg"
   },
   {
     "number": 60,
@@ -3937,7 +3996,8 @@ window.PSALM_SONGS = [
         "ref": "60:12",
         "text": "我 们 倚 靠 神 ， 才 得 施 展 大 能 ， 因 为 践 踏 我 们 敌 人 的 就 是 他 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-60.jpg"
   },
   {
     "number": 61,
@@ -3976,7 +4036,8 @@ window.PSALM_SONGS = [
         "ref": "61:8",
         "text": "这 样 ， 我 要 歌 颂 你 的 名 直 到 永 远 ， 好 天 天 还 我 所 许 的 愿 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-61.jpg"
   },
   {
     "number": 62,
@@ -4031,7 +4092,8 @@ window.PSALM_SONGS = [
         "ref": "62:12",
         "text": "主 阿 ， 慈 爱 也 是 属 乎 你 。 因 为 你 照 着 各 人 所 行 的 报 应 他 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-62.jpg"
   },
   {
     "number": 63,
@@ -4082,7 +4144,8 @@ window.PSALM_SONGS = [
         "ref": "63:11",
         "text": "但 是 王 必 因 神 欢 喜 。 凡 指 着 他 发 誓 的 ， 必 要 夸 口 。 因 为 说 谎 之 人 的 口 ， 必 被 塞 住 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-63.jpg"
   },
   {
     "number": 64,
@@ -4129,7 +4192,8 @@ window.PSALM_SONGS = [
         "ref": "64:10",
         "text": "义 人 必 因 耶 和 华 欢 喜 ， 并 要 投 靠 他 。 凡 心 里 正 直 的 人 ， 都 要 夸 口 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-64.jpg"
   },
   {
     "number": 65,
@@ -4188,7 +4252,8 @@ window.PSALM_SONGS = [
         "ref": "65:13",
         "text": "草 场 以 羊 群 为 衣 。 谷 中 也 长 满 了 五 谷 。 这 一 切 都 欢 呼 歌 唱 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-65.jpg"
   },
   {
     "number": 66,
@@ -4275,7 +4340,8 @@ window.PSALM_SONGS = [
         "ref": "66:20",
         "text": "神 是 应 当 称 颂 的 。 他 并 没 有 推 却 我 的 祷 告 ， 也 没 有 叫 他 的 慈 爱 离 开 我 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-66.jpg"
   },
   {
     "number": 67,
@@ -4310,7 +4376,8 @@ window.PSALM_SONGS = [
         "ref": "67:7",
         "text": "神 要 赐 福 与 我 们 。 地 的 四 极 都 要 敬 畏 他 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-67.jpg"
   },
   {
     "number": 68,
@@ -4457,7 +4524,8 @@ window.PSALM_SONGS = [
         "ref": "68:35",
         "text": "神 阿 ， 你 从 圣 所 显 为 可 畏 。 以 色 列 的 神 ， 是 那 将 力 量 权 能 赐 给 他 白 姓 的 。 神 是 应 当 称 颂 的 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-68.jpg"
   },
   {
     "number": 69,
@@ -4608,7 +4676,8 @@ window.PSALM_SONGS = [
         "ref": "69:36",
         "text": "他 仆 人 的 后 裔 ， 要 承 受 为 业 。 爱 他 名 的 人 ， 也 要 住 在 其 中 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-69.jpg"
   },
   {
     "number": 70,
@@ -4635,7 +4704,8 @@ window.PSALM_SONGS = [
         "ref": "70:5",
         "text": "但 我 是 困 苦 穷 乏 的 。 神 阿 ， 求 你 速 速 到 我 这 里 来 。 你 是 帮 助 我 的 ， 搭 救 我 的 。 耶 和 华 阿 ， 求 你 不 要 耽 延 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-70.jpg"
   },
   {
     "number": 71,
@@ -4738,7 +4808,8 @@ window.PSALM_SONGS = [
         "ref": "71:24",
         "text": "并 且 我 的 舌 头 ， 必 终 日 讲 论 你 的 公 义 ， 因 为 那 些 谋 害 我 的 人 ， 已 经 蒙 羞 受 辱 了 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-71.jpg"
   },
   {
     "number": 72,
@@ -4825,7 +4896,8 @@ window.PSALM_SONGS = [
         "ref": "72:20",
         "text": "耶 西 的 儿 子 大 卫 的 祈 祷 完 毕 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-72.jpg"
   },
   {
     "number": 73,
@@ -4944,7 +5016,8 @@ window.PSALM_SONGS = [
         "ref": "73:28",
         "text": "但 我 亲 近 神 是 与 我 有 益 。 我 以 主 耶 和 华 为 我 的 避 难 所 ， 好 叫 我 述 说 你 一 切 的 作 为 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-73.jpg"
   },
   {
     "number": 74,
@@ -5043,7 +5116,8 @@ window.PSALM_SONGS = [
         "ref": "74:23",
         "text": "不 要 忘 记 你 敌 人 的 声 音 。 那 起 来 敌 你 之 人 的 喧 哗 时 常 上 升 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-74.jpg"
   },
   {
     "number": 75,
@@ -5090,7 +5164,8 @@ window.PSALM_SONGS = [
         "ref": "75:10",
         "text": "恶 人 一 切 的 角 ， 我 要 砍 断 。 惟 有 义 人 的 角 ， 必 被 高 举 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-75.jpg"
   },
   {
     "number": 76,
@@ -5145,7 +5220,8 @@ window.PSALM_SONGS = [
         "ref": "76:12",
         "text": "他 要 挫 折 王 子 的 骄 气 。 他 向 地 上 的 君 王 ， 显 威 可 畏 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-76.jpg"
   },
   {
     "number": 77,
@@ -5232,7 +5308,8 @@ window.PSALM_SONGS = [
         "ref": "77:20",
         "text": "你 曾 藉 摩 西 和 亚 伦 的 手 ， 引 导 你 的 百 姓 ， 好 像 羊 群 一 般 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-77.jpg"
   },
   {
     "number": 78,
@@ -5527,7 +5604,8 @@ window.PSALM_SONGS = [
         "ref": "78:72",
         "text": "于 是 他 按 心 中 的 纯 正 ， 牧 养 他 们 ， 用 手 中 的 巧 妙 ， 引 导 他 们 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-78.jpg"
   },
   {
     "number": 79,
@@ -5586,7 +5664,8 @@ window.PSALM_SONGS = [
         "ref": "79:13",
         "text": "这 样 ， 你 的 民 ， 你 草 场 的 羊 ， 要 称 谢 你 ， 直 到 永 远 。 要 述 说 赞 美 你 的 话 ， 直 到 万 代 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-79.jpg"
   },
   {
     "number": 80,
@@ -5669,7 +5748,8 @@ window.PSALM_SONGS = [
         "ref": "80:19",
         "text": "耶 和 华 万 军 之 神 阿 ， 求 你 使 我 们 回 转 ， 使 你 的 脸 发 光 ， 我 们 便 要 得 救 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-80.jpg"
   },
   {
     "number": 81,
@@ -5740,7 +5820,8 @@ window.PSALM_SONGS = [
         "ref": "81:16",
         "text": "他 也 必 拿 上 好 的 麦 子 给 他 们 吃 。 有 拿 从 磐 石 出 的 蜂 蜜 ， 叫 他 们 饱 足 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-81.jpg"
   },
   {
     "number": 82,
@@ -5779,7 +5860,8 @@ window.PSALM_SONGS = [
         "ref": "82:8",
         "text": "神 阿 ， 求 你 起 来 ， 审 判 世 界 。 因 为 你 要 得 万 邦 为 业 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-82.jpg"
   },
   {
     "number": 83,
@@ -5858,7 +5940,8 @@ window.PSALM_SONGS = [
         "ref": "83:18",
         "text": "使 他 们 知 道 惟 独 你 名 为 耶 和 华 的 ， 是 全 地 以 上 的 至 高 者 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-83.jpg"
   },
   {
     "number": 84,
@@ -5913,7 +5996,8 @@ window.PSALM_SONGS = [
         "ref": "84:12",
         "text": "万 军 之 耶 和 华 阿 ， 倚 靠 你 的 人 ， 便 为 有 福 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-84.jpg"
   },
   {
     "number": 85,
@@ -5972,7 +6056,8 @@ window.PSALM_SONGS = [
         "ref": "85:13",
         "text": "公 义 要 行 在 他 面 前 ， 叫 他 的 脚 踪 ， 成 为 可 走 的 路 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-85.jpg"
   },
   {
     "number": 86,
@@ -6047,7 +6132,8 @@ window.PSALM_SONGS = [
         "ref": "86:17",
         "text": "求 你 向 我 显 出 恩 待 我 的 凭 据 ， 叫 恨 我 的 人 看 见 ， 便 羞 愧 ， 因 为 你 耶 和 华 帮 助 我 ， 安 慰 我 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-86.jpg"
   },
   {
     "number": 87,
@@ -6082,7 +6168,8 @@ window.PSALM_SONGS = [
         "ref": "87:7",
         "text": "歌 唱 的 ， 跳 舞 的 ， 都 要 说 ， 我 的 泉 源 都 在 你 这 里 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-87.jpg"
   },
   {
     "number": 88,
@@ -6161,7 +6248,8 @@ window.PSALM_SONGS = [
         "ref": "88:18",
         "text": "你 把 我 的 良 朋 密 友 隔 在 远 处 ， 使 我 所 认 识 的 人 ， 进 入 黑 暗 里 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-88.jpg"
   },
   {
     "number": 89,
@@ -6376,7 +6464,8 @@ window.PSALM_SONGS = [
         "ref": "89:52",
         "text": "耶 和 华 是 应 当 称 颂 的 ， 直 到 永 远 。 阿 们 ， 阿 们 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-89.jpg"
   },
   {
     "number": 90,
@@ -6451,7 +6540,8 @@ window.PSALM_SONGS = [
         "ref": "90:17",
         "text": "愿 主 我 们 神 的 荣 美 ， 归 与 我 们 身 上 。 愿 你 坚 立 我 们 手 所 作 的 工 。 我 们 手 所 作 的 工 ， 愿 你 坚 立 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-90.jpg"
   },
   {
     "number": 91,
@@ -6522,7 +6612,8 @@ window.PSALM_SONGS = [
         "ref": "91:16",
         "text": "我 要 使 他 足 享 长 寿 ， 将 我 的 救 恩 显 明 给 他 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-91.jpg"
   },
   {
     "number": 92,
@@ -6589,7 +6680,8 @@ window.PSALM_SONGS = [
         "ref": "92:15",
         "text": "好 显 明 耶 和 华 是 正 直 的 ， 他 是 我 的 磐 石 ， 在 他 毫 无 不 义 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-92.jpg"
   },
   {
     "number": 93,
@@ -6616,7 +6708,8 @@ window.PSALM_SONGS = [
         "ref": "93:5",
         "text": "耶 和 华 阿 ， 你 的 法 度 最 的 确 。 你 的 殿 永 称 为 圣 ， 是 合 宜 的 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-93.jpg"
   },
   {
     "number": 94,
@@ -6715,7 +6808,8 @@ window.PSALM_SONGS = [
         "ref": "94:23",
         "text": "他 叫 他 们 的 罪 孽 归 到 他 们 身 上 。 他 们 正 在 行 恶 之 中 ， 他 要 剪 除 他 们 。 耶 和 华 我 们 的 神 要 把 他 们 剪 除 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-94.jpg"
   },
   {
     "number": 95,
@@ -6766,7 +6860,8 @@ window.PSALM_SONGS = [
         "ref": "95:11",
         "text": "所 以 我 在 怒 中 起 誓 ， 说 ， 他 们 断 不 可 进 入 我 的 安 息 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-95.jpg"
   },
   {
     "number": 96,
@@ -6825,7 +6920,8 @@ window.PSALM_SONGS = [
         "ref": "96:13",
         "text": "因 为 他 来 了 。 他 来 要 审 判 全 地 。 他 要 按 公 义 审 判 世 界 ， 按 他 的 信 实 审 判 万 民 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-96.jpg"
   },
   {
     "number": 97,
@@ -6880,7 +6976,8 @@ window.PSALM_SONGS = [
         "ref": "97:12",
         "text": "你 们 义 人 当 靠 耶 和 华 欢 喜 ， 称 谢 他 可 记 念 的 圣 名 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-97.jpg"
   },
   {
     "number": 98,
@@ -6923,7 +7020,8 @@ window.PSALM_SONGS = [
         "ref": "98:9",
         "text": "因 为 他 来 ， 要 审 判 遍 地 。 他 要 按 公 义 审 判 世 界 ， 按 公 正 审 判 万 民 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-98.jpg"
   },
   {
     "number": 99,
@@ -6966,7 +7064,8 @@ window.PSALM_SONGS = [
         "ref": "99:9",
         "text": "你 们 要 尊 崇 耶 和 华 我 们 的 神 ， 在 他 的 圣 山 下 拜 。 因 为 耶 和 华 我 们 的 神 本 为 圣 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-99.jpg"
   },
   {
     "number": 100,
@@ -6993,7 +7092,8 @@ window.PSALM_SONGS = [
         "ref": "100:5",
         "text": "因 为 耶 和 华 本 为 善 ， 他 的 慈 爱 ， 存 到 永 远 ， 他 的 信 实 ， 直 到 万 代 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-100.jpg"
   },
   {
     "number": 101,
@@ -7032,7 +7132,8 @@ window.PSALM_SONGS = [
         "ref": "101:8",
         "text": "我 每 日 早 晨 ， 要 灭 绝 国 中 所 有 的 恶 人 。 好 把 一 切 作 孽 的 ， 从 耶 和 华 的 城 里 剪 除 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-101.jpg"
   },
   {
     "number": 102,
@@ -7151,7 +7252,8 @@ window.PSALM_SONGS = [
         "ref": "102:28",
         "text": "你 仆 人 的 子 孙 要 长 存 。 他 们 的 后 裔 ， 要 坚 立 在 你 面 前 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-102.jpg"
   },
   {
     "number": 103,
@@ -7246,7 +7348,8 @@ window.PSALM_SONGS = [
         "ref": "103:22",
         "text": "你 们 一 切 被 他 造 的 ， 在 他 所 治 理 的 各 处 ， 都 要 称 颂 耶 和 华 。 我 的 心 哪 ， 你 要 称 颂 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-103.jpg"
   },
   {
     "number": 104,
@@ -7393,7 +7496,8 @@ window.PSALM_SONGS = [
         "ref": "104:35",
         "text": "愿 罪 人 从 世 上 消 灭 。 愿 恶 人 归 于 无 有 。 我 的 心 哪 ， 要 称 颂 耶 和 华 。 你 们 要 赞 美 耶 和 华 。 （ 原 文 作 哈 利 路 亚 下 同 ）"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-104.jpg"
   },
   {
     "number": 105,
@@ -7580,7 +7684,8 @@ window.PSALM_SONGS = [
         "ref": "105:45",
         "text": "好 使 他 们 遵 他 的 律 例 ， 守 他 的 律 法 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-105.jpg"
   },
   {
     "number": 106,
@@ -7779,7 +7884,8 @@ window.PSALM_SONGS = [
         "ref": "106:48",
         "text": "耶 和 华 以 色 列 的 神 是 应 当 称 颂 的 ， 从 亘 古 直 到 永 远 。 愿 众 民 都 说 ， 阿 们 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-106.jpg"
   },
   {
     "number": 107,
@@ -7958,7 +8064,8 @@ window.PSALM_SONGS = [
         "ref": "107:43",
         "text": "凡 有 智 慧 的 ， 必 在 这 些 事 上 留 心 ， 也 必 思 想 耶 和 华 的 慈 爱 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-107.jpg"
   },
   {
     "number": 108,
@@ -8017,7 +8124,8 @@ window.PSALM_SONGS = [
         "ref": "108:13",
         "text": "我 们 倚 靠 神 ， 才 得 施 展 大 能 ， 因 为 践 踏 我 们 敌 人 的 就 是 他 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-108.jpg"
   },
   {
     "number": 109,
@@ -8148,7 +8256,8 @@ window.PSALM_SONGS = [
         "ref": "109:31",
         "text": "因 为 他 必 站 在 穷 乏 人 的 右 边 ， 要 救 他 脱 离 审 判 他 灵 魂 的 人 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-109.png"
   },
   {
     "number": 110,
@@ -8183,7 +8292,8 @@ window.PSALM_SONGS = [
         "ref": "110:7",
         "text": "他 要 喝 路 旁 的 河 水 ， 因 此 必 抬 起 头 来 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-110.jpg"
   },
   {
     "number": 111,
@@ -8230,7 +8340,8 @@ window.PSALM_SONGS = [
         "ref": "111:10",
         "text": "敬 畏 耶 和 华 是 智 慧 得 开 端 。 凡 遵 行 。 他 命 令 的 ， 便 是 聪 明 人 。 耶 和 华 是 永 远 当 赞 美 的 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-111.jpg"
   },
   {
     "number": 112,
@@ -8277,7 +8388,8 @@ window.PSALM_SONGS = [
         "ref": "112:10",
         "text": "恶 人 看 见 便 恼 恨 。 必 咬 牙 而 消 化 。 恶 人 的 心 愿 ， 要 归 灭 绝 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-112.jpg"
   },
   {
     "number": 113,
@@ -8320,7 +8432,8 @@ window.PSALM_SONGS = [
         "ref": "113:9",
         "text": "他 使 不 能 生 育 的 妇 人 安 居 家 中 ， 为 多 子 的 乐 母 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-113.jpg"
   },
   {
     "number": 114,
@@ -8359,7 +8472,8 @@ window.PSALM_SONGS = [
         "ref": "114:8",
         "text": "他 叫 磐 石 变 为 水 池 ， 叫 坚 石 变 为 泉 源 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-114.jpg"
   },
   {
     "number": 115,
@@ -8438,7 +8552,8 @@ window.PSALM_SONGS = [
         "ref": "115:18",
         "text": "但 我 们 要 称 颂 耶 和 华 ， 从 今 时 直 到 永 远 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-115.jpg"
   },
   {
     "number": 116,
@@ -8521,7 +8636,8 @@ window.PSALM_SONGS = [
         "ref": "116:19",
         "text": "在 耶 路 撒 冷 当 中 ， 向 耶 和 华 还 我 的 愿 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-116.jpg"
   },
   {
     "number": 117,
@@ -8536,7 +8652,8 @@ window.PSALM_SONGS = [
         "ref": "117:2",
         "text": "因 为 他 向 我 们 大 施 慈 爱 。 耶 和 华 的 诚 实 存 到 永 远 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-117.png"
   },
   {
     "number": 118,
@@ -8659,7 +8776,8 @@ window.PSALM_SONGS = [
         "ref": "118:29",
         "text": "你 们 要 称 谢 耶 和 华 ， 因 他 本 为 善 。 他 的 慈 爱 永 远 长 存 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-118.jpg"
   },
   {
     "number": 119,
@@ -9370,6 +9488,30 @@ window.PSALM_SONGS = [
         "ref": "119:176",
         "text": "我 如 亡 羊 走 迷 了 路 。 求 你 寻 梢 仆 人 。 因 我 不 忘 记 你 的 命 令 。"
       }
+    ],
+    "score": [
+      "assets/psalm-scores/psalm-119-part1.png",
+      "assets/psalm-scores/psalm-119-part2.png",
+      "assets/psalm-scores/psalm-119-part3.png",
+      "assets/psalm-scores/psalm-119-part4.png",
+      "assets/psalm-scores/psalm-119-part5.png",
+      "assets/psalm-scores/psalm-119-part6.png",
+      "assets/psalm-scores/psalm-119-part7.png",
+      "assets/psalm-scores/psalm-119-part8.png",
+      "assets/psalm-scores/psalm-119-part9.png",
+      "assets/psalm-scores/psalm-119-part10.png",
+      "assets/psalm-scores/psalm-119-part11.png",
+      "assets/psalm-scores/psalm-119-part12.png",
+      "assets/psalm-scores/psalm-119-part13.png",
+      "assets/psalm-scores/psalm-119-part14.png",
+      "assets/psalm-scores/psalm-119-part15.png",
+      "assets/psalm-scores/psalm-119-part16.png",
+      "assets/psalm-scores/psalm-119-part17.png",
+      "assets/psalm-scores/psalm-119-part18.png",
+      "assets/psalm-scores/psalm-119-part19.png",
+      "assets/psalm-scores/psalm-119-part20.png",
+      "assets/psalm-scores/psalm-119-part21.png",
+      "assets/psalm-scores/psalm-119-part22.png"
     ]
   },
   {
@@ -9405,7 +9547,8 @@ window.PSALM_SONGS = [
         "ref": "120:7",
         "text": "我 愿 和 睦 。 但 我 发 言 ， 他 们 就 要 争 战 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-120.jpg"
   },
   {
     "number": 121,
@@ -9444,7 +9587,8 @@ window.PSALM_SONGS = [
         "ref": "121:8",
         "text": "你 出 你 入 耶 和 华 要 保 护 你 ， 从 今 时 直 到 永 远 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-121.jpg"
   },
   {
     "number": 122,
@@ -9487,7 +9631,8 @@ window.PSALM_SONGS = [
         "ref": "122:9",
         "text": "因 耶 和 华 我 们 神 殿 的 缘 故 ， 我 要 为 你 求 福 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-122.png"
   },
   {
     "number": 123,
@@ -9510,7 +9655,8 @@ window.PSALM_SONGS = [
         "ref": "123:4",
         "text": "我 们 被 那 些 安 逸 人 的 讥 诮 ， 和 骄 傲 人 的 藐 视 ， 已 到 极 处 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-123.jpg"
   },
   {
     "number": 124,
@@ -9549,7 +9695,8 @@ window.PSALM_SONGS = [
         "ref": "124:8",
         "text": "我 们 得 帮 助 ， 是 在 乎 倚 靠 造 天 地 之 耶 和 华 的 名 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-124.jpg"
   },
   {
     "number": 125,
@@ -9576,7 +9723,8 @@ window.PSALM_SONGS = [
         "ref": "125:5",
         "text": "至 于 那 偏 行 弯 曲 道 路 的 人 ， 耶 和 华 必 使 他 和 作 恶 的 人 一 同 出 去 受 刑 。 愿 平 安 归 于 以 色 列 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-125.jpg"
   },
   {
     "number": 126,
@@ -9607,7 +9755,8 @@ window.PSALM_SONGS = [
         "ref": "126:6",
         "text": "那 带 种 流 泪 出 去 的 ， 必 要 欢 欢 乐 乐 地 带 禾 捆 回 来 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-126.jpg"
   },
   {
     "number": 127,
@@ -9634,7 +9783,8 @@ window.PSALM_SONGS = [
         "ref": "127:5",
         "text": "箭 袋 充 满 的 人 便 为 有 福 。 他 们 在 城 门 口 和 仇 敌 说 话 的 时 候 ， 必 不 至 于 羞 愧 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-127.jpg"
   },
   {
     "number": 128,
@@ -9665,7 +9815,8 @@ window.PSALM_SONGS = [
         "ref": "128:6",
         "text": "愿 你 看 见 你 儿 女 的 儿 女 。 愿 平 安 归 于 以 色 列 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-128.jpg"
   },
   {
     "number": 129,
@@ -9704,7 +9855,8 @@ window.PSALM_SONGS = [
         "ref": "129:8",
         "text": "过 路 的 也 不 说 ， 愿 耶 和 华 所 赐 的 福 ， 归 与 你 们 。 我 们 奉 耶 和 华 的 名 ， 给 你 们 祝 福 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-129.jpg"
   },
   {
     "number": 130,
@@ -9743,7 +9895,8 @@ window.PSALM_SONGS = [
         "ref": "130:8",
         "text": "他 必 救 赎 以 色 列 脱 离 一 切 的 罪 孽 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-130.jpg"
   },
   {
     "number": 131,
@@ -9762,7 +9915,8 @@ window.PSALM_SONGS = [
         "ref": "131:3",
         "text": "以 色 列 阿 ， 你 当 仰 望 耶 和 华 ， 从 今 时 直 到 永 远 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-131.jpg"
   },
   {
     "number": 132,
@@ -9841,7 +9995,8 @@ window.PSALM_SONGS = [
         "ref": "132:18",
         "text": "我 要 使 他 的 仇 敌 披 上 羞 耻 。 但 他 的 冠 冕 ， 要 在 头 上 发 光 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-132.jpg"
   },
   {
     "number": 133,
@@ -9860,7 +10015,8 @@ window.PSALM_SONGS = [
         "ref": "133:3",
         "text": "又 好 比 黑 门 的 甘 露 ， 降 在 锡 安 山 。 因 为 在 那 里 有 耶 和 华 所 命 定 的 福 ， 就 是 永 远 的 生 命 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-133.jpg"
   },
   {
     "number": 134,
@@ -9879,7 +10035,8 @@ window.PSALM_SONGS = [
         "ref": "134:3",
         "text": "愿 造 天 地 的 耶 和 华 ， 从 锡 安 赐 福 给 你 们 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-134.jpg"
   },
   {
     "number": 135,
@@ -9970,7 +10127,8 @@ window.PSALM_SONGS = [
         "ref": "135:21",
         "text": "住 在 耶 路 撒 冷 的 耶 和 华 ， 该 从 锡 安 受 称 颂 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-135.jpg"
   },
   {
     "number": 136,
@@ -10081,7 +10239,8 @@ window.PSALM_SONGS = [
         "ref": "136:26",
         "text": "你 们 要 称 谢 天 上 的 神 ， 因 他 的 慈 爱 永 远 长 存 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-136.jpg"
   },
   {
     "number": 137,
@@ -10124,7 +10283,8 @@ window.PSALM_SONGS = [
         "ref": "137:9",
         "text": "拿 你 的 婴 孩 摔 在 磐 石 上 的 ， 那 人 便 为 有 福 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-137.jpg"
   },
   {
     "number": 138,
@@ -10163,7 +10323,8 @@ window.PSALM_SONGS = [
         "ref": "138:8",
         "text": "耶 和 华 必 成 全 关 乎 我 的 事 。 耶 和 华 阿 ， 你 的 慈 爱 永 远 长 存 。 求 你 不 要 离 弃 你 手 所 造 的 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-138.png"
   },
   {
     "number": 139,
@@ -10266,7 +10427,8 @@ window.PSALM_SONGS = [
         "ref": "139:24",
         "text": "看 在 我 里 面 有 什 么 恶 行 没 有 ， 引 导 我 走 永 生 的 道 路 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-139.jpg"
   },
   {
     "number": 140,
@@ -10325,7 +10487,8 @@ window.PSALM_SONGS = [
         "ref": "140:13",
         "text": "义 人 必 要 称 赞 你 的 名 。 正 直 人 必 住 在 你 面 前 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-140.jpg"
   },
   {
     "number": 141,
@@ -10372,7 +10535,8 @@ window.PSALM_SONGS = [
         "ref": "141:10",
         "text": "愿 恶 人 落 在 自 己 的 网 里 ， 我 却 得 以 逃 脱 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-141.jpg"
   },
   {
     "number": 142,
@@ -10407,7 +10571,8 @@ window.PSALM_SONGS = [
         "ref": "142:7",
         "text": "求 你 领 我 出 离 被 囚 之 地 ， 我 好 称 赞 你 的 名 。 义 人 必 环 绕 我 ， 因 为 你 是 用 厚 恩 待 我 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-142.jpg"
   },
   {
     "number": 143,
@@ -10462,7 +10627,8 @@ window.PSALM_SONGS = [
         "ref": "143:12",
         "text": "凭 你 的 慈 爱 剪 除 我 的 仇 敌 ， 灭 绝 一 切 苦 待 我 的 人 ， 因 我 是 你 的 仆 人 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-143.jpg"
   },
   {
     "number": 144,
@@ -10529,7 +10695,8 @@ window.PSALM_SONGS = [
         "ref": "144:15",
         "text": "遇 见 这 光 景 的 百 姓 ， 便 为 有 福 。 有 耶 和 华 为 他 们 的 神 ， 这 百 姓 便 为 有 福 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-144.png"
   },
   {
     "number": 145,
@@ -10620,7 +10787,8 @@ window.PSALM_SONGS = [
         "ref": "145:21",
         "text": "我 的 口 要 说 出 赞 美 耶 和 华 的 话 。 惟 愿 凡 有 血 气 的 ， 都 永 永 远 远 称 颂 他 的 圣 名 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-145.jpg"
   },
   {
     "number": 146,
@@ -10667,7 +10835,8 @@ window.PSALM_SONGS = [
         "ref": "146:10",
         "text": "耶 和 华 要 作 王 ， 直 到 永 远 。 锡 安 哪 ， 你 的 神 要 作 王 ， 直 到 万 代 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-146.jpg"
   },
   {
     "number": 147,
@@ -10754,7 +10923,8 @@ window.PSALM_SONGS = [
         "ref": "147:20",
         "text": "别 国 他 都 没 有 这 样 待 过 。 至 于 他 的 典 章 ， 他 们 向 来 没 有 知 道 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-147.jpg"
   },
   {
     "number": 148,
@@ -10817,7 +10987,8 @@ window.PSALM_SONGS = [
         "ref": "148:14",
         "text": "他 将 他 百 姓 的 角 高 举 ， 因 此 他 （ 因 此 他 或 作 他 使 ） 一 切 圣 民 以 色 列 人 ， 就 是 与 他 相 近 的 百 姓 ， 都 赞 美 他 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-148.jpg"
   },
   {
     "number": 149,
@@ -10860,7 +11031,8 @@ window.PSALM_SONGS = [
         "ref": "149:9",
         "text": "要 在 他 们 身 上 施 行 所 记 录 的 审 判 。 他 的 圣 民 都 有 这 荣 耀 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-149.jpg"
   },
   {
     "number": 150,
@@ -10891,6 +11063,7 @@ window.PSALM_SONGS = [
         "ref": "150:6",
         "text": "凡 有 气 息 的 ， 都 要 赞 美 耶 和 华 。 你 们 要 赞 美 耶 和 华 。"
       }
-    ]
+    ],
+    "score": "assets/psalm-scores/psalm-150.jpg"
   }
-]
+];

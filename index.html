@@ -241,7 +241,7 @@
 </head>
 <body>
   <div class="header">
-    <h1>🎵 赞美诗 新编400 首</h1>
+    <h1>🎵 赞美诗</h1>
     <p>✝️ 大辛庄⛪️教会祝您幸福安康</p>
     <div class="stats-bar">
       <span>共 <strong id="totalCount">0</strong> 首</span>
@@ -280,7 +280,7 @@
 
       <section class="panel score-panel">
         <h3>歌谱</h3>
-        <div class="audio-box">
+        <div class="audio-box" id="hymnAudioBox">
           <audio id="audioPlayer" controls preload="none"></audio>
         </div>
         <div class="score-wrap" id="scoreWrap"></div>
@@ -347,17 +347,28 @@
       document.getElementById('nextBtn').disabled = currentIndex === list.length - 1;
       const scoreWrap = document.getElementById('scoreWrap');
       const detailScore = document.getElementById('detailScore');
+      const hymnAudioBox = document.getElementById('hymnAudioBox');
       if (activeCatalog === 'hymn') {
+        if (hymnAudioBox) hymnAudioBox.style.display = 'grid';
         const scoreHtml = h.score ? `<img src="${h.score}" alt="${h.title} 歌谱" onclick="zoomImage('${h.score}')" style="cursor:zoom-in">` : '<div class="placeholder">暂无对应歌谱图片</div>';
         scoreWrap.innerHTML = scoreHtml;
         detailScore.innerHTML = scoreHtml;
         document.getElementById('detailTitle').textContent = h.title;
         document.getElementById('detailNumber').textContent = formatNumber(h.number);
       } else {
+        if (hymnAudioBox) hymnAudioBox.style.display = 'none';
         const psalmText = (h.verses || []).map(v => `<p><strong>${v.ref}</strong> ${v.text}</p>`).join('') || '<div class="placeholder">暂无正文</div>';
-        const audio = h.audio ? `<div class="audio-box"><audio id="audioPlayer" controls preload="none" src="${h.audio}"></audio></div>` : '';
-        scoreWrap.innerHTML = audio + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
-        detailScore.innerHTML = `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
+        const audioHtml = h.audio ? `<div class="audio-box"><audio id="psalmAudioPlayer" controls preload="none" src="${h.audio}"></audio></div>` : '';
+        let psalmScoreHtml = '';
+        if (h.score) {
+          if (Array.isArray(h.score)) {
+            psalmScoreHtml = `<div class="panel"><h3>歌谱</h3>` + h.score.map((s, i) => `<img src="${s}" alt="${h.title} 歌谱 第${i+1}页" onclick="zoomImage('${s}')" style="cursor:zoom-in;max-width:100%;margin-bottom:8px;display:block">`).join('') + `</div>`;
+          } else {
+            psalmScoreHtml = `<div class="panel"><h3>歌谱</h3><img src="${h.score}" alt="${h.title} 歌谱" onclick="zoomImage('${h.score}')" style="cursor:zoom-in;max-width:100%"></div>`;
+          }
+        }
+        scoreWrap.innerHTML = audioHtml + psalmScoreHtml + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
+        detailScore.innerHTML = psalmScoreHtml + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
         document.getElementById('detailTitle').textContent = h.title;
         document.getElementById('detailNumber').textContent = `诗篇 ${h.number}`;
       }

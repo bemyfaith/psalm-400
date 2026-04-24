@@ -6,12 +6,14 @@ DIST_DIR="$ROOT_DIR/dist"
 SRC_MP3="$ROOT_DIR/assets/mp3"
 SRC_SCORE="$ROOT_DIR/assets/scores"
 SRC_PSALM_AUDIO="$ROOT_DIR/assets/psalm-audio"
+SRC_PSALM_SCORE="$ROOT_DIR/assets/psalm-scores"
 DST_MP3="$DIST_DIR/assets/mp3"
 DST_SCORE="$DIST_DIR/assets/scores"
 DST_PSALM_AUDIO="$DIST_DIR/assets/psalm-audio"
+DST_PSALM_SCORE="$DIST_DIR/assets/psalm-scores"
 
 rm -rf "$DIST_DIR"
-mkdir -p "$DST_MP3" "$DST_SCORE" "$DST_PSALM_AUDIO"
+mkdir -p "$DST_MP3" "$DST_SCORE" "$DST_PSALM_AUDIO" "$DST_PSALM_SCORE"
 
 # Core site files
 cp "$ROOT_DIR/index.html" "$DIST_DIR/"
@@ -35,6 +37,10 @@ if [ -d "$SRC_SCORE" ]; then
 fi
 if [ -d "$SRC_PSALM_AUDIO" ]; then
   cp -f "$SRC_PSALM_AUDIO"/*.mp3 "$DST_PSALM_AUDIO/" 2>/dev/null || true
+fi
+if [ -d "$SRC_PSALM_SCORE" ]; then
+  cp -f "$SRC_PSALM_SCORE"/*.jpg "$DST_PSALM_SCORE/" 2>/dev/null || true
+  cp -f "$SRC_PSALM_SCORE"/*.png "$DST_PSALM_SCORE/" 2>/dev/null || true
 fi
 shopt -u nullglob
 
