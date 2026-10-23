@@ -193,6 +193,8 @@
       padding: 2rem 1rem; text-align: center; color: #888; background: #fafafa; border-radius: 10px; border: 1px dashed #ddd;
     }
     .audio-box { display: grid; gap: 0.75rem; margin-top: 1rem; }
+    .audio-label { color: #667eea; font-weight: 600; font-size: 0.95rem; }
+    .notice { margin: 0 0 1rem; padding: 0.75rem 0.9rem; border-radius: 10px; color: #765b00; background: #fff8dc; border: 1px solid #f1d77a; line-height: 1.6; }
     audio { width: 100%; }
     .loading { padding: 3rem; text-align: center; color: #666; }
     .spinner {
@@ -250,6 +252,7 @@
     <div class="catalog-switch">
       <button class="catalog-btn active" id="hymnCatalogBtn" onclick="switchCatalog('hymn')">赞美诗</button>
       <button class="catalog-btn" id="psalmCatalogBtn" onclick="switchCatalog('psalm')">诗篇</button>
+      <button class="catalog-btn" id="quanjiCatalogBtn" onclick="switchCatalog('quanji')">诗篇全集</button>
     </div>
   </div>
 
@@ -308,6 +311,7 @@
 
   <script src="./psalm-data.js?v=20260421_0317"></script>
   <script src="./psalm-data-psalm.js"></script>
+  <script src="./psalm-data-quanji.js"></script>
   <script>
     let catalogs = {};
     let activeCatalog = 'hymn';
@@ -322,6 +326,7 @@
       currentIndex = 0;
       document.getElementById('hymnCatalogBtn').classList.toggle('active', name === 'hymn');
       document.getElementById('psalmCatalogBtn').classList.toggle('active', name === 'psalm');
+      document.getElementById('quanjiCatalogBtn').classList.toggle('active', name === 'quanji');
       renderCurrent();
       closeSidebar();
     }
@@ -358,7 +363,12 @@
       } else {
         if (hymnAudioBox) hymnAudioBox.style.display = 'none';
         const psalmText = (h.verses || []).map(v => `<p><strong>${v.ref}</strong> ${v.text}</p>`).join('') || '<div class="placeholder">暂无正文</div>';
-        const audioHtml = h.audio ? `<div class="audio-box"><audio id="psalmAudioPlayer" controls preload="none" src="${h.audio}"></audio></div>` : '';
+        let audioHtml = '';
+        if (h.audioParts && h.audioParts.length) {
+          audioHtml = `<div class="panel"><h3>分段音频</h3>` + h.audioParts.map((part, i) => `<div class="audio-box"><div class="audio-label">${part.label}</div><audio controls preload="none" src="${part.src}"></audio></div>`).join('') + `</div>`;
+        } else if (h.audio) {
+          audioHtml = `<div class="audio-box"><audio id="psalmAudioPlayer" controls preload="none" src="${h.audio}"></audio></div>`;
+        }
         let psalmScoreHtml = '';
         if (h.score) {
           if (Array.isArray(h.score)) {
@@ -366,9 +376,12 @@
           } else {
             psalmScoreHtml = `<div class="panel"><h3>歌谱</h3><img src="${h.score}" alt="${h.title} 歌谱" onclick="zoomImage('${h.score}')" style="cursor:zoom-in;max-width:100%"></div>`;
           }
+        } else if (activeCatalog === 'quanji') {
+          psalmScoreHtml = `<div class="panel"><h3>歌谱</h3><div class="placeholder">本版歌谱待补</div></div>`;
         }
-        scoreWrap.innerHTML = audioHtml + psalmScoreHtml + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
-        detailScore.innerHTML = psalmScoreHtml + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
+        const noteHtml = h.note ? `<div class="notice">${h.note}</div>` : '';
+        scoreWrap.innerHTML = noteHtml + audioHtml + psalmScoreHtml + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
+        detailScore.innerHTML = noteHtml + psalmScoreHtml + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
         document.getElementById('detailTitle').textContent = h.title;
         document.getElementById('detailNumber').textContent = `诗篇 ${h.number}`;
       }
@@ -399,6 +412,7 @@
     function init() {
       catalogs.hymn = (window.PSALM_DATA || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
       catalogs.psalm = (window.PSALM_SONGS || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
+      catalogs.quanji = (window.PSALM_QUANJI || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
       renderCurrent();
     }
     if (window.PSALM_DATA && window.PSALM_SONGS) init(); else setTimeout(init, 100);
