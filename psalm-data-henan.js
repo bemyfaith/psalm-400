@@ -1,4 +1,4 @@
-// 河南版资源：仅收录用户提供的书页照片，未收录未经核实的网络音频或歌谱。
+// 河南版目录：仅单篇旋律核对通过的网络谱面与持书者书页，未经核对的音频不收录。
 window.PSALM_HENAN = [
  {
   "number": 1,
@@ -594,7 +594,10 @@ window.PSALM_HENAN = [
   "number": 11,
   "title": "诗篇 11",
   "audio": null,
-  "score": "assets/henan/book-pages/psalm-011.jpg",
+  "score": [
+   "assets/henan/book-pages/psalm-011.jpg",
+   "assets/henan/matched-scores/psalm-011.jpg"
+  ],
   "verses": [
    {
     "ref": "11:1",
@@ -625,9 +628,10 @@ window.PSALM_HENAN = [
     "text": "因 为 耶 和 华 是 公 义 的 。 他 喜 爱 公 义 。 正 直 人 必 得 见 他 的 面 。"
    }
   ],
-  "note": "已有持书者提供的书页照片；画面边缘有裁切，暂不计为完整歌谱。",
-  "scoreStatus": "photo",
-  "coverage": "部分书页"
+  "note": "网络谱面与持书者照片的调号、节拍、旋律和歌词对应，已补完整谱面；网络图片没有河南两会出版标识，不能据此认定为同一印本。音频尚未与谱面核对。",
+  "scoreStatus": "melody-matched",
+  "coverage": "纸本照片 + 完整网络谱面",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/011%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 12,
@@ -1465,7 +1469,10 @@ window.PSALM_HENAN = [
   "number": 24,
   "title": "诗篇 24",
   "audio": null,
-  "score": "assets/henan/book-pages/psalm-024.jpg",
+  "score": [
+   "assets/henan/book-pages/psalm-024.jpg",
+   "assets/henan/matched-scores/psalm-024.jpg"
+  ],
   "verses": [
    {
     "ref": "24:1",
@@ -1508,9 +1515,10 @@ window.PSALM_HENAN = [
     "text": "荣 耀 的 王 是 谁 呢 。 万 军 之 耶 和 华 ， 他 是 荣 耀 的 王 。 （ 细 拉 ）"
    }
   ],
-  "note": "已有持书者提供的第 35 页照片；画面边缘有裁切，暂不计为完整歌谱。",
-  "scoreStatus": "photo",
-  "coverage": "部分书页"
+  "note": "网络谱面与持书者照片的调号、节拍、旋律和歌词对应，已补完整谱面；网络图片没有河南两会出版标识，不能据此认定为同一印本。音频尚未与谱面核对。",
+  "scoreStatus": "melody-matched",
+  "coverage": "纸本照片 + 完整网络谱面",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/024%E4%BA%8C%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 25,
@@ -3120,7 +3128,10 @@ window.PSALM_HENAN = [
   "number": 45,
   "title": "诗篇 45",
   "audio": null,
-  "score": "assets/henan/book-pages/psalm-045.jpg",
+  "score": [
+   "assets/henan/book-pages/psalm-045.jpg",
+   "assets/henan/matched-scores/psalm-045.jpg"
+  ],
   "verses": [
    {
     "ref": "45:1",
@@ -3191,9 +3202,10 @@ window.PSALM_HENAN = [
     "text": "我 必 叫 你 的 名 被 万 代 记 念 。 所 以 万 民 要 永 永 远 远 称 谢 你 。"
    }
   ],
-  "note": "已有持书者提供的书页照片，仅拍到本篇前半部分，后续歌谱资源未找到。",
-  "scoreStatus": "photo",
-  "coverage": "部分书页"
+  "note": "网络谱面与持书者照片的调号、节拍、旋律和歌词对应，已补完整谱面；网络图片没有河南两会出版标识，不能据此认定为同一印本。音频尚未与谱面核对。",
+  "scoreStatus": "melody-matched",
+  "coverage": "纸本照片 + 完整网络谱面",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/045%E5%9B%9B%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 46,
