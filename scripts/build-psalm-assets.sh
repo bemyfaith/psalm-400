@@ -19,6 +19,8 @@ mkdir -p "$DST_MP3" "$DST_SCORE" "$DST_PSALM_AUDIO" "$DST_PSALM_SCORE"
 cp "$ROOT_DIR/index.html" "$DIST_DIR/"
 cp "$ROOT_DIR/psalm-data.js" "$DIST_DIR/"
 cp "$ROOT_DIR/psalm-data-psalm.js" "$DIST_DIR/"
+cp "$ROOT_DIR/psalm-data-henan.js" "$DIST_DIR/"
+cp -R "$ROOT_DIR/assets/henan" "$DIST_DIR/assets/"
 cp "$ROOT_DIR/psalm-data-f.js" "$DIST_DIR/"
 
 # Deployment notes / metadata files that should remain available in the published bundle.

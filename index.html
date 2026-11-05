@@ -250,6 +250,7 @@
     <div class="catalog-switch">
       <button class="catalog-btn active" id="hymnCatalogBtn" onclick="switchCatalog('hymn')">赞美诗</button>
       <button class="catalog-btn" id="psalmCatalogBtn" onclick="switchCatalog('psalm')">诗篇</button>
+      <button class="catalog-btn" id="henanCatalogBtn" onclick="switchCatalog('henan')">河南版诗篇</button>
     </div>
   </div>
 
@@ -308,6 +309,7 @@
 
   <script src="./psalm-data.js?v=20260421_0317"></script>
   <script src="./psalm-data-psalm.js"></script>
+  <script src="./psalm-data-henan.js"></script>
   <script>
     let catalogs = {};
     let activeCatalog = 'hymn';
@@ -322,24 +324,28 @@
       currentIndex = 0;
       document.getElementById('hymnCatalogBtn').classList.toggle('active', name === 'hymn');
       document.getElementById('psalmCatalogBtn').classList.toggle('active', name === 'psalm');
+      document.getElementById('henanCatalogBtn').classList.toggle('active', name === 'henan');
+      document.getElementById('searchInput').value = '';
+      history.replaceState(null, '', name === 'henan' ? '#henan' : location.pathname);
       renderCurrent();
       closeSidebar();
     }
 
     function renderSidebar(list) {
       const el = document.getElementById('sidebarList');
-      el.innerHTML = list.map((h, idx) => `
+      el.innerHTML = list.map(h => { const idx = getActiveList().indexOf(h); return `
         <button class="book-btn ${idx === currentIndex ? 'active' : ''}" onclick="selectItem(${idx})">
           <span class="num">${formatNumber(h.number)}</span>
-          <span>${h.title}</span>
+          <span>${h.title}${activeCatalog === 'henan' ? `<small style="display:block;font-size:0.75rem;opacity:0.8">${h.score ? h.coverage : '资源未找到'}</small>` : ''}</span>
         </button>
-      `).join('');
+      `; }).join('');
     }
 
     function renderCurrent() {
       const list = getActiveList();
       const h = list[currentIndex];
       if (!h) return;
+      document.querySelectorAll('audio').forEach(player => player.pause());
       document.title = `${h.title} - RedClaw`;
       document.getElementById('titleText').textContent = h.title;
       document.getElementById('currentIndexText').textContent = currentIndex + 1;
@@ -358,7 +364,7 @@
       } else {
         if (hymnAudioBox) hymnAudioBox.style.display = 'none';
         const psalmText = (h.verses || []).map(v => `<p><strong>${v.ref}</strong> ${v.text}</p>`).join('') || '<div class="placeholder">暂无正文</div>';
-        const audioHtml = h.audio ? `<div class="audio-box"><audio id="psalmAudioPlayer" controls preload="none" src="${h.audio}"></audio></div>` : '';
+        const audioHtml = h.audio ? `<div class="audio-box"><audio id="psalmAudioPlayer" controls preload="none" src="${h.audio}"></audio></div>` : (activeCatalog === 'henan' ? '<div class="panel"><h3>音频</h3><div class="placeholder">本版音频资源未找到</div></div>' : '');
         let psalmScoreHtml = '';
         if (h.score) {
           if (Array.isArray(h.score)) {
@@ -367,8 +373,11 @@
             psalmScoreHtml = `<div class="panel"><h3>歌谱</h3><img src="${h.score}" alt="${h.title} 歌谱" onclick="zoomImage('${h.score}')" style="cursor:zoom-in;max-width:100%"></div>`;
           }
         }
-        scoreWrap.innerHTML = audioHtml + psalmScoreHtml + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
-        detailScore.innerHTML = psalmScoreHtml + `<div class="panel"><h3>正文</h3><div class="lyrics">${psalmText}</div></div>`;
+        if (activeCatalog === 'henan' && !h.score) psalmScoreHtml = '<div class="panel"><h3>歌谱</h3><div class="placeholder">本版歌谱资源未找到</div></div>';
+        const editionInfo = activeCatalog === 'henan' ? `<div class="panel" style="background:#f5f7ff"><h3>《诗篇全集 简谱本》· 河南版</h3><p>河南省基督教两会出版。当前收录来源：持书者提供的纸本书页照片。</p><p>已有 5 张书页照片，涉及 6 篇（含局部片段）；本版音频 0 篇。未核实的网络资源不计入。</p><p>${h.note}</p></div>` : '';
+        const textHeading = activeCatalog === 'henan' ? '经文（和合本参考，非书页转录）' : '正文';
+        scoreWrap.innerHTML = editionInfo + audioHtml + psalmScoreHtml + `<div class="panel"><h3>${textHeading}</h3><div class="lyrics">${psalmText}</div></div>`;
+        detailScore.innerHTML = editionInfo + psalmScoreHtml + `<div class="panel"><h3>${textHeading}</h3><div class="lyrics">${psalmText}</div></div>`;
         document.getElementById('detailTitle').textContent = h.title;
         document.getElementById('detailNumber').textContent = `诗篇 ${h.number}`;
       }
@@ -399,9 +408,11 @@
     function init() {
       catalogs.hymn = (window.PSALM_DATA || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
       catalogs.psalm = (window.PSALM_SONGS || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
+      catalogs.henan = (window.PSALM_HENAN || []).map(item => ({ ...item, title: normalizeTitle(item.title) }));
+      if (location.hash === '#henan') { switchCatalog('henan'); return; }
       renderCurrent();
     }
-    if (window.PSALM_DATA && window.PSALM_SONGS) init(); else setTimeout(init, 100);
+    if (window.PSALM_DATA && window.PSALM_SONGS && window.PSALM_HENAN) init(); else setTimeout(init, 100);
   </script>
 </body>
 </html>
