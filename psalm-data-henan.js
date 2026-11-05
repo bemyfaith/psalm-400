@@ -1,10 +1,10 @@
-// 河南版目录：仅单篇旋律核对通过的网络谱面与持书者书页，未经核对的音频不收录。
+// 河南版栏目：第1-118篇为持书者决定收录的网络候选资料，网站未取得河南两会出版来源证明。
 window.PSALM_HENAN = [
  {
   "number": 1,
   "title": "诗篇 1",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-001.mp3",
+  "score": "assets/henan/scores/psalm-001.jpg",
   "verses": [
    {
     "ref": "1:1",
@@ -31,15 +31,17 @@ window.PSALM_HENAN = [
     "text": "因 为 耶 和 华 知 道 义 人 的 道 路 。 恶 人 的 道 路 ， 却 必 灭 亡 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/001%E7%AC%AC%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/001%E7%AC%AC%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 2,
   "title": "诗篇 2",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-002.mp3",
+  "score": "assets/henan/scores/psalm-002.jpg",
   "verses": [
    {
     "ref": "2:1",
@@ -90,15 +92,17 @@ window.PSALM_HENAN = [
     "text": "当 以 嘴 亲 子 ， 恐 怕 他 发 怒 ， 你 们 便 在 道 中 灭 亡 ， 因 为 他 的 怒 气 快 要 发 作 。 凡 投 靠 他 的 ， 都 是 有 福 的 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/002%E7%AC%AC%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/002%E7%AC%AC%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 3,
   "title": "诗篇 3",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-003.mp3",
+  "score": "assets/henan/scores/psalm-003.jpg",
   "verses": [
    {
     "ref": "3:1",
@@ -133,15 +137,17 @@ window.PSALM_HENAN = [
     "text": "救 恩 属 乎 耶 和 华 。 愿 你 赐 福 给 你 的 百 姓 。 （ 细 拉 ）"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/003%E7%AC%AC%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/003%E7%AC%AC%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 4,
   "title": "诗篇 4",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-004.mp3",
+  "score": "assets/henan/scores/psalm-004.jpg",
   "verses": [
    {
     "ref": "4:1",
@@ -176,15 +182,17 @@ window.PSALM_HENAN = [
     "text": "我 必 安 然 躺 下 睡 觉 ， 因 为 独 有 你 耶 和 华 使 我 安 然 居 住 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/004%E7%AC%AC%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/004%E7%AC%AC%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 5,
   "title": "诗篇 5",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-005.mp3",
+  "score": "assets/henan/scores/psalm-005.jpg",
   "verses": [
    {
     "ref": "5:1",
@@ -235,15 +243,17 @@ window.PSALM_HENAN = [
     "text": "因 为 你 必 赐 福 与 义 人 。 耶 和 华 阿 ， 你 必 用 恩 惠 如 同 盾 牌 四 面 护 卫 他 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/005%E7%AC%AC%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/005%E7%AC%AC%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 6,
   "title": "诗篇 6",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-006.mp3",
+  "score": "assets/henan/scores/psalm-006.jpg",
   "verses": [
    {
     "ref": "6:1",
@@ -286,15 +296,17 @@ window.PSALM_HENAN = [
     "text": "我 的 一 切 仇 敌 都 必 羞 愧 ， 大 大 惊 惶 。 他 们 必 要 退 后 ， 忽 然 羞 愧 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/006%E7%AC%AC%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/006%E7%AC%AC%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 7,
   "title": "诗篇 7",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-007.mp3",
+  "score": "assets/henan/scores/psalm-007.jpg",
   "verses": [
    {
     "ref": "7:1",
@@ -365,15 +377,17 @@ window.PSALM_HENAN = [
     "text": "我 要 照 着 耶 和 华 的 公 义 称 谢 他 ， 歌 颂 耶 和 华 至 高 者 的 名 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/007%E7%AC%AC%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/007%E7%AC%AC%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 8,
   "title": "诗篇 8",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-008.mp3",
+  "score": "assets/henan/scores/psalm-008.jpg",
   "verses": [
    {
     "ref": "8:1",
@@ -412,15 +426,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 我 们 的 主 阿 ， 你 的 名 在 全 地 何 其 美 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/008%E7%AC%AC%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/008%E7%AC%AC%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 9,
   "title": "诗篇 9",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-009.mp3",
+  "score": "assets/henan/scores/psalm-009.jpg",
   "verses": [
    {
     "ref": "9:1",
@@ -503,15 +519,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 阿 ， 求 你 使 外 邦 人 恐 惧 。 愿 他 们 知 道 自 己 不 过 是 人 。 （ 细 拉 ）"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/009%E7%AC%AC%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/009%E7%AC%AC%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 10,
   "title": "诗篇 10",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-010.mp3",
+  "score": "assets/henan/scores/psalm-010.jpg",
   "verses": [
    {
     "ref": "10:1",
@@ -586,17 +604,19 @@ window.PSALM_HENAN = [
     "text": "为 要 给 孤 儿 和 受 欺 压 的 人 伸 冤 ， 使 强 横 的 人 不 再 威 吓 他 们 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/010%E7%AC%AC%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/010%E7%AC%AC%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 11,
   "title": "诗篇 11",
-  "audio": null,
+  "audio": "assets/henan/audio/psalm-011.mp3",
   "score": [
    "assets/henan/book-pages/psalm-011.jpg",
-   "assets/henan/matched-scores/psalm-011.jpg"
+   "assets/henan/scores/psalm-011.jpg"
   ],
   "verses": [
    {
@@ -628,16 +648,17 @@ window.PSALM_HENAN = [
     "text": "因 为 耶 和 华 是 公 义 的 。 他 喜 爱 公 义 。 正 直 人 必 得 见 他 的 面 。"
    }
   ],
-  "note": "网络谱面与持书者照片的调号、节拍、旋律和歌词对应，已补完整谱面；网络图片没有河南两会出版标识，不能据此认定为同一印本。音频尚未与谱面核对。",
-  "scoreStatus": "melody-matched",
-  "coverage": "纸本照片 + 完整网络谱面",
-  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/011%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
+  "note": "本篇网络谱面已与持书者照片的调号、节拍、旋律和歌词对照。网络音频和谱面按持书者决定收录；原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "书页照片 + 网络歌谱及音频",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/011%E5%8D%81%E4%B8%80%E7%AF%87.jpg",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/011%E5%8D%81%E4%B8%80%E7%AF%87.mp3"
  },
  {
   "number": 12,
   "title": "诗篇 12",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-012.mp3",
+  "score": "assets/henan/scores/psalm-012.jpg",
   "verses": [
    {
     "ref": "12:1",
@@ -672,15 +693,17 @@ window.PSALM_HENAN = [
     "text": "下 流 人 在 世 人 中 升 高 ， 就 有 恶 人 到 处 游 行 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/012%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/012%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 13,
   "title": "诗篇 13",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-013.mp3",
+  "score": "assets/henan/scores/psalm-013.jpg",
   "verses": [
    {
     "ref": "13:1",
@@ -707,15 +730,17 @@ window.PSALM_HENAN = [
     "text": "我 要 向 耶 和 华 歌 唱 ， 因 他 用 厚 恩 待 我 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/013%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/013%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 14,
   "title": "诗篇 14",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-014.mp3",
+  "score": "assets/henan/scores/psalm-014.jpg",
   "verses": [
    {
     "ref": "14:1",
@@ -746,15 +771,17 @@ window.PSALM_HENAN = [
     "text": "但 愿 以 色 列 的 救 恩 从 锡 安 而 出 。 耶 和 华 救 回 他 被 掳 的 子 民 ， 那 时 雅 各 要 快 乐 ， 以 色 列 要 欢 喜 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/014%E5%8D%81%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/014%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 15,
   "title": "诗篇 15",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-015.mp3",
+  "score": "assets/henan/scores/psalm-015.jpg",
   "verses": [
    {
     "ref": "15:1",
@@ -777,15 +804,17 @@ window.PSALM_HENAN = [
     "text": "他 不 放 债 取 利 ， 不 受 贿 赂 以 害 无 辜 。 行 这 些 事 的 人 ， 必 永 不 动 摇 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/015%E5%8D%81%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/015%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 16,
   "title": "诗篇 16",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-016.mp3",
+  "score": "assets/henan/scores/psalm-016.jpg",
   "verses": [
    {
     "ref": "16:1",
@@ -832,15 +861,17 @@ window.PSALM_HENAN = [
     "text": "你 必 将 生 命 的 道 路 指 示 我 。 在 你 的 面 前 有 满 足 的 喜 乐 。 在 你 右 手 中 有 永 远 的 福 乐 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/016%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/016%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 17,
   "title": "诗篇 17",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-017.mp3",
+  "score": "assets/henan/scores/psalm-017.jpg",
   "verses": [
    {
     "ref": "17:1",
@@ -903,15 +934,17 @@ window.PSALM_HENAN = [
     "text": "至 于 我 ， 我 必 在 义 中 见 你 的 面 。 我 醒 了 的 时 候 ， 得 见 你 的 形 像 ， 就 心 满 意 足 了 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/017%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/017%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 18,
   "title": "诗篇 18",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-018.mp3",
+  "score": "assets/henan/scores/psalm-018.jpg",
   "verses": [
    {
     "ref": "18:1",
@@ -1114,15 +1147,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 赐 极 大 的 救 恩 给 他 所 立 的 王 ， 施 慈 爱 给 他 的 受 膏 者 ， 就 是 给 大 卫 和 他 的 后 裔 ， 直 到 永 远 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/018%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/018%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 19,
   "title": "诗篇 19",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-019.mp3",
+  "score": "assets/henan/scores/psalm-019.jpg",
   "verses": [
    {
     "ref": "19:1",
@@ -1181,15 +1216,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 我 的 磐 石 ， 我 的 救 赎 主 阿 ， 愿 我 口 中 的 言 语 ， 心 中 的 意 念 ， 在 你 面 前 蒙 悦 纳 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/019%E5%8D%81%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/019%E5%8D%81%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 20,
   "title": "诗篇 20",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-020.mp3",
+  "score": "assets/henan/scores/psalm-020.jpg",
   "verses": [
    {
     "ref": "20:1",
@@ -1228,15 +1265,17 @@ window.PSALM_HENAN = [
     "text": "求 耶 和 华 施 行 拯 救 。 我 们 呼 求 的 时 候 ， 愿 王 应 允 我 们 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/020%E4%BA%8C%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/020%E4%BA%8C%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 21,
   "title": "诗篇 21",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-021.mp3",
+  "score": "assets/henan/scores/psalm-021.jpg",
   "verses": [
    {
     "ref": "21:1",
@@ -1291,15 +1330,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 阿 ， 愿 你 因 自 己 的 能 力 显 为 至 高 。 这 样 ， 我 们 就 唱 诗 ， 歌 颂 你 的 大 能 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/021%E4%BA%8C%E5%8D%81%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/021%E4%BA%8C%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 22,
   "title": "诗篇 22",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-022.mp3",
+  "score": "assets/henan/scores/psalm-022.jpg",
   "verses": [
    {
     "ref": "22:1",
@@ -1426,15 +1467,17 @@ window.PSALM_HENAN = [
     "text": "他 们 必 来 把 他 的 公 义 传 给 将 要 生 的 民 ， 言 明 这 事 是 他 所 行 的 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/022%E4%BA%8C%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/022%E4%BA%8C%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 23,
   "title": "诗篇 23",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-023.mp3",
+  "score": "assets/henan/scores/psalm-023.jpg",
   "verses": [
    {
     "ref": "23:1",
@@ -1461,17 +1504,19 @@ window.PSALM_HENAN = [
     "text": "我 一 生 一 世 必 有 恩 惠 慈 爱 随 着 我 。 我 且 要 住 在 耶 和 华 的 殿 中 ， 直 到 永 远 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/023%E4%BA%8C%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/023%E4%BA%8C%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 24,
   "title": "诗篇 24",
-  "audio": null,
+  "audio": "assets/henan/audio/psalm-024.mp3",
   "score": [
    "assets/henan/book-pages/psalm-024.jpg",
-   "assets/henan/matched-scores/psalm-024.jpg"
+   "assets/henan/scores/psalm-024.jpg"
   ],
   "verses": [
    {
@@ -1515,16 +1560,17 @@ window.PSALM_HENAN = [
     "text": "荣 耀 的 王 是 谁 呢 。 万 军 之 耶 和 华 ， 他 是 荣 耀 的 王 。 （ 细 拉 ）"
    }
   ],
-  "note": "网络谱面与持书者照片的调号、节拍、旋律和歌词对应，已补完整谱面；网络图片没有河南两会出版标识，不能据此认定为同一印本。音频尚未与谱面核对。",
-  "scoreStatus": "melody-matched",
-  "coverage": "纸本照片 + 完整网络谱面",
-  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/024%E4%BA%8C%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
+  "note": "本篇网络谱面已与持书者照片的调号、节拍、旋律和歌词对照。网络音频和谱面按持书者决定收录；原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "书页照片 + 网络歌谱及音频",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/024%E4%BA%8C%E5%8D%81%E5%9B%9B%E7%AF%87.jpg",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/024%E4%BA%8C%E5%8D%81%E5%9B%9B%E7%AF%87.mp3"
  },
  {
   "number": 25,
   "title": "诗篇 25",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-025.mp3",
+  "score": "assets/henan/scores/psalm-025.jpg",
   "verses": [
    {
     "ref": "25:1",
@@ -1615,15 +1661,17 @@ window.PSALM_HENAN = [
     "text": "神 阿 ， 求 你 救 赎 以 色 列 脱 离 他 一 切 的 愁 苦 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/025%E4%BA%8C%E5%8D%81%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/025%E4%BA%8C%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 26,
   "title": "诗篇 26",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-026.mp3",
+  "score": "assets/henan/scores/psalm-026.jpg",
   "verses": [
    {
     "ref": "26:1",
@@ -1674,15 +1722,17 @@ window.PSALM_HENAN = [
     "text": "我 的 脚 站 在 平 坦 地 方 。 在 众 会 中 我 要 称 颂 耶 和 华 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/026%E4%BA%8C%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/026%E4%BA%8C%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 27,
   "title": "诗篇 27",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-027.mp3",
+  "score": "assets/henan/scores/psalm-027.jpg",
   "verses": [
    {
     "ref": "27:1",
@@ -1741,15 +1791,17 @@ window.PSALM_HENAN = [
     "text": "要 等 候 耶 和 华 。 当 壮 胆 ， 坚 固 你 的 心 。 我 再 说 ， 要 等 候 耶 和 华 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/027%E4%BA%8C%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/027%E4%BA%8C%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 28,
   "title": "诗篇 28",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-028.mp3",
+  "score": "assets/henan/scores/psalm-028.jpg",
   "verses": [
    {
     "ref": "28:1",
@@ -1788,15 +1840,17 @@ window.PSALM_HENAN = [
     "text": "求 你 拯 救 你 的 百 姓 ， 赐 福 给 你 的 产 业 ， 牧 养 他 们 ， 扶 持 他 们 ， 直 到 永 远 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/028%E4%BA%8C%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/028%E4%BA%8C%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 29,
   "title": "诗篇 29",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-029.mp3",
+  "score": "assets/henan/scores/psalm-029.jpg",
   "verses": [
    {
     "ref": "29:1",
@@ -1843,15 +1897,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 必 赐 力 量 给 他 的 百 姓 。 耶 和 华 必 赐 平 安 的 福 给 他 的 百 姓 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/029%E4%BA%8C%E5%8D%81%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/029%E4%BA%8C%E5%8D%81%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 30,
   "title": "诗篇 30",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-030.mp3",
+  "score": "assets/henan/scores/psalm-030.jpg",
   "verses": [
    {
     "ref": "30:1",
@@ -1902,15 +1958,17 @@ window.PSALM_HENAN = [
     "text": "好 叫 我 的 灵 （ 原 文 作 荣 耀 ） 歌 颂 你 ， 并 不 住 声 。 耶 和 华 我 的 神 阿 ， 我 要 称 谢 你 ， 直 到 永 远 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/030%E4%B8%89%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/030%E4%B8%89%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 31,
   "title": "诗篇 31",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-031.mp3",
+  "score": "assets/henan/scores/psalm-031.jpg",
   "verses": [
    {
     "ref": "31:1",
@@ -2009,15 +2067,17 @@ window.PSALM_HENAN = [
     "text": "凡 仰 望 耶 和 华 的 人 ， 你 们 都 要 壮 胆 ， 坚 固 你 们 的 心 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/031%E4%B8%89%E5%8D%81%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/031%E4%B8%89%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 32,
   "title": "诗篇 32",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-032.mp3",
+  "score": "assets/henan/scores/psalm-032.jpg",
   "verses": [
    {
     "ref": "32:1",
@@ -2064,15 +2124,17 @@ window.PSALM_HENAN = [
     "text": "你 们 义 人 应 当 靠 耶 和 华 欢 喜 快 乐 。 你 们 心 里 正 直 的 人 ， 都 当 欢 呼 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/032%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/032%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 33,
   "title": "诗篇 33",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-033.mp3",
+  "score": "assets/henan/scores/psalm-033.jpg",
   "verses": [
    {
     "ref": "33:1",
@@ -2163,15 +2225,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 阿 ， 求 你 照 着 我 们 所 仰 望 你 的 ， 向 我 们 施 行 慈 爱 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/033%E4%B8%89%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/033%E4%B8%89%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 34,
   "title": "诗篇 34",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-034.mp3",
+  "score": "assets/henan/scores/psalm-034.jpg",
   "verses": [
    {
     "ref": "34:1",
@@ -2262,15 +2326,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 救 赎 他 仆 人 的 灵 魂 。 凡 投 靠 他 的 ， 必 不 至 定 罪 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/034%E4%B8%89%E5%8D%81%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/034%E4%B8%89%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 35,
   "title": "诗篇 35",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-035.mp3",
+  "score": "assets/henan/scores/psalm-035.jpg",
   "verses": [
    {
     "ref": "35:1",
@@ -2385,15 +2451,17 @@ window.PSALM_HENAN = [
     "text": "我 的 舌 头 ， 要 终 日 论 说 你 的 公 义 ， 时 常 赞 美 你 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/035%E4%B8%89%E5%8D%81%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/035%E4%B8%89%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 36,
   "title": "诗篇 36",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-036.mp3",
+  "score": "assets/henan/scores/psalm-036.jpg",
   "verses": [
    {
     "ref": "36:1",
@@ -2444,15 +2512,17 @@ window.PSALM_HENAN = [
     "text": "在 那 里 作 孽 的 人 ， 已 经 仆 倒 。 他 们 被 推 倒 ， 不 能 再 起 来 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/036%E4%B8%89%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/036%E4%B8%89%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 37,
   "title": "诗篇 37",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-037.mp3",
+  "score": "assets/henan/scores/psalm-037.jpg",
   "verses": [
    {
     "ref": "37:1",
@@ -2615,15 +2685,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 帮 助 他 们 ， 解 救 他 们 。 他 解 救 他 们 脱 离 恶 人 ， 把 他 们 救 出 来 ， 因 为 他 们 投 靠 他 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/037%E4%B8%89%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/037%E4%B8%89%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 38,
   "title": "诗篇 38",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-038.mp3",
+  "score": "assets/henan/scores/psalm-038.jpg",
   "verses": [
    {
     "ref": "38:1",
@@ -2714,15 +2786,17 @@ window.PSALM_HENAN = [
     "text": "拯 救 我 的 主 阿 ， 求 你 快 快 帮 助 我 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/038%E4%B8%89%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/038%E4%B8%89%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 39,
   "title": "诗篇 39",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-039.mp3",
+  "score": "assets/henan/scores/psalm-039.jpg",
   "verses": [
    {
     "ref": "39:1",
@@ -2777,15 +2851,17 @@ window.PSALM_HENAN = [
     "text": "求 你 宽 容 我 ， 使 我 在 去 而 不 返 之 先 ， 可 以 力 量 复 原 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/039%E4%B8%89%E5%8D%81%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/039%E4%B8%89%E5%8D%81%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 40,
   "title": "诗篇 40",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-040.mp3",
+  "score": "assets/henan/scores/psalm-040.jpg",
   "verses": [
    {
     "ref": "40:1",
@@ -2856,15 +2932,17 @@ window.PSALM_HENAN = [
     "text": "但 我 是 困 苦 穷 乏 的 ， 主 仍 顾 念 我 。 你 是 帮 助 我 的 ， 搭 救 我 的 。 神 阿 ， 求 你 不 要 耽 延 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/040%E5%9B%9B%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/040%E5%9B%9B%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 41,
   "title": "诗篇 41",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-041.mp3",
+  "score": "assets/henan/scores/psalm-041.jpg",
   "verses": [
    {
     "ref": "41:1",
@@ -2919,15 +2997,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 以 色 列 的 神 ， 是 应 当 称 颂 的 ， 从 亘 古 直 到 永 远 。 阿 们 ， 阿 们 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/041%E5%9B%9B%E5%8D%81%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/041%E5%9B%9B%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 42,
   "title": "诗篇 42",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-042.mp3",
+  "score": "assets/henan/scores/psalm-042.jpg",
   "verses": [
    {
     "ref": "42:1",
@@ -2974,15 +3054,17 @@ window.PSALM_HENAN = [
     "text": "我 的 心 哪 ， 你 为 何 忧 闷 ， 为 何 在 我 里 面 烦 躁 。 应 当 仰 望 神 。 因 我 还 要 称 赞 他 。 他 是 我 脸 上 的 光 荣 ， （ 原 文 作 帮 助 ） ， 是 我 的 神 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/042%E5%9B%9B%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/042%E5%9B%9B%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 43,
   "title": "诗篇 43",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-043.mp3",
+  "score": "assets/henan/scores/psalm-043.jpg",
   "verses": [
    {
     "ref": "43:1",
@@ -3005,15 +3087,17 @@ window.PSALM_HENAN = [
     "text": "我 的 心 哪 ， 你 为 何 忧 闷 ， 为 何 在 我 里 面 烦 躁 。 因 当 仰 望 神 。 因 我 还 要 称 赞 他 。 他 是 我 脸 上 的 光 荣 ， （ 原 文 作 帮 助 ） 是 我 的 神 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/043%E5%9B%9B%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/043%E5%9B%9B%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 44,
   "title": "诗篇 44",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-044.mp3",
+  "score": "assets/henan/scores/psalm-044.jpg",
   "verses": [
    {
     "ref": "44:1",
@@ -3120,17 +3204,19 @@ window.PSALM_HENAN = [
     "text": "求 你 起 来 帮 助 我 们 ， 凭 你 的 慈 爱 救 赎 我 们 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/044%E5%9B%9B%E5%8D%81%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/044%E5%9B%9B%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 45,
   "title": "诗篇 45",
-  "audio": null,
+  "audio": "assets/henan/audio/psalm-045.mp3",
   "score": [
    "assets/henan/book-pages/psalm-045.jpg",
-   "assets/henan/matched-scores/psalm-045.jpg"
+   "assets/henan/scores/psalm-045.jpg"
   ],
   "verses": [
    {
@@ -3202,16 +3288,17 @@ window.PSALM_HENAN = [
     "text": "我 必 叫 你 的 名 被 万 代 记 念 。 所 以 万 民 要 永 永 远 远 称 谢 你 。"
    }
   ],
-  "note": "网络谱面与持书者照片的调号、节拍、旋律和歌词对应，已补完整谱面；网络图片没有河南两会出版标识，不能据此认定为同一印本。音频尚未与谱面核对。",
-  "scoreStatus": "melody-matched",
-  "coverage": "纸本照片 + 完整网络谱面",
-  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/045%E5%9B%9B%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
+  "note": "本篇网络谱面已与持书者照片的调号、节拍、旋律和歌词对照。网络音频和谱面按持书者决定收录；原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "书页照片 + 网络歌谱及音频",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/045%E5%9B%9B%E5%8D%81%E4%BA%94%E7%AF%87.jpg",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/045%E5%9B%9B%E5%8D%81%E4%BA%94%E7%AF%87.mp3"
  },
  {
   "number": 46,
   "title": "诗篇 46",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-046.mp3",
+  "score": "assets/henan/scores/psalm-046.jpg",
   "verses": [
    {
     "ref": "46:1",
@@ -3258,15 +3345,17 @@ window.PSALM_HENAN = [
     "text": "万 君 之 耶 和 华 与 我 们 同 在 。 雅 各 的 神 ， 是 我 们 的 避 难 所 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/046%E5%9B%9B%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/046%E5%9B%9B%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 47,
   "title": "诗篇 47",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-047.mp3",
+  "score": "assets/henan/scores/psalm-047.jpg",
   "verses": [
    {
     "ref": "47:1",
@@ -3305,15 +3394,17 @@ window.PSALM_HENAN = [
     "text": "列 邦 的 君 王 聚 集 ， 要 作 亚 伯 拉 罕 之 神 的 民 。 因 为 世 界 的 盾 牌 ， 是 属 神 的 。 他 为 至 高 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/047%E5%9B%9B%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/047%E5%9B%9B%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 48,
   "title": "诗篇 48",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-048.mp3",
+  "score": "assets/henan/scores/psalm-048.jpg",
   "verses": [
    {
     "ref": "48:1",
@@ -3372,15 +3463,17 @@ window.PSALM_HENAN = [
     "text": "因 为 这 神 永 永 远 远 为 我 们 的 神 。 他 必 作 我 们 引 路 的 ， 直 到 死 时 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/048%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/048%E5%9B%9B%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 49,
   "title": "诗篇 49",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-049.mp3",
+  "score": "assets/henan/scores/psalm-049.jpg",
   "verses": [
    {
     "ref": "49:1",
@@ -3463,15 +3556,17 @@ window.PSALM_HENAN = [
     "text": "人 在 尊 贵 中 ， 而 不 醒 悟 ， 就 如 死 亡 的 畜 类 一 样 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/049%E5%9B%9B%E5%8D%81%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/049%E5%9B%9B%E5%8D%81%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 50,
   "title": "诗篇 50",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-050.mp3",
+  "score": "assets/henan/scores/psalm-050.jpg",
   "verses": [
    {
     "ref": "50:1",
@@ -3566,15 +3661,17 @@ window.PSALM_HENAN = [
     "text": "凡 以 剐 谢 献 上 为 祭 的 ， 便 是 荣 耀 我 。 那 按 正 路 而 行 的 ， 我 便 使 他 得 着 我 的 救 恩 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/050%E4%BA%94%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/050%E4%BA%94%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 51,
   "title": "诗篇 51",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-051.mp3",
+  "score": "assets/henan/scores/psalm-051.jpg",
   "verses": [
    {
     "ref": "51:1",
@@ -3653,15 +3750,17 @@ window.PSALM_HENAN = [
     "text": "那 时 ， 你 必 喜 爱 公 义 的 祭 ， 和 燔 祭 并 全 牲 的 燔 祭 。 那 时 ， 人 必 将 公 牛 献 在 你 坛 上 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/051%E4%BA%94%E5%8D%81%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/051%E4%BA%94%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 52,
   "title": "诗篇 52",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-052.mp3",
+  "score": "assets/henan/scores/psalm-052.jpg",
   "verses": [
    {
     "ref": "52:1",
@@ -3700,15 +3799,17 @@ window.PSALM_HENAN = [
     "text": "我 要 称 谢 你 ， 直 到 永 远 ， 因 为 你 行 了 这 事 。 我 也 要 在 你 圣 民 面 前 仰 望 你 的 名 。 这 名 本 为 美 好 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/052%E4%BA%94%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/052%E4%BA%94%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 53,
   "title": "诗篇 53",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-053.mp3",
+  "score": "assets/henan/scores/psalm-053.jpg",
   "verses": [
    {
     "ref": "53:1",
@@ -3735,15 +3836,17 @@ window.PSALM_HENAN = [
     "text": "但 愿 以 色 列 的 救 恩 从 锡 安 而 出 。 神 救 回 他 被 掳 的 子 民 ， 那 时 ， 雅 各 要 快 乐 ， 以 色 列 要 欢 喜 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/053%E4%BA%94%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/053%E4%BA%94%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 54,
   "title": "诗篇 54",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-054.mp3",
+  "score": "assets/henan/scores/psalm-054.jpg",
   "verses": [
    {
     "ref": "54:1",
@@ -3774,15 +3877,17 @@ window.PSALM_HENAN = [
     "text": "他 从 一 切 的 急 难 中 ， 把 我 救 出 来 。 我 的 眼 睛 也 看 见 了 我 仇 敌 遭 报 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/054%E4%BA%94%E5%8D%81%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/054%E4%BA%94%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 55,
   "title": "诗篇 55",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-055.mp3",
+  "score": "assets/henan/scores/psalm-055.jpg",
   "verses": [
    {
     "ref": "55:1",
@@ -3877,15 +3982,17 @@ window.PSALM_HENAN = [
     "text": "神 阿 ， 你 必 使 恶 人 下 入 灭 亡 的 坑 。 流 人 血 行 诡 诈 的 人 ， 必 活 不 到 半 世 ， 但 我 要 倚 靠 你 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/055%E4%BA%94%E5%8D%81%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/055%E4%BA%94%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 56,
   "title": "诗篇 56",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-056.mp3",
+  "score": "assets/henan/scores/psalm-056.jpg",
   "verses": [
    {
     "ref": "56:1",
@@ -3940,15 +4047,17 @@ window.PSALM_HENAN = [
     "text": "因 为 你 救 我 的 命 脱 离 死 亡 。 你 岂 不 是 救 护 我 的 脚 不 跌 倒 ， 使 我 在 生 命 光 中 行 在 神 面 前 麽 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/056%E4%BA%94%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/056%E4%BA%94%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 57,
   "title": "诗篇 57",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-057.mp3",
+  "score": "assets/henan/scores/psalm-057.jpg",
   "verses": [
    {
     "ref": "57:1",
@@ -3995,15 +4104,17 @@ window.PSALM_HENAN = [
     "text": "神 阿 ， 愿 你 崇 高 ， 过 于 诸 天 。 愿 你 的 荣 耀 ， 高 过 全 地 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/057%E4%BA%94%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/057%E4%BA%94%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 58,
   "title": "诗篇 58",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-058.mp3",
+  "score": "assets/henan/scores/psalm-058.jpg",
   "verses": [
    {
     "ref": "58:1",
@@ -4050,15 +4161,17 @@ window.PSALM_HENAN = [
     "text": "因 此 ， 人 必 说 ， 义 人 诚 然 有 善 报 。 在 地 上 果 有 施 行 判 断 的 神 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/058%E4%BA%94%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/058%E4%BA%94%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 59,
   "title": "诗篇 59",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-059.mp3",
+  "score": "assets/henan/scores/psalm-059.jpg",
   "verses": [
    {
     "ref": "59:1",
@@ -4129,15 +4242,17 @@ window.PSALM_HENAN = [
     "text": "我 的 力 量 阿 ， 我 要 歌 颂 你 。 因 为 神 是 我 的 高 台 ， 是 赐 恩 与 我 的 神 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/059%E4%BA%94%E5%8D%81%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/059%E4%BA%94%E5%8D%81%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 60,
   "title": "诗篇 60",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-060.mp3",
+  "score": "assets/henan/scores/psalm-060.jpg",
   "verses": [
    {
     "ref": "60:1",
@@ -4188,15 +4303,17 @@ window.PSALM_HENAN = [
     "text": "我 们 倚 靠 神 ， 才 得 施 展 大 能 ， 因 为 践 踏 我 们 敌 人 的 就 是 他 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/060%E5%85%AD%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/060%E5%85%AD%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 61,
   "title": "诗篇 61",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-061.mp3",
+  "score": "assets/henan/scores/psalm-061.jpg",
   "verses": [
    {
     "ref": "61:1",
@@ -4231,15 +4348,17 @@ window.PSALM_HENAN = [
     "text": "这 样 ， 我 要 歌 颂 你 的 名 直 到 永 远 ， 好 天 天 还 我 所 许 的 愿 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/061%E5%85%AD%E5%8D%81%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/061%E5%85%AD%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 62,
   "title": "诗篇 62",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-062.mp3",
+  "score": "assets/henan/scores/psalm-062.jpg",
   "verses": [
    {
     "ref": "62:1",
@@ -4290,15 +4409,17 @@ window.PSALM_HENAN = [
     "text": "主 阿 ， 慈 爱 也 是 属 乎 你 。 因 为 你 照 着 各 人 所 行 的 报 应 他 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/062%E5%85%AD%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/062%E5%85%AD%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 63,
   "title": "诗篇 63",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-063.mp3",
+  "score": "assets/henan/scores/psalm-063.jpg",
   "verses": [
    {
     "ref": "63:1",
@@ -4345,15 +4466,17 @@ window.PSALM_HENAN = [
     "text": "但 是 王 必 因 神 欢 喜 。 凡 指 着 他 发 誓 的 ， 必 要 夸 口 。 因 为 说 谎 之 人 的 口 ， 必 被 塞 住 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/063%E5%85%AD%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/063%E5%85%AD%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 64,
   "title": "诗篇 64",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-064.mp3",
+  "score": "assets/henan/scores/psalm-064.jpg",
   "verses": [
    {
     "ref": "64:1",
@@ -4396,15 +4519,17 @@ window.PSALM_HENAN = [
     "text": "义 人 必 因 耶 和 华 欢 喜 ， 并 要 投 靠 他 。 凡 心 里 正 直 的 人 ， 都 要 夸 口 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/064%E5%85%AD%E5%8D%81%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/064%E5%85%AD%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 65,
   "title": "诗篇 65",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-065.mp3",
+  "score": "assets/henan/scores/psalm-065.jpg",
   "verses": [
    {
     "ref": "65:1",
@@ -4459,15 +4584,17 @@ window.PSALM_HENAN = [
     "text": "草 场 以 羊 群 为 衣 。 谷 中 也 长 满 了 五 谷 。 这 一 切 都 欢 呼 歌 唱 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/065%E5%85%AD%E5%8D%81%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/065%E5%85%AD%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 66,
   "title": "诗篇 66",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-066.mp3",
+  "score": "assets/henan/scores/psalm-066.jpg",
   "verses": [
    {
     "ref": "66:1",
@@ -4550,15 +4677,17 @@ window.PSALM_HENAN = [
     "text": "神 是 应 当 称 颂 的 。 他 并 没 有 推 却 我 的 祷 告 ， 也 没 有 叫 他 的 慈 爱 离 开 我 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/066%E5%85%AD%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/066%E5%85%AD%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 67,
   "title": "诗篇 67",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-067.mp3",
+  "score": "assets/henan/scores/psalm-067.jpg",
   "verses": [
    {
     "ref": "67:1",
@@ -4589,15 +4718,17 @@ window.PSALM_HENAN = [
     "text": "神 要 赐 福 与 我 们 。 地 的 四 极 都 要 敬 畏 他 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/067%E5%85%AD%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/067%E5%85%AD%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 68,
   "title": "诗篇 68",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-068.mp3",
+  "score": "assets/henan/scores/psalm-068.jpg",
   "verses": [
    {
     "ref": "68:1",
@@ -4740,15 +4871,17 @@ window.PSALM_HENAN = [
     "text": "神 阿 ， 你 从 圣 所 显 为 可 畏 。 以 色 列 的 神 ， 是 那 将 力 量 权 能 赐 给 他 白 姓 的 。 神 是 应 当 称 颂 的 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/068%E5%85%AD%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/068%E5%85%AD%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 69,
   "title": "诗篇 69",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-069.mp3",
+  "score": "assets/henan/scores/psalm-069.jpg",
   "verses": [
    {
     "ref": "69:1",
@@ -4895,15 +5028,17 @@ window.PSALM_HENAN = [
     "text": "他 仆 人 的 后 裔 ， 要 承 受 为 业 。 爱 他 名 的 人 ， 也 要 住 在 其 中 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/069%E5%85%AD%E5%8D%81%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/069%E5%85%AD%E5%8D%81%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 70,
   "title": "诗篇 70",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-070.mp3",
+  "score": "assets/henan/scores/psalm-070.jpg",
   "verses": [
    {
     "ref": "70:1",
@@ -4926,15 +5061,17 @@ window.PSALM_HENAN = [
     "text": "但 我 是 困 苦 穷 乏 的 。 神 阿 ， 求 你 速 速 到 我 这 里 来 。 你 是 帮 助 我 的 ， 搭 救 我 的 。 耶 和 华 阿 ， 求 你 不 要 耽 延 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/070%E4%B8%83%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/070%E4%B8%83%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 71,
   "title": "诗篇 71",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-071.mp3",
+  "score": "assets/henan/scores/psalm-071.jpg",
   "verses": [
    {
     "ref": "71:1",
@@ -5033,15 +5170,17 @@ window.PSALM_HENAN = [
     "text": "并 且 我 的 舌 头 ， 必 终 日 讲 论 你 的 公 义 ， 因 为 那 些 谋 害 我 的 人 ， 已 经 蒙 羞 受 辱 了 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/071%E4%B8%83%E5%8D%81%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/071%E4%B8%83%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 72,
   "title": "诗篇 72",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-072.mp3",
+  "score": "assets/henan/scores/psalm-072.jpg",
   "verses": [
    {
     "ref": "72:1",
@@ -5124,15 +5263,17 @@ window.PSALM_HENAN = [
     "text": "耶 西 的 儿 子 大 卫 的 祈 祷 完 毕 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/072%E4%B8%83%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/072%E4%B8%83%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 73,
   "title": "诗篇 73",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-073.mp3",
+  "score": "assets/henan/scores/psalm-073.jpg",
   "verses": [
    {
     "ref": "73:1",
@@ -5247,15 +5388,17 @@ window.PSALM_HENAN = [
     "text": "但 我 亲 近 神 是 与 我 有 益 。 我 以 主 耶 和 华 为 我 的 避 难 所 ， 好 叫 我 述 说 你 一 切 的 作 为 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/073%E4%B8%83%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/073%E4%B8%83%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 74,
   "title": "诗篇 74",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-074.mp3",
+  "score": "assets/henan/scores/psalm-074.jpg",
   "verses": [
    {
     "ref": "74:1",
@@ -5350,15 +5493,17 @@ window.PSALM_HENAN = [
     "text": "不 要 忘 记 你 敌 人 的 声 音 。 那 起 来 敌 你 之 人 的 喧 哗 时 常 上 升 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/074%E4%B8%83%E5%8D%81%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/074%E4%B8%83%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 75,
   "title": "诗篇 75",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-075.mp3",
+  "score": "assets/henan/scores/psalm-075.jpg",
   "verses": [
    {
     "ref": "75:1",
@@ -5401,15 +5546,17 @@ window.PSALM_HENAN = [
     "text": "恶 人 一 切 的 角 ， 我 要 砍 断 。 惟 有 义 人 的 角 ， 必 被 高 举 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/075%E4%B8%83%E5%8D%81%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/075%E4%B8%83%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 76,
   "title": "诗篇 76",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-076.mp3",
+  "score": "assets/henan/scores/psalm-076.jpg",
   "verses": [
    {
     "ref": "76:1",
@@ -5460,15 +5607,17 @@ window.PSALM_HENAN = [
     "text": "他 要 挫 折 王 子 的 骄 气 。 他 向 地 上 的 君 王 ， 显 威 可 畏 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/076%E4%B8%83%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/076%E4%B8%83%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 77,
   "title": "诗篇 77",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-077.mp3",
+  "score": "assets/henan/scores/psalm-077.jpg",
   "verses": [
    {
     "ref": "77:1",
@@ -5551,15 +5700,17 @@ window.PSALM_HENAN = [
     "text": "你 曾 藉 摩 西 和 亚 伦 的 手 ， 引 导 你 的 百 姓 ， 好 像 羊 群 一 般 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/077%E4%B8%83%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/077%E4%B8%83%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 78,
   "title": "诗篇 78",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-078.mp3",
+  "score": "assets/henan/scores/psalm-078.jpg",
   "verses": [
    {
     "ref": "78:1",
@@ -5850,15 +6001,17 @@ window.PSALM_HENAN = [
     "text": "于 是 他 按 心 中 的 纯 正 ， 牧 养 他 们 ， 用 手 中 的 巧 妙 ， 引 导 他 们 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/078%E4%B8%83%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/078%E4%B8%83%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 79,
   "title": "诗篇 79",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-079.mp3",
+  "score": "assets/henan/scores/psalm-079.jpg",
   "verses": [
    {
     "ref": "79:1",
@@ -5913,15 +6066,17 @@ window.PSALM_HENAN = [
     "text": "这 样 ， 你 的 民 ， 你 草 场 的 羊 ， 要 称 谢 你 ， 直 到 永 远 。 要 述 说 赞 美 你 的 话 ， 直 到 万 代 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/079%E4%B8%83%E5%8D%81%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/079%E4%B8%83%E5%8D%81%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 80,
   "title": "诗篇 80",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-080.mp3",
+  "score": "assets/henan/scores/psalm-080.jpg",
   "verses": [
    {
     "ref": "80:1",
@@ -6000,15 +6155,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 万 军 之 神 阿 ， 求 你 使 我 们 回 转 ， 使 你 的 脸 发 光 ， 我 们 便 要 得 救 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/080%E5%85%AB%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/080%E5%85%AB%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 81,
   "title": "诗篇 81",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-081.mp3",
+  "score": "assets/henan/scores/psalm-081.jpg",
   "verses": [
    {
     "ref": "81:1",
@@ -6075,15 +6232,17 @@ window.PSALM_HENAN = [
     "text": "他 也 必 拿 上 好 的 麦 子 给 他 们 吃 。 有 拿 从 磐 石 出 的 蜂 蜜 ， 叫 他 们 饱 足 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/081%E5%85%AB%E5%8D%81%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/081%E5%85%AB%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 82,
   "title": "诗篇 82",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-082.mp3",
+  "score": "assets/henan/scores/psalm-082.jpg",
   "verses": [
    {
     "ref": "82:1",
@@ -6118,15 +6277,17 @@ window.PSALM_HENAN = [
     "text": "神 阿 ， 求 你 起 来 ， 审 判 世 界 。 因 为 你 要 得 万 邦 为 业 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/082%E5%85%AB%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/082%E5%85%AB%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 83,
   "title": "诗篇 83",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-083.mp3",
+  "score": "assets/henan/scores/psalm-083.jpg",
   "verses": [
    {
     "ref": "83:1",
@@ -6201,15 +6362,17 @@ window.PSALM_HENAN = [
     "text": "使 他 们 知 道 惟 独 你 名 为 耶 和 华 的 ， 是 全 地 以 上 的 至 高 者 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/083%E5%85%AB%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/083%E5%85%AB%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 84,
   "title": "诗篇 84",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-084.mp3",
+  "score": "assets/henan/scores/psalm-084.jpg",
   "verses": [
    {
     "ref": "84:1",
@@ -6260,15 +6423,17 @@ window.PSALM_HENAN = [
     "text": "万 军 之 耶 和 华 阿 ， 倚 靠 你 的 人 ， 便 为 有 福 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/084%E5%85%AB%E5%8D%81%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/084%E5%85%AB%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 85,
   "title": "诗篇 85",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-085.mp3",
+  "score": "assets/henan/scores/psalm-085.jpg",
   "verses": [
    {
     "ref": "85:1",
@@ -6323,15 +6488,17 @@ window.PSALM_HENAN = [
     "text": "公 义 要 行 在 他 面 前 ， 叫 他 的 脚 踪 ， 成 为 可 走 的 路 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/085%E5%85%AB%E5%8D%81%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/085%E5%85%AB%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 86,
   "title": "诗篇 86",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-086.mp3",
+  "score": "assets/henan/scores/psalm-086.jpg",
   "verses": [
    {
     "ref": "86:1",
@@ -6402,15 +6569,17 @@ window.PSALM_HENAN = [
     "text": "求 你 向 我 显 出 恩 待 我 的 凭 据 ， 叫 恨 我 的 人 看 见 ， 便 羞 愧 ， 因 为 你 耶 和 华 帮 助 我 ， 安 慰 我 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/086%E5%85%AB%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/086%E5%85%AB%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 87,
   "title": "诗篇 87",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-087.mp3",
+  "score": "assets/henan/scores/psalm-087.jpg",
   "verses": [
    {
     "ref": "87:1",
@@ -6441,15 +6610,17 @@ window.PSALM_HENAN = [
     "text": "歌 唱 的 ， 跳 舞 的 ， 都 要 说 ， 我 的 泉 源 都 在 你 这 里 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/087%E5%85%AB%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/087%E5%85%AB%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 88,
   "title": "诗篇 88",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-088.mp3",
+  "score": "assets/henan/scores/psalm-088.jpg",
   "verses": [
    {
     "ref": "88:1",
@@ -6524,15 +6695,17 @@ window.PSALM_HENAN = [
     "text": "你 把 我 的 良 朋 密 友 隔 在 远 处 ， 使 我 所 认 识 的 人 ， 进 入 黑 暗 里 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/088%E5%85%AB%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/088%E5%85%AB%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 89,
   "title": "诗篇 89",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-089.mp3",
+  "score": "assets/henan/scores/psalm-089.jpg",
   "verses": [
    {
     "ref": "89:1",
@@ -6743,15 +6916,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 是 应 当 称 颂 的 ， 直 到 永 远 。 阿 们 ， 阿 们 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/089%E5%85%AB%E5%8D%81%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/089%E5%85%AB%E5%8D%81%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 90,
   "title": "诗篇 90",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-090.mp3",
+  "score": "assets/henan/scores/psalm-090.jpg",
   "verses": [
    {
     "ref": "90:1",
@@ -6822,15 +6997,17 @@ window.PSALM_HENAN = [
     "text": "愿 主 我 们 神 的 荣 美 ， 归 与 我 们 身 上 。 愿 你 坚 立 我 们 手 所 作 的 工 。 我 们 手 所 作 的 工 ， 愿 你 坚 立 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/090%E4%B9%9D%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/090%E4%B9%9D%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 91,
   "title": "诗篇 91",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-091.mp3",
+  "score": "assets/henan/scores/psalm-091.jpg",
   "verses": [
    {
     "ref": "91:1",
@@ -6897,15 +7074,17 @@ window.PSALM_HENAN = [
     "text": "我 要 使 他 足 享 长 寿 ， 将 我 的 救 恩 显 明 给 他 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/091%E4%B9%9D%E5%8D%81%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/091%E4%B9%9D%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 92,
   "title": "诗篇 92",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-092.mp3",
+  "score": "assets/henan/scores/psalm-092.jpg",
   "verses": [
    {
     "ref": "92:1",
@@ -6968,15 +7147,17 @@ window.PSALM_HENAN = [
     "text": "好 显 明 耶 和 华 是 正 直 的 ， 他 是 我 的 磐 石 ， 在 他 毫 无 不 义 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/092%E4%B9%9D%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/092%E4%B9%9D%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 93,
   "title": "诗篇 93",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-093.mp3",
+  "score": "assets/henan/scores/psalm-093.jpg",
   "verses": [
    {
     "ref": "93:1",
@@ -6999,15 +7180,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 阿 ， 你 的 法 度 最 的 确 。 你 的 殿 永 称 为 圣 ， 是 合 宜 的 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/093%E4%B9%9D%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/093%E4%B9%9D%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 94,
   "title": "诗篇 94",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-094.mp3",
+  "score": "assets/henan/scores/psalm-094.jpg",
   "verses": [
    {
     "ref": "94:1",
@@ -7102,15 +7285,17 @@ window.PSALM_HENAN = [
     "text": "他 叫 他 们 的 罪 孽 归 到 他 们 身 上 。 他 们 正 在 行 恶 之 中 ， 他 要 剪 除 他 们 。 耶 和 华 我 们 的 神 要 把 他 们 剪 除 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/094%E4%B9%9D%E5%8D%81%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/094%E4%B9%9D%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 95,
   "title": "诗篇 95",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-095.mp3",
+  "score": "assets/henan/scores/psalm-095.jpg",
   "verses": [
    {
     "ref": "95:1",
@@ -7157,15 +7342,17 @@ window.PSALM_HENAN = [
     "text": "所 以 我 在 怒 中 起 誓 ， 说 ， 他 们 断 不 可 进 入 我 的 安 息 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/095%E4%B9%9D%E5%8D%81%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/095%E4%B9%9D%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 96,
   "title": "诗篇 96",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-096.mp3",
+  "score": "assets/henan/scores/psalm-096.jpg",
   "verses": [
    {
     "ref": "96:1",
@@ -7220,15 +7407,17 @@ window.PSALM_HENAN = [
     "text": "因 为 他 来 了 。 他 来 要 审 判 全 地 。 他 要 按 公 义 审 判 世 界 ， 按 他 的 信 实 审 判 万 民 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/096%E4%B9%9D%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/096%E4%B9%9D%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 97,
   "title": "诗篇 97",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-097.mp3",
+  "score": "assets/henan/scores/psalm-097.jpg",
   "verses": [
    {
     "ref": "97:1",
@@ -7279,15 +7468,17 @@ window.PSALM_HENAN = [
     "text": "你 们 义 人 当 靠 耶 和 华 欢 喜 ， 称 谢 他 可 记 念 的 圣 名 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/097%E4%B9%9D%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/097%E4%B9%9D%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 98,
   "title": "诗篇 98",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-098.mp3",
+  "score": "assets/henan/scores/psalm-098.jpg",
   "verses": [
    {
     "ref": "98:1",
@@ -7326,15 +7517,17 @@ window.PSALM_HENAN = [
     "text": "因 为 他 来 ， 要 审 判 遍 地 。 他 要 按 公 义 审 判 世 界 ， 按 公 正 审 判 万 民 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/098%E4%B9%9D%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/098%E4%B9%9D%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 99,
   "title": "诗篇 99",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-099.mp3",
+  "score": "assets/henan/scores/psalm-099.jpg",
   "verses": [
    {
     "ref": "99:1",
@@ -7373,15 +7566,17 @@ window.PSALM_HENAN = [
     "text": "你 们 要 尊 崇 耶 和 华 我 们 的 神 ， 在 他 的 圣 山 下 拜 。 因 为 耶 和 华 我 们 的 神 本 为 圣 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/099%E4%B9%9D%E5%8D%81%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/099%E4%B9%9D%E5%8D%81%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 100,
   "title": "诗篇 100",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-100.mp3",
+  "score": "assets/henan/scores/psalm-100.jpg",
   "verses": [
    {
     "ref": "100:1",
@@ -7404,15 +7599,17 @@ window.PSALM_HENAN = [
     "text": "因 为 耶 和 华 本 为 善 ， 他 的 慈 爱 ， 存 到 永 远 ， 他 的 信 实 ， 直 到 万 代 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/100%E4%B8%80%E7%99%BE%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/100%E4%B8%80%E7%99%BE%E7%AF%87.jpg"
  },
  {
   "number": 101,
   "title": "诗篇 101",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-101.mp3",
+  "score": "assets/henan/scores/psalm-101.jpg",
   "verses": [
    {
     "ref": "101:1",
@@ -7447,15 +7644,17 @@ window.PSALM_HENAN = [
     "text": "我 每 日 早 晨 ， 要 灭 绝 国 中 所 有 的 恶 人 。 好 把 一 切 作 孽 的 ， 从 耶 和 华 的 城 里 剪 除 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/101%E4%B8%80%E7%99%BE%E9%9B%B6%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/101%E4%B8%80%E7%99%BE%E9%9B%B6%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 102,
   "title": "诗篇 102",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-102.mp3",
+  "score": "assets/henan/scores/psalm-102.jpg",
   "verses": [
    {
     "ref": "102:1",
@@ -7570,15 +7769,17 @@ window.PSALM_HENAN = [
     "text": "你 仆 人 的 子 孙 要 长 存 。 他 们 的 后 裔 ， 要 坚 立 在 你 面 前 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/102%E4%B8%80%E7%99%BE%E9%9B%B6%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/102%E4%B8%80%E7%99%BE%E9%9B%B6%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 103,
   "title": "诗篇 103",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-103.mp3",
+  "score": "assets/henan/scores/psalm-103.jpg",
   "verses": [
    {
     "ref": "103:1",
@@ -7669,15 +7870,17 @@ window.PSALM_HENAN = [
     "text": "你 们 一 切 被 他 造 的 ， 在 他 所 治 理 的 各 处 ， 都 要 称 颂 耶 和 华 。 我 的 心 哪 ， 你 要 称 颂 耶 和 华 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/103%E4%B8%80%E7%99%BE%E9%9B%B6%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/103%E4%B8%80%E7%99%BE%E9%9B%B6%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 104,
   "title": "诗篇 104",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-104.mp3",
+  "score": "assets/henan/scores/psalm-104.jpg",
   "verses": [
    {
     "ref": "104:1",
@@ -7820,15 +8023,17 @@ window.PSALM_HENAN = [
     "text": "愿 罪 人 从 世 上 消 灭 。 愿 恶 人 归 于 无 有 。 我 的 心 哪 ， 要 称 颂 耶 和 华 。 你 们 要 赞 美 耶 和 华 。 （ 原 文 作 哈 利 路 亚 下 同 ）"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/104%E4%B8%80%E7%99%BE%E9%9B%B6%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/104%E4%B8%80%E7%99%BE%E9%9B%B6%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 105,
   "title": "诗篇 105",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-105.mp3",
+  "score": "assets/henan/scores/psalm-105.jpg",
   "verses": [
    {
     "ref": "105:1",
@@ -8011,15 +8216,17 @@ window.PSALM_HENAN = [
     "text": "好 使 他 们 遵 他 的 律 例 ， 守 他 的 律 法 。 你 们 要 赞 美 耶 和 华 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/105%E4%B8%80%E7%99%BE%E9%9B%B6%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/105%E4%B8%80%E7%99%BE%E9%9B%B6%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 106,
   "title": "诗篇 106",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-106.mp3",
+  "score": "assets/henan/scores/psalm-106.jpg",
   "verses": [
    {
     "ref": "106:1",
@@ -8214,15 +8421,17 @@ window.PSALM_HENAN = [
     "text": "耶 和 华 以 色 列 的 神 是 应 当 称 颂 的 ， 从 亘 古 直 到 永 远 。 愿 众 民 都 说 ， 阿 们 。 你 们 要 赞 美 耶 和 华 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/106%E4%B8%80%E7%99%BE%E9%9B%B6%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/106%E4%B8%80%E7%99%BE%E9%9B%B6%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 107,
   "title": "诗篇 107",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-107.mp3",
+  "score": "assets/henan/scores/psalm-107.jpg",
   "verses": [
    {
     "ref": "107:1",
@@ -8397,15 +8606,17 @@ window.PSALM_HENAN = [
     "text": "凡 有 智 慧 的 ， 必 在 这 些 事 上 留 心 ， 也 必 思 想 耶 和 华 的 慈 爱 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/107%E4%B8%80%E7%99%BE%E9%9B%B6%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/107%E4%B8%80%E7%99%BE%E9%9B%B6%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 108,
   "title": "诗篇 108",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-108.mp3",
+  "score": "assets/henan/scores/psalm-108.jpg",
   "verses": [
    {
     "ref": "108:1",
@@ -8460,15 +8671,17 @@ window.PSALM_HENAN = [
     "text": "我 们 倚 靠 神 ， 才 得 施 展 大 能 ， 因 为 践 踏 我 们 敌 人 的 就 是 他 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/108%E4%B8%80%E7%99%BE%E9%9B%B6%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/108%E4%B8%80%E7%99%BE%E9%9B%B6%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 109,
   "title": "诗篇 109",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-109.mp3",
+  "score": "assets/henan/scores/psalm-109.jpg",
   "verses": [
    {
     "ref": "109:1",
@@ -8595,15 +8808,17 @@ window.PSALM_HENAN = [
     "text": "因 为 他 必 站 在 穷 乏 人 的 右 边 ， 要 救 他 脱 离 审 判 他 灵 魂 的 人 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/109%E4%B8%80%E7%99%BE%E9%9B%B6%E4%B9%9D%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/109%E4%B8%80%E7%99%BE%E9%9B%B6%E4%B9%9D%E7%AF%87.jpg"
  },
  {
   "number": 110,
   "title": "诗篇 110",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-110.mp3",
+  "score": "assets/henan/scores/psalm-110.jpg",
   "verses": [
    {
     "ref": "110:1",
@@ -8634,15 +8849,17 @@ window.PSALM_HENAN = [
     "text": "他 要 喝 路 旁 的 河 水 ， 因 此 必 抬 起 头 来 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/110%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/110%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E7%AF%87.jpg"
  },
  {
   "number": 111,
   "title": "诗篇 111",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-111.mp3",
+  "score": "assets/henan/scores/psalm-111.jpg",
   "verses": [
    {
     "ref": "111:1",
@@ -8685,15 +8902,17 @@ window.PSALM_HENAN = [
     "text": "敬 畏 耶 和 华 是 智 慧 得 开 端 。 凡 遵 行 。 他 命 令 的 ， 便 是 聪 明 人 。 耶 和 华 是 永 远 当 赞 美 的 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/111%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%B8%80%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/111%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%B8%80%E7%AF%87.jpg"
  },
  {
   "number": 112,
   "title": "诗篇 112",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-112.mp3",
+  "score": "assets/henan/scores/psalm-112.jpg",
   "verses": [
    {
     "ref": "112:1",
@@ -8736,15 +8955,17 @@ window.PSALM_HENAN = [
     "text": "恶 人 看 见 便 恼 恨 。 必 咬 牙 而 消 化 。 恶 人 的 心 愿 ， 要 归 灭 绝 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/112%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%BA%8C%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/112%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%BA%8C%E7%AF%87.jpg"
  },
  {
   "number": 113,
   "title": "诗篇 113",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-113.mp3",
+  "score": "assets/henan/scores/psalm-113.jpg",
   "verses": [
    {
     "ref": "113:1",
@@ -8783,15 +9004,17 @@ window.PSALM_HENAN = [
     "text": "他 使 不 能 生 育 的 妇 人 安 居 家 中 ， 为 多 子 的 乐 母 。 你 们 要 赞 美 耶 和 华 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/113%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%B8%89%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/113%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%B8%89%E7%AF%87.jpg"
  },
  {
   "number": 114,
   "title": "诗篇 114",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-114.mp3",
+  "score": "assets/henan/scores/psalm-114.jpg",
   "verses": [
    {
     "ref": "114:1",
@@ -8826,15 +9049,17 @@ window.PSALM_HENAN = [
     "text": "他 叫 磐 石 变 为 水 池 ， 叫 坚 石 变 为 泉 源 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/114%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E5%9B%9B%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/114%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E5%9B%9B%E7%AF%87.jpg"
  },
  {
   "number": 115,
   "title": "诗篇 115",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-115.mp3",
+  "score": "assets/henan/scores/psalm-115.jpg",
   "verses": [
    {
     "ref": "115:1",
@@ -8909,15 +9134,17 @@ window.PSALM_HENAN = [
     "text": "但 我 们 要 称 颂 耶 和 华 ， 从 今 时 直 到 永 远 。 你 们 要 赞 美 耶 和 华 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/115%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%BA%94%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/115%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%BA%94%E7%AF%87.jpg"
  },
  {
   "number": 116,
   "title": "诗篇 116",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-116.mp3",
+  "score": "assets/henan/scores/psalm-116.jpg",
   "verses": [
    {
     "ref": "116:1",
@@ -8996,15 +9223,17 @@ window.PSALM_HENAN = [
     "text": "在 耶 路 撒 冷 当 中 ， 向 耶 和 华 还 我 的 愿 。 你 们 要 赞 美 耶 和 华 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/116%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E5%85%AD%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/116%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E5%85%AD%E7%AF%87.jpg"
  },
  {
   "number": 117,
   "title": "诗篇 117",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-117.mp3",
+  "score": "assets/henan/scores/psalm-117.jpg",
   "verses": [
    {
     "ref": "117:1",
@@ -9015,15 +9244,17 @@ window.PSALM_HENAN = [
     "text": "因 为 他 向 我 们 大 施 慈 爱 。 耶 和 华 的 诚 实 存 到 永 远 。 你 们 要 赞 美 耶 和 华 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/117%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%B8%83%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/117%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E4%B8%83%E7%AF%87.jpg"
  },
  {
   "number": 118,
   "title": "诗篇 118",
-  "audio": null,
-  "score": null,
+  "audio": "assets/henan/audio/psalm-118.mp3",
+  "score": "assets/henan/scores/psalm-118.jpg",
   "verses": [
    {
     "ref": "118:1",
@@ -9142,9 +9373,11 @@ window.PSALM_HENAN = [
     "text": "你 们 要 称 谢 耶 和 华 ， 因 他 本 为 善 。 他 的 慈 爱 永 远 长 存 。"
    }
   ],
-  "note": "本篇尚未找到可确认为本版的歌谱或音频。",
-  "scoreStatus": "missing",
-  "coverage": "未找到"
+  "note": "本篇网络歌谱与音频按持书者决定收录；未与纸本逐篇比对，原站未标注河南两会出版信息。",
+  "scoreStatus": "adopted",
+  "coverage": "网络歌谱及音频",
+  "audioSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/118%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E5%85%AB%E7%AF%87.mp3",
+  "scoreSource": "https://m.zgaxr.com/uploadfile/14%E6%AF%8F%E5%A4%A9%E6%9B%B4%E6%96%B0%E7%9A%84%E5%86%85%E5%AE%B9/01%E6%AF%8F%E5%A4%A9%E4%B8%80%E6%AD%8C/08%E8%AF%97%E7%AF%87%E5%85%A8%E9%9B%86%E6%AD%8C%E6%9B%B2/118%E4%B8%80%E7%99%BE%E4%B8%80%E5%8D%81%E5%85%AB%E7%AF%87.jpg"
  },
  {
   "number": 119,

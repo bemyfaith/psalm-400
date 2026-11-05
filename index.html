@@ -368,13 +368,13 @@
         let psalmScoreHtml = '';
         if (h.score) {
           if (Array.isArray(h.score)) {
-            psalmScoreHtml = `<div class="panel"><h3>歌谱</h3>` + h.score.map((s, i) => `<div style="margin-bottom:1rem"><p>${activeCatalog === 'henan' ? (i === 0 ? '持书者提供的纸本照片' : '旋律已比对的网络谱面（出版来源未证实）') : `第${i+1}页`}</p><img src="${s}" alt="${h.title} 歌谱 ${i === 0 ? '纸本照片' : '网络谱面'}" onclick="zoomImage('${s}')" style="cursor:zoom-in;max-width:100%;display:block"></div>`).join('') + `</div>`;
+            psalmScoreHtml = `<div class="panel"><h3>歌谱</h3>` + h.score.map((s, i) => `<div style="margin-bottom:1rem"><p>${activeCatalog === 'henan' ? (i === 0 ? '持书者提供的纸本照片' : (h.number === 11 || h.number === 24 || h.number === 45 ? '与纸本旋律对应的网络谱面（出版来源未证实）' : '网络谱面（出版来源未证实）')) : `第${i+1}页`}</p><img src="${s}" alt="${h.title} 歌谱 ${i === 0 ? '纸本照片' : '网络谱面'}" onclick="zoomImage('${s}')" style="cursor:zoom-in;max-width:100%;display:block"></div>`).join('') + `</div>`;
           } else {
-            psalmScoreHtml = `<div class="panel"><h3>歌谱</h3><img src="${h.score}" alt="${h.title} 歌谱" onclick="zoomImage('${h.score}')" style="cursor:zoom-in;max-width:100%"></div>`;
+            psalmScoreHtml = `<div class="panel"><h3>歌谱</h3>${activeCatalog === 'henan' ? `<p>${h.scoreStatus === 'adopted' ? '网络谱面（出版来源未证实）' : '持书者提供的纸本照片'}</p>` : ''}<img src="${h.score}" alt="${h.title} 歌谱" onclick="zoomImage('${h.score}')" style="cursor:zoom-in;max-width:100%"></div>`;
           }
         }
         if (activeCatalog === 'henan' && !h.score) psalmScoreHtml = '<div class="panel"><h3>歌谱</h3><div class="placeholder">本版歌谱资源未找到</div></div>';
-        const editionInfo = activeCatalog === 'henan' ? `<div class="panel" style="background:#f5f7ff"><h3>《诗篇全集 简谱本》· 河南版</h3><p>河南省基督教两会出版。当前收录来源：持书者提供的纸本书页照片。</p><p>已有 5 张纸本书页照片，涉及 6 篇；其中 3 篇另有旋律匹配的网络谱面。网络图片的出版来源未证实，本版音频 0 篇。</p><p>${h.note}</p>${h.scoreSource ? `<p>网络谱面来源：<a href="${h.scoreSource}" target="_blank" rel="noopener noreferrer">查看原站图片</a></p>` : ''}</div>` : '';
+        const editionInfo = activeCatalog === 'henan' ? `<div class="panel" style="background:#f5f7ff"><h3>《诗篇全集 简谱本》· 河南版目录</h3><p>第 1–118 篇网络歌谱及音频按持书者决定收录；其中第 11、24、45 篇的网络谱面已与纸本旋律对照，其余未逐篇核对。网络资源的原站没有河南省基督教两会出版标识。</p><p>现收录 118 篇网络歌谱和音频；另有 5 张纸本书页照片涉及 6 篇（含局部片段）。第 119–150 篇暂无本批网络资源。</p><p>${h.note}</p>${h.scoreSource ? `<p>网络谱面来源：<a href="${h.scoreSource}" target="_blank" rel="noopener noreferrer">查看原站图片</a></p>` : ''}${h.audioSource ? `<p>网络音频来源：<a href="${h.audioSource}" target="_blank" rel="noopener noreferrer">查看原站音频</a></p>` : ''}</div>` : '';
         const textHeading = activeCatalog === 'henan' ? '经文（和合本参考，非书页转录）' : '正文';
         scoreWrap.innerHTML = editionInfo + audioHtml + psalmScoreHtml + `<div class="panel"><h3>${textHeading}</h3><div class="lyrics">${psalmText}</div></div>`;
         detailScore.innerHTML = editionInfo + psalmScoreHtml + `<div class="panel"><h3>${textHeading}</h3><div class="lyrics">${psalmText}</div></div>`;
